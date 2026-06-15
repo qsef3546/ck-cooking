@@ -9,7 +9,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer className="site-foot">
+          비공식 팬 도구 · 데이터 및 아이콘 출처:{" "}
+          <a href="https://core-keeper.fandom.com" target="_blank" rel="noopener noreferrer">Core Keeper Wiki</a>
+          {" "}· Core Keeper © Pugstorm / Fireshine Games. 게임사와 무관합니다.
+        </footer>
+      </body>
     </html>
   );
 }

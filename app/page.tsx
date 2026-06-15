@@ -4,6 +4,15 @@ import { useEffect, useMemo, useState } from "react";
 import { supabase } from "@/lib/supabaseClient";
 import { allCombos, buffLabel, buffValText, CAT_COLOR, RARITY } from "@/lib/combine";
 import type { Ingredient, Combo } from "@/lib/types";
+import ICONS from "@/public/icons/manifest.json";
+
+const iconSrc = (id: string): string | undefined => (ICONS as Record<string, string>)[id];
+
+function Icon({ id, size, cls }: { id: string; size: number; cls?: string }) {
+  const src = iconSrc(id);
+  if (!src) return null;
+  return <img className={"icon" + (cls ? " " + cls : "")} src={src} width={size} height={size} alt="" loading="lazy" />;
+}
 
 const EFFECTS = ["회복", "생존", "근접", "원거리", "마법", "소환", "전투", "방어", "이동", "채광", "유틸", "면역"];
 const DETAIL_CATS = ["전체", ...EFFECTS];
@@ -239,6 +248,7 @@ function ICard({ i, onPick }: { i: Ingredient; onPick: () => void }) {
   const [rn, rc] = RARITY[i.rarity] ?? ["", "#999"];
   return (
     <button className="icard" style={{ borderColor: rc }} onClick={onPick}>
+      <Icon id={i.id} size={44} cls="ic-icon" />
       <div className="ic-name">{i.name_ko}</div>
       <div className="ic-en">{i.name_en}</div>
       <div className="ic-meta">
@@ -258,6 +268,7 @@ function IngredientHeader({ i, comboCount }: { i: Ingredient; comboCount: number
   return (
     <div className="dethead">
       <div className="dethead-top">
+        <Icon id={i.id} size={40} cls="dethead-ic" />
         <span className="ing big" style={{ borderColor: rc }}>{i.name_ko}</span>
         <span className="dethead-en">{i.name_en} · <span style={{ color: rc }}>{rn}</span> · {TYPE_LABEL[i.type]} · 포만감 {i.food}</span>
         <span className="count">{comboCount} 조합</span>
@@ -280,7 +291,9 @@ function IngredientHeader({ i, comboCount }: { i: Ingredient; comboCount: number
 function Ing({ i, hl }: { i: Ingredient; hl?: boolean }) {
   const [rn, rc] = RARITY[i.rarity] ?? ["", "#999"];
   return (
-    <span className={"ing" + (hl ? " hl" : "")} style={{ borderColor: rc }} title={`${rn} · ${i.source}`}>{i.name_ko}</span>
+    <span className={"ing" + (hl ? " hl" : "")} style={{ borderColor: rc }} title={`${rn} · ${i.source}`}>
+      <Icon id={i.id} size={18} cls="ing-ic" />{i.name_ko}
+    </span>
   );
 }
 

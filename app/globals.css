@@ -59,6 +59,11 @@ body {
 .chip.gold { border-color: #6b5526; color: #d8b25a; }
 .chip.gold.on { background: #ffb238; color: #1a130a; border-color: #ffb238; }
 
+/* 픽셀아트 아이콘 (작은 원본 → 선명하게 확대) */
+.icon { image-rendering: pixelated; image-rendering: crisp-edges; vertical-align: middle; flex: none; }
+.ing-ic { margin-right: 5px; }
+.dethead-ic { width: 40px; height: 40px; }
+
 /* 재료 그리드 */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
 .icard {
@@ -67,6 +72,7 @@ body {
   transition: transform .08s, border-color .08s;
 }
 .icard:hover { transform: translateY(-2px); border-color: var(--border-lit); }
+.ic-icon { width: 44px; height: 44px; margin-bottom: 6px; }
 .ic-name { font-size: 16px; font-weight: 800; }
 .ic-en { font-size: 12px; color: var(--dim); margin-top: 1px; }
 .ic-meta { display: flex; flex-wrap: wrap; gap: 8px; font-size: 11px; color: var(--muted); margin-top: 8px; }
@@ -91,7 +97,7 @@ body {
   background: var(--panel); border: 2px solid var(--border); border-radius: 12px; padding: 14px 16px;
 }
 .ings { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.ing { font-weight: 700; font-size: 15px; border: 2px solid; border-left-width: 4px; border-radius: 7px; padding: 4px 9px; white-space: nowrap; }
+.ing { display: inline-flex; align-items: center; font-weight: 700; font-size: 15px; border: 2px solid; border-left-width: 4px; border-radius: 7px; padding: 4px 9px; white-space: nowrap; }
 .ing.big { font-size: 18px; padding: 6px 12px; }
 .ing.hl { background: #2a2114; box-shadow: 0 0 0 1px var(--amber) inset; }
 .plus { color: var(--amber); font-weight: 800; }
@@ -124,6 +130,15 @@ body {
 .pg.on { background: var(--amber); color: #1a130a; border-color: var(--amber); }
 .pg:disabled { opacity: .4; cursor: default; }
 .pg.dots { border: none; background: none; cursor: default; min-width: 20px; padding: 8px 2px; }
+
+/* 푸터 출처 */
+.site-foot {
+  max-width: 980px; margin: 0 auto; padding: 28px 18px 40px;
+  color: var(--dim); font-size: 12px; line-height: 1.7; text-align: center;
+  border-top: 1px solid var(--border);
+}
+.site-foot a { color: var(--muted); }
+.site-foot a:hover { color: var(--amber); }
 
 @media (max-width: 640px) {
   .row { grid-template-columns: 1fr; }
