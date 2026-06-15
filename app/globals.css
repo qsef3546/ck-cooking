@@ -1,0 +1,79 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+
+:root {
+  --bg: #13100d; --panel: #221c16; --border: #3d3127; --border-lit: #544334;
+  --text: #ece3d4; --muted: #9a8a76; --dim: #6f6253; --amber: #f2a23a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: Pretendard, system-ui, sans-serif; line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 80px; }
+.muted { color: var(--muted); }
+.pad { padding: 40px 0; text-align: center; }
+.error { color: #ff8a8a; }
+
+.top { display: flex; align-items: flex-end; gap: 16px; margin-bottom: 22px; }
+.title { font-size: 24px; font-weight: 800; margin: 0; letter-spacing: -.5px; }
+.sub { color: var(--muted); margin: 6px 0 0; font-size: 14px; }
+.count { margin-left: auto; color: var(--amber); font-weight: 700; white-space: nowrap; }
+
+.controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.controls select, .controls input {
+  background: var(--panel); color: var(--text); border: 2px solid var(--border);
+  border-radius: 10px; padding: 11px 13px; font-size: 15px; font-family: inherit;
+}
+.controls select { min-width: 220px; cursor: pointer; }
+.controls input { flex: 1; min-width: 200px; }
+.controls select:focus, .controls input:focus { outline: none; border-color: var(--amber); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.chip {
+  font-size: 13px; font-weight: 600; color: var(--muted); background: var(--panel);
+  border: 2px solid var(--border); border-radius: 18px; padding: 5px 12px; cursor: pointer;
+}
+.chip:hover { color: var(--text); border-color: var(--border-lit); }
+.chip.on { background: var(--amber); color: #1a130a; border-color: var(--amber); }
+
+.rows { display: flex; flex-direction: column; gap: 10px; }
+.row {
+  display: grid; grid-template-columns: auto 22px 1fr; gap: 12px; align-items: start;
+  background: var(--panel); border: 2px solid var(--border); border-radius: 12px; padding: 14px 16px;
+}
+.ings { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ing {
+  font-weight: 700; font-size: 15px; border: 2px solid; border-left-width: 4px;
+  border-radius: 7px; padding: 4px 9px; white-space: nowrap;
+}
+.plus { color: var(--amber); font-weight: 800; }
+.eq { font-size: 20px; color: var(--amber); text-align: center; font-weight: 800; padding-top: 2px; }
+
+.dish { min-width: 0; }
+.dishhead { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.food { font-weight: 800; color: var(--amber); }
+.rar { font-size: 11px; padding: 3px 8px; border: 1.5px solid; border-radius: 6px; }
+.buffs { display: flex; flex-wrap: wrap; gap: 6px; }
+.buff {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted);
+  background: var(--bg); border: 1.5px solid var(--border); border-radius: 7px; padding: 4px 9px;
+}
+.buff b { color: var(--text); font-weight: 700; }
+.buff em { color: var(--dim); font-style: normal; font-size: 11px; }
+.buff .perm { color: #ffb238; font-size: 11px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.src { margin-top: 9px; font-size: 12px; color: var(--dim); border-top: 1px solid var(--border); padding-top: 8px; }
+
+.more {
+  display: block; margin: 20px auto 0; background: var(--panel); color: var(--text);
+  border: 2px solid var(--border-lit); border-radius: 10px; padding: 12px 22px;
+  font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit;
+}
+.more:hover { border-color: var(--amber); color: var(--amber); }
+
+@media (max-width: 640px) {
+  .row { grid-template-columns: 1fr; }
+  .eq { text-align: left; }
+}
