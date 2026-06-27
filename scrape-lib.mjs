@@ -142,3 +142,78 @@ export async function downloadIcons(rows, iconDir, manifest) {
 }
 
 export const RARITY_KEY = { Common: "common", Uncommon: "uncommon", Rare: "rare", Epic: "epic", Legendary: "legendary" };
+
+// ── 재료명 한글 (무기·장비 레시피에 쓰이는 재료 전부) ──
+export const KO_MATERIAL = {
+  "Ancient Gemstone": "고대 보석", "Ancient Pickaxe": "고대 곡괭이", "Beach Block": "해변 블록",
+  "Blackbug": "검은벌레", "Bomb": "폭탄", "Bomb Pepper": "폭탄 고추", "Broken Handle": "부러진 손잡이",
+  "Brown Easter Egg": "갈색 부활절 달걀", "Caveling Skull": "케이블링 해골", "Channeling Gemstone": "전도의 보석",
+  "Chipped Blade": "이 빠진 검신", "Clear Gemstone": "맑은 보석", "Coiled Branch": "휘감긴 나뭇가지",
+  "Copper Bar": "구리 주괴", "Coral Wood": "산호 목재", "Coral Wood Plank": "산호 판자",
+  "Corrupted Alloy": "오염된 합금", "Crude Bomb": "조잡한 폭탄", "Crystal Meteor Shard": "크리스탈 운석 파편",
+  "Cytoplasm": "세포질", "Desert Ruby": "사막 루비", "Earthworm": "지렁이", "Energy String": "에너지 시위",
+  "Fiber": "섬유", "Fractured Limbs": "부러진 활대", "Frozen Orb": "얼어붙은 구슬", "Galaxite Bar": "갤럭사이트 주괴",
+  "Glass Piece": "유리 조각", "Gleam Wood": "빛나무 목재", "Gleam Wood Plank": "빛나무 판자",
+  "Glow Tulip": "발광 튤립", "Glowing Lure": "발광 미끼", "Gold Bar": "금 주괴",
+  "Gray Easter Egg": "회색 부활절 달걀", "Green Easter Egg": "초록 부활절 달걀", "Grumpkin": "그럼킨",
+  "Heart Berry": "하트베리", "Iron Bar": "철 주괴", "Larva Meat": "유충 고기", "Larvlet": "라블렛",
+  "Lucky Coin": "행운의 동전", "Magma Rod": "마그마 막대", "Magma Slime": "마그마 슬라임",
+  "Mechanical Part": "기계 부품", "Mushroom": "버섯", "Obliteration Ray": "절멸 광선",
+  "Octarine Bar": "옥타린 주괴", "Octarine Ore": "옥타린 광석",
+  "Oracle Card \"Aura\"": "오라클 카드 '오라'", "Oracle Card \"Brilliance\"": "오라클 카드 '광휘'",
+  "Oracle Card \"Endurance\"": "오라클 카드 '인내'", "Oracle Card \"Entity\"": "오라클 카드 '존재'",
+  "Oracle Card \"Inspiration\"": "오라클 카드 '영감'", "Oracle Card \"Metropolis\"": "오라클 카드 '메트로폴리스'",
+  "Oracle Card \"Radiance\"": "오라클 카드 '광채'", "Oracle Card \"Temperance\"": "오라클 카드 '절제'",
+  "Oracle Card \"Wisdom\"": "오라클 카드 '지혜'", "Pandorium Bar": "판도리움 주괴", "Plank": "판자",
+  "Poison Slime": "독 슬라임", "Purple Lure": "보라 미끼", "Relucite Bar": "렐루사이트 주괴",
+  "Rose Easter Egg": "장미색 부활절 달걀", "S.A.H.A.B.A.R.'s Mortar Housing": "S.A.H.A.B.A.R.의 박격포 하우징",
+  "Sanctified Firing Core": "축성된 격발 코어", "Scarlet Bar": "진홍 주괴", "Slime": "슬라임",
+  "Slippery Slime": "미끌 슬라임", "Small Caveling Skull": "작은 케이블링 해골", "Snowball": "눈덩이",
+  "Solarite Bar": "솔라라이트 주괴", "Spicy Lure": "매운 미끼", "Strolly Poly Plate": "스트롤리 폴리 등딱지",
+  "Sweet Lure": "달콤한 미끼", "Tin Bar": "주석 주괴", "Void-Forged Barrel": "공허로 단조된 총열",
+  "Wood": "목재", "Wool": "양털",
+};
+export const koMaterial = (en) => KO_MATERIAL[en] || en;
+
+const nameFromOi = (oi, id) => (oi[id] && oi[id][0] && oi[id][0].name) || id;
+
+export async function getObtaining() {
+  const j = await fetchJson(`${API}?action=parse&page=Module:Obtaining/data&prop=wikitext&format=json`);
+  return parseLuaModule(j.parse.wikitext["*"]);
+}
+
+// 재료의 주요 출처: { type: "제작"|"드롭"|"구매"|"", detail: "..." }
+// 정확도: 제작(주괴 등)·몬스터 드롭은 신뢰. 광석류의 채광 출처는 데이터에 없어 area/드롭으로 대체.
+export function materialSource(mid, oi, ob) {
+  const b = oi[mid] && oi[mid][0];
+  const e = ob[mid] && ob[mid][0];
+  // 드롭이 있으면 우선(원시 재료의 주 출처는 몬스터 드롭). 주괴 등 가공품은 drop 이 없어 제작으로.
+  if (e && e.drop) {
+    const names = [];
+    for (const d of arr(e.drop)) {
+      const nm = d.entity ? nameFromOi(oi, d.entity.id) : null;
+      if (nm && !names.includes(nm)) names.push(nm);
+      if (names.length >= 3) break;
+    }
+    if (names.length) return { type: "드롭", detail: "드롭: " + names.join(", ") };
+  }
+  if (b && arr(b.materials).length) return { type: "제작", detail: "제작 (하위 재료 가공)" };
+  if (e && e.vendor) return { type: "구매", detail: "상점 구매" };
+  if (b && b.area) return { type: "", detail: b.area };
+  return { type: "", detail: "" };
+}
+
+// 아이템 자체의 드롭 출처(숫자 id 기준). 제작 불가 아이템의 획득처 표시용.
+export function itemDrops(numericId, ob, oi) {
+  const e = ob[numericId] && ob[numericId][0];
+  if (!e) return [];
+  const out = [];
+  const seen = new Set();
+  for (const d of arr(e.drop)) {
+    const nm = d.entity ? nameFromOi(oi, d.entity.id) : null;
+    if (nm && !seen.has(nm)) { seen.add(nm); out.push(nm); }
+    if (out.length >= 4) break;
+  }
+  if (e.vendor && !out.length) out.push("상점 구매");
+  return out;
+}

@@ -31,6 +31,16 @@ function catValue(c: Combo, cat: string): number {
   for (const b of c.buffs) if (b.cat === cat && b.val != null && b.val > max) max = b.val;
   return max;
 }
+/** 선택한 여러 효과의 값 합(정렬용). 없는 효과는 0으로 계산 */
+function catValueSum(c: Combo, cats: string[]): number {
+  let sum = 0;
+  for (const cat of cats) { const v = catValue(c, cat); if (v > -Infinity) sum += v; }
+  return sum;
+}
+/** 콤보가 선택한 효과를 모두 가지는지 (AND) */
+function hasAllCats(c: Combo, cats: string[]): boolean {
+  return cats.every((cat) => c.buffs.some((b) => b.cat === cat));
+}
 /** 선택 재료를 항상 왼쪽(a)에 오도록 정렬 */
 function orient(c: Combo, firstId: string): Combo {
   if (c.b.id === firstId && c.a.id !== firstId) return { ...c, a: c.b, b: c.a };
@@ -61,7 +71,7 @@ export default function Page() {
   const [mode, setMode] = useState<"ingredient" | "effect">("ingredient");
   const [sel, setSel] = useState("");          // 선택 재료 id ("" = 그리드)
   const [q, setQ] = useState("");
-  const [cat, setCat] = useState("");          // ingredient: 상세 필터 / effect: 선택 효과
+  const [cats, setCats] = useState<string[]>([]); // ingredient: 상세 필터 / effect: 선택 효과 (다중)
   const [sort, setSort] = useState("default");
   const [goldOnly, setGoldOnly] = useState(false);
   const [page, setPage] = useState(1);
@@ -93,30 +103,33 @@ export default function Page() {
   const detailCombos = useMemo(() => {
     if (!sel) return [];
     let list = combos.filter((c) => c.a.id === sel || c.b.id === sel).map((c) => orient(c, sel));
-    if (cat && cat !== "전체") list = list.filter((c) => c.buffs.some((b) => b.cat === cat));
+    if (cats.length) list = list.filter((c) => hasAllCats(c, cats));
     return sortList(list, sort);
-  }, [combos, sel, cat, sort]);
+  }, [combos, sel, cats, sort]);
 
-  // 효과 모드 결과 (선택 효과 높은순)
+  // 효과 모드 결과 (선택 효과 모두 포함 · 선택 효과 값 합 높은순)
   const effectCombos = useMemo(() => {
-    if (mode !== "effect" || !cat) return [];
+    if (mode !== "effect" || !cats.length) return [];
     const ql = q.trim().toLowerCase();
-    let list = combos.filter((c) => c.buffs.some((b) => b.cat === cat));
+    let list = combos.filter((c) => hasAllCats(c, cats));
     if (goldOnly) list = list.filter((c) => c.a.is_gold || c.b.is_gold);
     if (ql) list = list.filter((c) =>
       (c.a.name_ko + c.a.name_en + c.b.name_ko + c.b.name_en + c.buffs.map(buffLabel).join("")).toLowerCase().includes(ql)
     );
-    return [...list].sort((a, b) => catValue(b, cat) - catValue(a, cat));
-  }, [combos, mode, cat, q, goldOnly]);
+    return [...list].sort((a, b) => catValueSum(b, cats) - catValueSum(a, cats));
+  }, [combos, mode, cats, q, goldOnly]);
 
   const list = mode === "effect" ? effectCombos : detailCombos;
   const pages = Math.max(1, Math.ceil(list.length / PAGE));
   const pageItems = list.slice((page - 1) * PAGE, page * PAGE);
 
-  useEffect(() => setPage(1), [sel, cat, q, sort, mode, goldOnly]);
+  useEffect(() => setPage(1), [sel, cats, q, sort, mode, goldOnly]);
+
+  const toggleCat = (c: string) =>
+    setCats((prev) => (prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]));
 
   function switchMode(m: "ingredient" | "effect") {
-    setMode(m); setSel(""); setCat(""); setQ(""); setSort("default");
+    setMode(m); setSel(""); setCats([]); setQ(""); setSort("default");
   }
 
   return (
@@ -178,7 +191,7 @@ export default function Page() {
       {/* ── 재료 모드: 상세 ── */}
       {mode === "ingredient" && sel && selItem && (
         <>
-          <button className="back" onClick={() => { setSel(""); setCat(""); }}>← 재료 목록</button>
+          <button className="back" onClick={() => { setSel(""); setCats([]); }}>← 재료 목록</button>
           <IngredientHeader i={selItem} comboCount={combos.filter((c) => c.a.id === sel || c.b.id === sel).length} />
           <div className="controls">
             <select className="sort" value={sort} onChange={(e) => setSort(e.target.value)}>
@@ -187,11 +200,14 @@ export default function Page() {
             <span className="reslabel">{detailCombos.length} 조합</span>
           </div>
           <div className="chips">
-            {DETAIL_CATS.map((c) => (
-              <button key={c} className={"chip" + ((cat || "전체") === c ? " on" : "")} onClick={() => setCat(c === "전체" ? "" : c)}>{c}</button>
-            ))}
+            {DETAIL_CATS.map((c) => {
+              const on = c === "전체" ? cats.length === 0 : cats.includes(c);
+              return (
+                <button key={c} className={"chip" + (on ? " on" : "")} onClick={() => (c === "전체" ? setCats([]) : toggleCat(c))}>{c}</button>
+              );
+            })}
           </div>
-          <List items={pageItems} cat={cat} highlightId={sel} />
+          <List items={pageItems} cats={cats} highlightId={sel} />
           <Pager page={page} pages={pages} onGo={setPage} />
         </>
       )}
@@ -199,26 +215,30 @@ export default function Page() {
       {/* ── 효과 모드 ── */}
       {mode === "effect" && (
         <>
-          <p className="hint">원하는 효과를 고르면 그 효과가 가장 센 조합부터 보여줍니다.</p>
+          <p className="hint">효과를 여러 개 고르면 <b>선택한 효과를 모두 가진</b> 조합만, 합산이 센 순서로 보여줍니다.</p>
           <div className="chips big">
-            {EFFECTS.map((c) => (
-              <button key={c} className={"chip" + (cat === c ? " on" : "")} onClick={() => setCat(c)} style={cat === c ? undefined : { borderColor: CAT_COLOR[c] + "66" }}>
-                <i className="dot" style={{ background: CAT_COLOR[c] }} /> {c}
-              </button>
-            ))}
+            {EFFECTS.map((c) => {
+              const on = cats.includes(c);
+              return (
+                <button key={c} className={"chip" + (on ? " on" : "")} onClick={() => toggleCat(c)} style={on ? undefined : { borderColor: CAT_COLOR[c] + "66" }}>
+                  <i className="dot" style={{ background: CAT_COLOR[c] }} /> {c}
+                </button>
+              );
+            })}
+            {cats.length > 0 && <button className="chip clear" onClick={() => setCats([])}>✕ 초기화</button>}
           </div>
-          {cat && (
+          {cats.length > 0 && (
             <>
               <div className="controls">
                 <input className="search" placeholder="재료·효과 검색" value={q} onChange={(e) => setQ(e.target.value)} />
                 <button className={"chip gold" + (goldOnly ? " on" : "")} onClick={() => setGoldOnly((v) => !v)}>★ 황금·전설만</button>
-                <span className="reslabel">{effectCombos.length} 조합 · <b style={{ color: CAT_COLOR[cat] }}>{cat}</b> 높은순</span>
+                <span className="reslabel">{effectCombos.length} 조합 · {cats.map((c, i) => <b key={c} style={{ color: CAT_COLOR[c] }}>{i > 0 ? " + " : ""}{c}</b>)} 합산 높은순</span>
               </div>
-              <List items={pageItems} cat={cat} highlightId="" />
+              <List items={pageItems} cats={cats} highlightId="" />
               <Pager page={page} pages={pages} onGo={setPage} />
             </>
           )}
-          {!cat && <p className="muted pad">위에서 효과를 선택하세요.</p>}
+          {cats.length === 0 && <p className="muted pad">위에서 효과를 하나 이상 선택하세요.</p>}
         </>
       )}
       </>
@@ -227,7 +247,7 @@ export default function Page() {
   );
 }
 
-function List({ items, cat, highlightId }: { items: Combo[]; cat: string; highlightId: string }) {
+function List({ items, cats, highlightId }: { items: Combo[]; cats: string[]; highlightId: string }) {
   if (!items.length) return <p className="muted pad">조건에 맞는 조합이 없습니다.</p>;
   return (
     <div className="rows">
@@ -244,7 +264,7 @@ function List({ items, cat, highlightId }: { items: Combo[]; cat: string; highli
             </div>
             <div className="buffs">
               {c.buffs.map((b, k) => {
-                const hit = !!cat && cat !== "전체" && b.cat === cat;
+                const hit = cats.includes(b.cat);
                 return (
                   <span className={"buff" + (hit ? " hit" : "")} key={k}>
                     <i className="dot" style={{ background: CAT_COLOR[b.cat] }} />

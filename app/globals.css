@@ -200,6 +200,10 @@ body {
   border-radius: 7px; padding: 2px 8px; color: var(--text);
 }
 .wmat b { color: var(--amber); font-weight: 700; }
+.msrc {
+  margin-left: 5px; font-style: normal; font-size: 10.5px; color: var(--dim);
+  border-left: 1px solid var(--border-lit); padding-left: 5px;
+}
 
 @media (max-width: 640px) {
   .row { grid-template-columns: 1fr; }

@@ -25,6 +25,7 @@ export type GearItem = {
   dmg_base: number | null;
   conditions: GearCondition[];
   materials: WeaponMaterial[];
+  drops: string[];   // 아이템 자체 드롭 출처(있으면)
 };
 
 export type GearKind = "armor" | "accessories" | "tools";

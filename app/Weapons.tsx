@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { RARITY } from "@/lib/combine";
 import { WCLASS_COLOR, WCLASS_LABEL, matAmount, type Weapon } from "@/lib/weapons";
+import { Pager } from "./Pager";
 import WEAPONS from "@/public/data/weapons.json";
 import WICONS from "@/public/weapon-icons/manifest.json";
 
@@ -17,6 +18,7 @@ const SORTS = [
   { key: "dmg", label: "공격력 높은순" },
   { key: "name", label: "이름순" },
 ];
+const PAGE = 36;
 
 function WIcon({ id, size }: { id: string; size: number }) {
   const src = wicon(id);
@@ -28,6 +30,7 @@ export default function Weapons() {
   const [q, setQ] = useState("");
   const [cls, setCls] = useState<"all" | Weapon["damage_class"]>("all");
   const [sort, setSort] = useState("level");
+  const [page, setPage] = useState(1);
 
   const view = useMemo(() => {
     const ql = q.trim().toLowerCase();
@@ -46,6 +49,10 @@ export default function Weapons() {
     else if (sort === "name") out.sort((a, b) => a.name_ko.localeCompare(b.name_ko));
     return out;
   }, [q, cls, sort]);
+
+  const pages = Math.max(1, Math.ceil(view.length / PAGE));
+  const pageItems = view.slice((page - 1) * PAGE, page * PAGE);
+  useEffect(() => setPage(1), [q, cls, sort]);
 
   return (
     <>
@@ -75,9 +82,11 @@ export default function Weapons() {
       </div>
 
       <div className="wgrid">
-        {view.map((w) => <WCard key={w.id} w={w} />)}
+        {pageItems.map((w) => <WCard key={w.id} w={w} />)}
         {!view.length && <p className="muted pad">조건에 맞는 무기가 없습니다.</p>}
       </div>
+
+      <Pager page={page} pages={pages} onGo={setPage} />
     </>
   );
 }
@@ -114,16 +123,19 @@ function WCard({ w }: { w: Weapon }) {
 
       <div className="wcraft">
         <div className="wcraft-h">
-          <span className="wcraft-label">제작 재료</span>
+          <span className="wcraft-label">{w.materials.length ? "제작 재료" : "획득"}</span>
           {w.area_ko && <span className="warea">📍 {w.area_ko}</span>}
         </div>
         <div className="wmats">
           {w.materials.map((m) => (
-            <span className="wmat" key={m.id} title={m.name_en}>
+            <span className="wmat" key={m.id} title={m.src_detail || m.name_en}>
               {m.name_ko} <b>{matAmount(m)}</b>
+              {m.src_type && <i className="msrc">{m.src_type}</i>}
             </span>
           ))}
-          {!w.materials.length && <span className="muted">—</span>}
+          {!w.materials.length && (w.drops.length
+            ? <span className="muted">드롭: {w.drops.join(", ")}</span>
+            : <span className="muted">—</span>)}
         </div>
       </div>
     </article>

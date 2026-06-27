@@ -10,6 +10,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { execFileSync } from "child_process";
+import { getObtaining, materialSource, itemDrops, koMaterial } from "./scrape-lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const UA = "ck-cooking-codex/1.0 (fan project; contact via github qsef3546)";
@@ -123,20 +124,7 @@ const KO_WEAPON = {
   "Flamethrower": "화염방사기", "Scrap Minigun": "고철 미니건", "Titan Breath": "타이탄의 숨결",
   "Void Club": "공허 곤봉", "Stormbringer": "폭풍을 부르는 자", "Credence of Ruin": "파멸의 신표",
 };
-const KO_MATERIAL = {
-  "Ancient Gemstone": "고대 보석", "Broken Handle": "부러진 손잡이", "Copper Bar": "구리 주괴",
-  "Coral Wood": "산호 목재", "Corrupted Alloy": "오염된 합금", "Cytoplasm": "세포질",
-  "Fiber": "섬유", "Galaxite Bar": "갤럭사이트 주괴", "Gleam Wood": "빛나무 목재",
-  "Gold Bar": "금 주괴", "Iron Bar": "철 주괴", "Larva Meat": "유충 고기",
-  "Obliteration Ray": "절멸 광선", "Magma Slime": "마그마 슬라임", "Channeling Gemstone": "전도의 보석",
-  "Fractured Limbs": "부러진 활대", "Energy String": "에너지 시위", "Void-Forged Barrel": "공허로 단조된 총열",
-  "Sanctified Firing Core": "축성된 격발 코어", "S.A.H.A.B.A.R.'s Mortar Housing": "S.A.H.A.B.A.R.의 박격포 하우징",
-  "Coiled Branch": "휘감긴 나뭇가지", "Magma Rod": "마그마 막대", "Frozen Orb": "얼어붙은 구슬",
-  "Chipped Blade": "이 빠진 검신", "Clear Gemstone": "맑은 보석", "Octarine Bar": "옥타린 주괴",
-  "Pandorium Bar": "판도리움 주괴", "Poison Slime": "독 슬라임", "Relucite Bar": "렐루사이트 주괴",
-  "Scarlet Bar": "진홍 주괴", "Slime": "슬라임", "Slippery Slime": "미끌 슬라임",
-  "Solarite Bar": "솔라라이트 주괴", "Tin Bar": "주석 주괴", "Wood": "목재",
-};
+// 재료명 한글은 scrape-lib.mjs 의 공용 사전(koMaterial) 사용.
 // area = 게임 내 진행 티어/비옴. 한국어 비옴명(대략)으로 표기.
 const KO_AREA = {
   StartArea: "시작 지역(흙 비옴)", Slime: "흙 비옴(슬라임 지대)", Clay: "점토 동굴",
@@ -205,6 +193,8 @@ console.log("• Module:ObjectInfo/data 다운로드…");
 const lua = await fetchWikitext("Module:ObjectInfo/data");
 console.log(`  ${lua.length.toLocaleString()} chars`);
 const data = parseLuaModule(lua);
+const ob = await getObtaining();
+console.log(`• Obtaining 로드 (${Object.keys(ob).length} entries)`);
 
 const weapons = [];
 for (const k of Object.keys(data)) {
@@ -219,13 +209,16 @@ for (const k of Object.keys(data)) {
   const materials = arr(b.materials).map((m) => {
     const nm = (data[m.id] && data[m.id][0] && data[m.id][0].name) || m.id;
     const amt = m.amount;
+    const src = materialSource(m.id, data, ob);
     return {
       id: m.id,
       name_en: nm,
-      name_ko: KO_MATERIAL[nm] || nm,
+      name_ko: koMaterial(nm),
       amount: typeof amt === "object" ? null : amt,
       amount_min: typeof amt === "object" ? amt[0] : amt,
       amount_max: typeof amt === "object" ? amt[1] : amt,
+      src_type: src.type,
+      src_detail: src.detail,
     };
   });
   weapons.push({
@@ -245,6 +238,7 @@ for (const k of Object.keys(data)) {
     durability: b.durability ?? null,
     sell: b.sell ?? null,
     materials,
+    drops: itemDrops(b.id, ob, data),
     icon: slug(b.name) + ".webp",
   });
 }
@@ -256,6 +250,9 @@ const dataDir = path.join(__dirname, "public", "data");
 fs.mkdirSync(dataDir, { recursive: true });
 fs.writeFileSync(path.join(dataDir, "weapons.json"), JSON.stringify(weapons, null, 2));
 console.log("• public/data/weapons.json 저장");
+
+// SKIP_ICONS=1 이면 데이터만 갱신(이미 받은 아이콘 재사용).
+if (process.env.SKIP_ICONS) { console.log("• SKIP_ICONS=1 → 아이콘 건너뜀"); console.log("완료 ✅"); process.exit(0); }
 
 // 아이콘 다운로드: 페이지 인포박스에서 실제 File 명을 해석한 뒤 curl 로 받는다.
 const iconDir = path.join(__dirname, "public", "weapon-icons");

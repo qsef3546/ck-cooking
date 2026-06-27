@@ -2,7 +2,7 @@
   {
     "id": "large_watering_can",
     "name_en": "Large Watering Can",
-    "name_ko": "큰 물뿌리개 통",
+    "name_ko": "대형 물뿌리개 통",
     "desc_en": "Used to water seeds and soil. It holds more water than a regular watering can and covers an area of up to 2x2 tiles.",
     "subtype": "WaterCan",
     "subtype_ko": "물뿌리개",
@@ -21,9 +21,12 @@
         "name_ko": "철 주괴",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "watering_can",
@@ -47,9 +50,12 @@
         "name_ko": "구리 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "wood_pickaxe",
@@ -81,9 +87,12 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "wood_shovel",
@@ -115,9 +124,12 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "wooden_hoe",
@@ -141,9 +153,12 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "copper_hoe",
@@ -167,7 +182,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "CopperBar",
@@ -175,9 +192,12 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "copper_pickaxe",
@@ -209,7 +229,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "CopperBar",
@@ -217,9 +239,12 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "copper_shovel",
@@ -251,7 +276,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "CopperBar",
@@ -259,14 +286,17 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "copper_sledge_hammer",
     "name_en": "Copper Sledge Hammer",
-    "name_ko": "Copper Sledge Hammer",
+    "name_ko": "구리 슬레지 해머",
     "desc_en": "A good weapon for smashing foes and walls.",
     "subtype": "Sledge",
     "subtype_ko": "슬레지해머",
@@ -293,7 +323,9 @@
         "name_ko": "구리 주괴",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Wood",
@@ -301,14 +333,17 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "miner_backpack",
     "name_en": "Miner Backpack",
-    "name_ko": "Miner Backpack",
+    "name_ko": "광부 배낭",
     "desc_en": "Every underground miner needs one of those!",
     "subtype": "Bag",
     "subtype_ko": "가방",
@@ -342,14 +377,17 @@
         "name_ko": "섬유",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "small_backpack",
     "name_en": "Small Backpack",
-    "name_ko": "Small Backpack",
+    "name_ko": "소형 배낭",
     "desc_en": "A simple backpack, made from smoothened bark.",
     "subtype": "Bag",
     "subtype_ko": "가방",
@@ -376,7 +414,9 @@
         "name_ko": "목재",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "CopperBar",
@@ -384,14 +424,17 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "small_lantern",
     "name_en": "Small Lantern",
-    "name_ko": "작은 랜턴",
+    "name_ko": "소형 랜턴",
     "desc_en": "A weak light to attach to your belt.",
     "subtype": "Lantern",
     "subtype_ko": "랜턴",
@@ -418,7 +461,9 @@
         "name_ko": "구리 주괴",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Slime",
@@ -426,9 +471,12 @@
         "name_ko": "슬라임",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Larva, Big Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "wood_fishing_rod",
@@ -460,9 +508,12 @@
         "name_ko": "목재",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "garden_trowel",
@@ -486,7 +537,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "IronBar",
@@ -494,7 +547,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -502,9 +557,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "small_fish_pouch",
@@ -528,7 +586,9 @@
         "name_ko": "섬유",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "CopperBar",
@@ -536,9 +596,12 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "small_ore_and_block_pouch",
@@ -562,7 +625,9 @@
         "name_ko": "섬유",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "CopperBar",
@@ -570,9 +635,12 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "small_seed_and_crop_pouch",
@@ -596,7 +664,9 @@
         "name_ko": "섬유",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "CopperBar",
@@ -604,9 +674,12 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "small_valuable_pouch",
@@ -630,7 +703,9 @@
         "name_ko": "섬유",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "CopperBar",
@@ -638,9 +713,12 @@
         "name_ko": "구리 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "bug_net",
@@ -664,7 +742,9 @@
         "name_ko": "목재",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "Fiber",
@@ -672,9 +752,12 @@
         "name_ko": "섬유",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "hand_drill",
@@ -706,7 +789,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "TinBar",
@@ -714,9 +799,12 @@
         "name_ko": "주석 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "medium_fish_pouch",
@@ -740,7 +828,9 @@
         "name_ko": "섬유",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "IronBar",
@@ -748,7 +838,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -756,9 +848,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "medium_ore_and_block_pouch",
@@ -782,7 +877,9 @@
         "name_ko": "섬유",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "IronBar",
@@ -790,7 +887,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -798,9 +897,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "medium_seed_and_crop_pouch",
@@ -824,7 +926,9 @@
         "name_ko": "섬유",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "IronBar",
@@ -832,7 +936,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -840,9 +946,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "medium_valuable_pouch",
@@ -866,7 +975,9 @@
         "name_ko": "섬유",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "IronBar",
@@ -874,7 +985,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -882,9 +995,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "tin_fishing_rod",
@@ -916,7 +1032,9 @@
         "name_ko": "목재",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "TinBar",
@@ -924,9 +1042,12 @@
         "name_ko": "주석 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "tin_hoe",
@@ -950,7 +1071,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "TinBar",
@@ -958,9 +1081,12 @@
         "name_ko": "주석 주괴",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "tin_pickaxe",
@@ -992,7 +1118,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "TinBar",
@@ -1000,9 +1128,12 @@
         "name_ko": "주석 주괴",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "tin_shovel",
@@ -1034,7 +1165,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "TinBar",
@@ -1042,14 +1175,17 @@
         "name_ko": "주석 주괴",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "tin_sledge_hammer",
     "name_en": "Tin Sledge Hammer",
-    "name_ko": "Tin Sledge Hammer",
+    "name_ko": "주석 슬레지 해머",
     "desc_en": "A bulky weapon for smashing foes and walls.",
     "subtype": "Sledge",
     "subtype_ko": "슬레지해머",
@@ -1076,7 +1212,9 @@
         "name_ko": "주석 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Wood",
@@ -1084,14 +1222,17 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "explorer_backpack",
     "name_en": "Explorer Backpack",
-    "name_ko": "Explorer Backpack",
+    "name_ko": "탐험가 배낭",
     "desc_en": "A simple backpack made for traveling the underground caves. Holds quite a few items.",
     "subtype": "Bag",
     "subtype_ko": "가방",
@@ -1118,7 +1259,9 @@
         "name_ko": "주석 주괴",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Fiber",
@@ -1126,9 +1269,12 @@
         "name_ko": "섬유",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "large_fish_pouch",
@@ -1152,7 +1298,9 @@
         "name_ko": "섬유",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "OctarineBar",
@@ -1160,9 +1308,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "large_ore_and_block_pouch",
@@ -1186,7 +1337,9 @@
         "name_ko": "섬유",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "OctarineBar",
@@ -1194,9 +1347,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "large_seed_and_crop_pouch",
@@ -1220,7 +1376,9 @@
         "name_ko": "섬유",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "OctarineBar",
@@ -1228,9 +1386,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "large_valuable_pouch",
@@ -1254,7 +1415,9 @@
         "name_ko": "섬유",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "OctarineBar",
@@ -1262,9 +1425,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "iron_fishing_rod",
@@ -1296,7 +1462,9 @@
         "name_ko": "목재",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "IronBar",
@@ -1304,7 +1472,9 @@
         "name_ko": "철 주괴",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -1312,9 +1482,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "iron_hoe",
@@ -1338,7 +1511,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "IronBar",
@@ -1346,7 +1521,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -1354,9 +1531,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "iron_pickaxe",
@@ -1388,7 +1568,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "IronBar",
@@ -1396,7 +1578,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -1404,9 +1588,12 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "iron_shovel",
@@ -1438,7 +1625,9 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "IronBar",
@@ -1446,7 +1635,9 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -1454,14 +1645,17 @@
         "name_ko": "금 주괴",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "iron_sledge_hammer",
     "name_en": "Iron Sledge Hammer",
-    "name_ko": "Iron Sledge Hammer",
+    "name_ko": "철 슬레지 해머",
     "desc_en": "A strong weapon for smashing foes and walls.",
     "subtype": "Sledge",
     "subtype_ko": "슬레지해머",
@@ -1488,7 +1682,9 @@
         "name_ko": "철 주괴",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Wood",
@@ -1496,9 +1692,12 @@
         "name_ko": "목재",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "lantern",
@@ -1537,7 +1736,9 @@
         "name_ko": "철 주괴",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Slime",
@@ -1545,9 +1746,12 @@
         "name_ko": "슬라임",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Larva, Big Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "pumpkin_lantern",
@@ -1586,7 +1790,9 @@
         "name_ko": "진홍 주괴",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Slime",
@@ -1594,9 +1800,12 @@
         "name_ko": "슬라임",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Larva, Big Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "ghorms_stomach_backpack",
@@ -1628,7 +1837,9 @@
         "name_ko": "유충 고기",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Big Larva, Ghorm the Devourer"
       },
       {
         "id": "Slime",
@@ -1636,9 +1847,12 @@
         "name_ko": "슬라임",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Larva, Big Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "roofing_gadget",
@@ -1662,7 +1876,9 @@
         "name_ko": "판자",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Office Crate"
       },
       {
         "id": "ScarletBar",
@@ -1670,7 +1886,9 @@
         "name_ko": "진홍 주괴",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GoldBar",
@@ -1678,9 +1896,12 @@
         "name_ko": "금 주괴",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "orb_lantern",
@@ -1719,7 +1940,9 @@
         "name_ko": "진홍 주괴",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Slime",
@@ -1727,9 +1950,12 @@
         "name_ko": "슬라임",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Larva, Big Larva"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scarlet_fishing_rod",
@@ -1761,7 +1987,9 @@
         "name_ko": "목재",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "드롭",
+        "src_detail": "드롭: Thorn Wood, Caveling Brute, Wooden Crate"
       },
       {
         "id": "ScarletBar",
@@ -1769,9 +1997,12 @@
         "name_ko": "진홍 주괴",
         "amount": 7,
         "amount_min": 7,
-        "amount_max": 7
+        "amount_max": 7,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scarlet_hand_drill",
@@ -1810,7 +2041,9 @@
         "name_ko": "진홍 주괴",
         "amount": 15,
         "amount_min": 15,
-        "amount_max": 15
+        "amount_max": 15,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "IronBar",
@@ -1818,9 +2051,12 @@
         "name_ko": "철 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scarlet_hoe",
@@ -1844,7 +2080,9 @@
         "name_ko": "진홍 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "TinBar",
@@ -1852,9 +2090,12 @@
         "name_ko": "주석 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scarlet_pickaxe",
@@ -1886,7 +2127,9 @@
         "name_ko": "주석 주괴",
         "amount": 4,
         "amount_min": 4,
-        "amount_max": 4
+        "amount_max": 4,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "ScarletBar",
@@ -1894,9 +2137,12 @@
         "name_ko": "진홍 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scarlet_shovel",
@@ -1928,7 +2174,9 @@
         "name_ko": "진홍 주괴",
         "amount": 6,
         "amount_min": 6,
-        "amount_max": 6
+        "amount_max": 6,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "IronBar",
@@ -1936,14 +2184,17 @@
         "name_ko": "철 주괴",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scarlet_sledge_hammer",
     "name_en": "Scarlet Sledge Hammer",
-    "name_ko": "Scarlet Sledge Hammer",
+    "name_ko": "진홍 슬레지 해머",
     "desc_en": "A great weapon for smashing foes and walls.",
     "subtype": "Sledge",
     "subtype_ko": "슬레지해머",
@@ -1970,7 +2221,9 @@
         "name_ko": "진홍 주괴",
         "amount": 7,
         "amount_min": 7,
-        "amount_max": 7
+        "amount_max": 7,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "TinBar",
@@ -1978,14 +2231,17 @@
         "name_ko": "주석 주괴",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scarlet_shell_backpack",
     "name_en": "Scarlet Shell Backpack",
-    "name_ko": "Scarlet Shell Backpack",
+    "name_ko": "진홍 껍데기 배낭",
     "desc_en": "A hard-case backpack with lots of space and additional protection.",
     "subtype": "Bag",
     "subtype_ko": "가방",
@@ -2019,25 +2275,32 @@
         "name_ko": "진홍 주괴",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "Wool",
         "name_en": "Wool",
-        "name_ko": "Wool",
+        "name_ko": "양털",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "",
+        "src_detail": ""
       },
       {
         "id": "RolyPolyPlate",
         "name_en": "Strolly Poly Plate",
-        "name_ko": "Strolly Poly Plate",
+        "name_ko": "스트롤리 폴리 등딱지",
         "amount": 3,
         "amount_min": 3,
-        "amount_max": 3
+        "amount_max": 3,
+        "src_type": "",
+        "src_detail": ""
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "ancient_pickaxe",
@@ -2076,7 +2339,9 @@
         "name_ko": "진홍 주괴",
         "amount": 12,
         "amount_min": 12,
-        "amount_max": 12
+        "amount_max": 12,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "AncientGemstone",
@@ -2084,9 +2349,12 @@
         "name_ko": "고대 보석",
         "amount": 2,
         "amount_min": 2,
-        "amount_max": 2
+        "amount_max": 2,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Ghorm the Devourer, The Hive Mother"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "octarine_shovel",
@@ -2118,7 +2386,9 @@
         "name_ko": "산호 목재",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Caveling Scholar, Tentacle, Bubble Crab"
       },
       {
         "id": "OctarineBar",
@@ -2126,9 +2396,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "morphas_bubble_bag",
@@ -2167,7 +2440,9 @@
         "name_ko": "섬유",
         "amount": 30,
         "amount_min": 30,
-        "amount_max": 30
+        "amount_max": 30,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "SlipperySlime",
@@ -2175,14 +2450,17 @@
         "name_ko": "미끌 슬라임",
         "amount": 15,
         "amount_min": 15,
-        "amount_max": 15
+        "amount_max": 15,
+        "src_type": "드롭",
+        "src_detail": "드롭: Blue Slime, Morpha the Aquatic Mass"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "octarine_backpack",
     "name_en": "Octarine Backpack",
-    "name_ko": "Octarine Backpack",
+    "name_ko": "옥타린 배낭",
     "desc_en": "A strange backpack that has more space inside than it looks like from the outside.",
     "subtype": "Bag",
     "subtype_ko": "가방",
@@ -2216,15 +2494,19 @@
         "name_ko": "섬유",
         "amount": 15,
         "amount_min": 15,
-        "amount_max": 15
+        "amount_max": 15,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "Wool",
         "name_en": "Wool",
-        "name_ko": "Wool",
+        "name_ko": "양털",
         "amount": 5,
         "amount_min": 5,
-        "amount_max": 5
+        "amount_max": 5,
+        "src_type": "",
+        "src_detail": ""
       },
       {
         "id": "OctarineBar",
@@ -2232,9 +2514,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 20,
         "amount_min": 20,
-        "amount_max": 20
+        "amount_max": 20,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "octarine_fishing_rod",
@@ -2266,7 +2551,9 @@
         "name_ko": "산호 목재",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Caveling Scholar, Tentacle, Bubble Crab"
       },
       {
         "id": "OctarineBar",
@@ -2274,9 +2561,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 9,
         "amount_min": 9,
-        "amount_max": 9
+        "amount_max": 9,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "octarine_garden_trowel",
@@ -2300,7 +2590,9 @@
         "name_ko": "산호 목재",
         "amount": 11,
         "amount_min": 11,
-        "amount_max": 11
+        "amount_max": 11,
+        "src_type": "드롭",
+        "src_detail": "드롭: Caveling Scholar, Tentacle, Bubble Crab"
       },
       {
         "id": "OctarineBar",
@@ -2308,9 +2600,12 @@
         "name_ko": "옥타린 주괴",
         "amount": 11,
         "amount_min": 11,
-        "amount_max": 11
+        "amount_max": 11,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "octarine_pickaxe",
@@ -2342,7 +2637,9 @@
         "name_ko": "산호 목재",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Caveling Scholar, Tentacle, Bubble Crab"
       },
       {
         "id": "OctarineBar",
@@ -2350,14 +2647,17 @@
         "name_ko": "옥타린 주괴",
         "amount": 12,
         "amount_min": 12,
-        "amount_max": 12
+        "amount_max": 12,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "octarine_sledge_hammer",
     "name_en": "Octarine Sledge Hammer",
-    "name_ko": "Octarine Sledge Hammer",
+    "name_ko": "옥타린 슬레지 해머",
     "desc_en": "An extraordinary weapon for smashing foes and walls.",
     "subtype": "Sledge",
     "subtype_ko": "슬레지해머",
@@ -2384,7 +2684,9 @@
         "name_ko": "옥타린 주괴",
         "amount": 13,
         "amount_min": 13,
-        "amount_max": 13
+        "amount_max": 13,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "CoralWood",
@@ -2392,9 +2694,12 @@
         "name_ko": "산호 목재",
         "amount": 10,
         "amount_min": 10,
-        "amount_max": 10
+        "amount_max": 10,
+        "src_type": "드롭",
+        "src_detail": "드롭: Caveling Scholar, Tentacle, Bubble Crab"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "pearl_lantern",
@@ -2440,7 +2745,9 @@
         "name_ko": "옥타린 주괴",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "SlipperySlime",
@@ -2448,14 +2755,17 @@
         "name_ko": "미끌 슬라임",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Blue Slime, Morpha the Aquatic Mass"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "soul_lantern",
     "name_en": "Soul Lantern",
-    "name_ko": "Soul Lantern",
+    "name_ko": "영혼 랜턴",
     "desc_en": "A vessel with a hot, oil-like substance within.",
     "subtype": "Lantern",
     "subtype_ko": "랜턴",
@@ -2489,7 +2799,9 @@
         "name_ko": "옥타린 주괴",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "SlipperySlime",
@@ -2497,9 +2809,12 @@
         "name_ko": "미끌 슬라임",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Blue Slime, Morpha the Aquatic Mass"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "galaxite_fishing_rod",
@@ -2528,10 +2843,12 @@
       {
         "id": "CoralPlank",
         "name_en": "Coral Wood Plank",
-        "name_ko": "Coral Wood Plank",
+        "name_ko": "산호 판자",
         "amount": 17,
         "amount_min": 17,
-        "amount_max": 17
+        "amount_max": 17,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GalaxiteBar",
@@ -2539,9 +2856,12 @@
         "name_ko": "갤럭사이트 주괴",
         "amount": 17,
         "amount_min": 17,
-        "amount_max": 17
+        "amount_max": 17,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "galaxite_pickaxe",
@@ -2570,10 +2890,12 @@
       {
         "id": "CoralPlank",
         "name_en": "Coral Wood Plank",
-        "name_ko": "Coral Wood Plank",
+        "name_ko": "산호 판자",
         "amount": 20,
         "amount_min": 20,
-        "amount_max": 20
+        "amount_max": 20,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GalaxiteBar",
@@ -2581,9 +2903,12 @@
         "name_ko": "갤럭사이트 주괴",
         "amount": 20,
         "amount_min": 20,
-        "amount_max": 20
+        "amount_max": 20,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "galaxite_shovel",
@@ -2612,10 +2937,12 @@
       {
         "id": "CoralPlank",
         "name_en": "Coral Wood Plank",
-        "name_ko": "Coral Wood Plank",
+        "name_ko": "산호 판자",
         "amount": 18,
         "amount_min": 18,
-        "amount_max": 18
+        "amount_max": 18,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GalaxiteBar",
@@ -2623,14 +2950,17 @@
         "name_ko": "갤럭사이트 주괴",
         "amount": 18,
         "amount_min": 18,
-        "amount_max": 18
+        "amount_max": 18,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "galaxite_sledge_hammer",
     "name_en": "Galaxite Sledge Hammer",
-    "name_ko": "Galaxite Sledge Hammer",
+    "name_ko": "갤럭사이트 슬레지 해머",
     "desc_en": "An otherworldly weapon for smashing foes and walls.",
     "subtype": "Sledge",
     "subtype_ko": "슬레지해머",
@@ -2657,9 +2987,12 @@
         "name_ko": "갤럭사이트 주괴",
         "amount": 21,
         "amount_min": 21,
-        "amount_max": 21
+        "amount_max": 21,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "scholar_backpack",
@@ -2698,7 +3031,9 @@
         "name_ko": "섬유",
         "amount": 30,
         "amount_min": 30,
-        "amount_max": 30
+        "amount_max": 30,
+        "src_type": "드롭",
+        "src_detail": "드롭: Larva, Ghorm the Devourer, Acid Larva"
       },
       {
         "id": "AncientGemstone",
@@ -2706,9 +3041,12 @@
         "name_ko": "고대 보석",
         "amount": 8,
         "amount_min": 8,
-        "amount_max": 8
+        "amount_max": 8,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Ghorm the Devourer, The Hive Mother"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "solarite_fishing_rod",
@@ -2737,10 +3075,12 @@
       {
         "id": "GleamWoodPlank",
         "name_en": "Gleam Wood Plank",
-        "name_ko": "Gleam Wood Plank",
+        "name_ko": "빛나무 판자",
         "amount": 17,
         "amount_min": 17,
-        "amount_max": 17
+        "amount_max": 17,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "SolariteBar",
@@ -2748,9 +3088,12 @@
         "name_ko": "솔라라이트 주괴",
         "amount": 17,
         "amount_min": 17,
-        "amount_max": 17
+        "amount_max": 17,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "solarite_pickaxe",
@@ -2782,7 +3125,9 @@
         "name_ko": "솔라라이트 주괴",
         "amount": 20,
         "amount_min": 20,
-        "amount_max": 20
+        "amount_max": 20,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GleamWood",
@@ -2790,9 +3135,12 @@
         "name_ko": "빛나무 목재",
         "amount": 20,
         "amount_min": 20,
-        "amount_max": 20
+        "amount_max": 20,
+        "src_type": "",
+        "src_detail": ""
       }
-    ]
+    ],
+    "drops": []
   },
   {
     "id": "soul_seeker",
@@ -2842,10 +3190,12 @@
       {
         "id": "AncientMiningPick",
         "name_en": "Ancient Pickaxe",
-        "name_ko": "Ancient Pickaxe",
+        "name_ko": "고대 곡괭이",
         "amount": 1,
         "amount_min": 1,
-        "amount_max": 1
+        "amount_max": 1,
+        "src_type": "드롭",
+        "src_detail": "드롭: Azeos the Sky Titan"
       },
       {
         "id": "GoldBar",
@@ -2853,7 +3203,9 @@
         "name_ko": "금 주괴",
         "amount": 400,
         "amount_min": 400,
-        "amount_max": 400
+        "amount_max": 400,
+        "src_type": "드롭",
+        "src_detail": "드롭: Malugaz the Corrupted, Beach Digging Spot"
       },
       {
         "id": "ScarletBar",
@@ -2861,7 +3213,9 @@
         "name_ko": "진홍 주괴",
         "amount": 800,
         "amount_min": 800,
-        "amount_max": 800
+        "amount_max": 800,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "OctarineBar",
@@ -2869,7 +3223,9 @@
         "name_ko": "옥타린 주괴",
         "amount": 800,
         "amount_min": 800,
-        "amount_max": 800
+        "amount_max": 800,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "GalaxiteBar",
@@ -2877,7 +3233,9 @@
         "name_ko": "갤럭사이트 주괴",
         "amount": 800,
         "amount_min": 800,
-        "amount_max": 800
+        "amount_max": 800,
+        "src_type": "제작",
+        "src_detail": "제작 (하위 재료 가공)"
       },
       {
         "id": "AncientGemstone",
@@ -2885,8 +3243,11 @@
         "name_ko": "고대 보석",
         "amount": 100,
         "amount_min": 100,
-        "amount_max": 100
+        "amount_max": 100,
+        "src_type": "드롭",
+        "src_detail": "드롭: Orange Slime, Ghorm the Devourer, The Hive Mother"
       }
-    ]
+    ],
+    "drops": []
   }
 ]

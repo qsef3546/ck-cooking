@@ -7,7 +7,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getObjectInfo, arr, slug, downloadIcons, RARITY_KEY } from "./scrape-lib.mjs";
+import { getObjectInfo, getObtaining, arr, slug, downloadIcons, RARITY_KEY, koMaterial, materialSource, itemDrops } from "./scrape-lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -96,44 +96,52 @@ function condLabel(id) {
   return [humanize(id), /Percentage|Chance/.test(id) ? "%" : ""];
 }
 
-// ── 재료명 한글 ──
-const KO_MATERIAL = {
-  "Copper Bar": "구리 주괴", "Tin Bar": "주석 주괴", "Iron Bar": "철 주괴", "Gold Bar": "금 주괴",
-  "Scarlet Bar": "진홍 주괴", "Octarine Bar": "옥타린 주괴", "Galaxite Bar": "갤럭사이트 주괴",
-  "Solarite Bar": "솔라라이트 주괴", "Pandorium Bar": "판도리움 주괴", "Relucite Bar": "렐루사이트 주괴",
-  "Wood": "목재", "Fiber": "섬유", "Slime": "슬라임", "Poison Slime": "독 슬라임",
-  "Magma Slime": "마그마 슬라임", "Slippery Slime": "미끌 슬라임", "Larva Meat": "유충 고기",
-  "Ancient Gemstone": "고대 보석", "Coral Wood": "산호 목재", "Gleam Wood": "빛나무 목재",
-  "Corrupted Alloy": "오염된 합금", "Cytoplasm": "세포질", "Leather": "가죽", "Cloth": "천",
-  "Glass": "유리", "Plank": "판자", "Iron Ore": "철광석", "Copper Ore": "구리 광석",
-  "Tin Ore": "주석 광석", "Gold Ore": "금광석", "Scarlet Ore": "진홍 광석",
-};
-const koMaterial = (en) => KO_MATERIAL[en] || en;
-
 // ── 아이템명 토큰 번역 (전부 매핑되면 한글, 아니면 영문 폴백) ──
 const TOKEN = {
-  copper: "구리", tin: "주석", iron: "철", gold: "금", wood: "나무", wooden: "나무",
+  // 재질/등급
+  copper: "구리", tin: "주석", iron: "철", gold: "금", golden: "황금", wood: "나무", wooden: "나무",
   scarlet: "진홍", octarine: "옥타린", galaxite: "갤럭사이트", solarite: "솔라라이트",
-  pandorium: "판도리움", relucite: "렐루사이트", ancient: "고대", crystal: "크리스탈",
-  lava: "용암", slime: "슬라임", larva: "유충", coral: "산호", gleam: "빛나무",
-  corrupted: "오염된", royal: "왕실", great: "거대한", large: "큰", small: "작은",
+  pandorium: "판도리움", relucite: "렐루사이트", ancient: "고대", crystal: "크리스탈", stone: "돌",
+  lava: "용암", slime: "슬라임", larva: "유충", coral: "산호", gleam: "빛나무", bone: "뼈",
+  corrupted: "오염된", corrupt: "부패", royal: "왕실", great: "거대한", large: "대형", medium: "중형", small: "소형",
   broken: "부러진", rusty: "녹슨", makeshift: "임시", reinforced: "강화된", basic: "기본",
+  polished: "광택", swift: "신속한", soul: "영혼", bronze: "청동",
+  chunk: "덩어리", shell: "껍데기", core: "코어", king: "왕", ore: "광석", block: "블록", party: "파티",
+  hydra: "히드라", guardian: "수호자", warden: "감시자", wildwarden: "와일드와든", scarab: "스카라베",
+  ivy: "아이비", omoroth: "오모로스", caveling: "케이블링", skull: "해골", godsent: "신이 보낸",
+  soaring: "비상", blast: "폭발", cosmos: "코스모스", lily: "릴리", pad: "패드", moldweb: "곰팡이거미줄",
+  hivebone: "벌집뼈", gingerbread: "진저브레드",
+  // 색
+  blue: "파랑", green: "초록", red: "빨강", purple: "보라", yellow: "노랑", black: "검정",
+  white: "흰", pink: "분홍", orange: "주황", dark: "어둠", light: "빛",
+  // 직업/컨셉 세트
+  explorer: "탐험가", apprentice: "견습", ranger: "레인저", witch: "마녀", doctor: "박사",
+  chieftain: "족장", mercenary: "용병", paladin: "팔라딘", sorcerer: "소서러", miner: "광부",
+  dreamer: "몽상가", pajama: "파자마", chef: "요리사", chicken: "치킨", paragon: "귀감",
+  // 부위 보조
+  head: "머리", bottom: "하의", torso: "상체", breast: "상의", headband: "머리띠",
+  harness: "하네스", tassel: "술", board: "보드",
+  // 슬롯/형태
   helm: "투구", helmet: "투구", cap: "모자", hood: "후드", mask: "가면", goggles: "고글",
-  hat: "모자", crown: "왕관", chestplate: "흉갑", armor: "갑옷", coat: "코트", robe: "로브",
-  vest: "조끼", shirt: "셔츠", chest: "흉갑", pants: "바지", leggings: "각반", greaves: "각반",
-  ring: "반지", necklace: "목걸이", amulet: "부적", pendant: "펜던트", charm: "부적",
+  hat: "모자", crown: "왕관", chestplate: "흉갑", breastplate: "흉갑", armor: "갑옷", coat: "코트",
+  robe: "로브", vest: "조끼", shirt: "셔츠", chest: "흉갑", tunic: "튜닉", jacket: "재킷", cloak: "망토",
+  suit: "슈트", bikini: "비키니", top: "상의", pants: "바지", leggings: "각반", greaves: "각반",
+  shorts: "반바지", ring: "반지", necklace: "목걸이", amulet: "부적", pendant: "펜던트", charm: "부적",
   shield: "방패", pickaxe: "곡괭이", pick: "곡괭이", shovel: "삽", spade: "삽", hoe: "괭이",
-  rod: "낚싯대", "fishing": "낚시", lantern: "랜턴", torch: "횃불", bag: "가방", pouch: "주머니",
-  net: "망", bug: "곤충", sledge: "슬레지", drill: "드릴", watering: "물뿌리개", can: "통",
-  seeder: "파종기", roofing: "지붕", of: "의", the: "",
+  rod: "낚싯대", fishing: "낚시", lantern: "랜턴", torch: "횃불", bag: "가방", backpack: "배낭",
+  pouch: "주머니", net: "망", bug: "곤충", sledge: "슬레지", hammer: "해머", drill: "드릴",
+  watering: "물뿌리개", can: "통", seeder: "파종기", roofing: "지붕", lure: "미끼", pot: "냄비",
+  of: "의", the: "",
 };
 function koName(en) {
   const toks = en.split(/\s+/);
   const out = [];
   for (const t of toks) {
-    const k = t.toLowerCase().replace(/[^a-z]/g, "");
+    // 소유격(Omoroth's) 처리: 's 제거 후 매핑, 미매핑이면 폴백
+    const base = t.replace(/['’]s$/i, "");
+    const k = base.toLowerCase().replace(/[^a-z]/g, "");
     if (TOKEN[k] === undefined) return en; // 미매핑 토큰 → 영문 폴백
-    if (TOKEN[k]) out.push(TOKEN[k]);
+    if (TOKEN[k]) out.push(TOKEN[k] + (/['’]s$/i.test(t) ? "의" : ""));
   }
   return out.join(" ") || en;
 }
@@ -141,6 +149,8 @@ function koName(en) {
 // ── 추출 ──
 const data = await getObjectInfo();
 console.log(`• ObjectInfo 로드 (${Object.keys(data).length} objects)`);
+const ob = await getObtaining();
+console.log(`• Obtaining 로드 (${Object.keys(ob).length} entries)`);
 
 function valAt(v, lvl) {
   if (v == null) return null;
@@ -179,7 +189,8 @@ function extract(types) {
     const materials = arr(b.materials).map((m) => {
       const nm = (data[m.id] && data[m.id][0] && data[m.id][0].name) || m.id;
       const a = m.amount;
-      return { id: m.id, name_en: nm, name_ko: koMaterial(nm), amount: typeof a === "object" ? null : a, amount_min: typeof a === "object" ? a[0] : a, amount_max: typeof a === "object" ? a[1] : a };
+      const src = materialSource(m.id, data, ob);
+      return { id: m.id, name_en: nm, name_ko: koMaterial(nm), amount: typeof a === "object" ? null : a, amount_min: typeof a === "object" ? a[0] : a, amount_max: typeof a === "object" ? a[1] : a, src_type: src.type, src_detail: src.detail };
     });
     rows.push({
       id: slug(b.name),
@@ -197,6 +208,7 @@ function extract(types) {
       dmg_base: b.meleeDamage ? valAt(b.meleeDamage, lvl) : null,
       conditions: conds,
       materials,
+      drops: itemDrops(b.id, ob, data),
     });
   }
   // 같은 슬러그 중복 제거(변형) + 레벨/이름 정렬
@@ -219,6 +231,12 @@ for (const [cat, cfg] of Object.entries(CATEGORIES)) {
 }
 
 // 아이콘은 세 카테고리 합쳐 한 번에 (gear-icons + 단일 manifest)
+// SKIP_ICONS=1 이면 데이터만 갱신(이미 받은 아이콘 재사용).
+if (process.env.SKIP_ICONS) {
+  console.log("• SKIP_ICONS=1 → 아이콘 다운로드 건너뜀 (데이터만 갱신)");
+  console.log("완료 ✅");
+  process.exit(0);
+}
 const everything = [];
 for (const cfg of Object.values(CATEGORIES)) {
   everything.push(...JSON.parse(fs.readFileSync(path.join(dataDir, cfg.file), "utf8")));

@@ -6,6 +6,8 @@ export type WeaponMaterial = {
   amount: number | null;       // 고정 수량 (가변이면 null)
   amount_min: number;
   amount_max: number;
+  src_type?: string;           // 재료 출처: 제작 | 드롭 | 구매 | ""
+  src_detail?: string;         // 출처 상세 (예: "드롭: 오렌지 슬라임, 라바")
 };
 
 export type Weapon = {
@@ -25,6 +27,7 @@ export type Weapon = {
   durability: number | null;
   sell: number | null;
   materials: WeaponMaterial[];
+  drops: string[];   // 아이템 자체 드롭 출처(있으면)
   icon: string;
 };
 

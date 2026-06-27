@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { RARITY } from "@/lib/combine";
 import { matAmount } from "@/lib/weapons";
 import { condText, type GearItem, type GearKind } from "@/lib/gear";
+import { Pager } from "./Pager";
 import ARMOR from "@/public/data/armor.json";
 import ACCESSORIES from "@/public/data/accessories.json";
 import TOOLS from "@/public/data/tools.json";
@@ -22,17 +23,6 @@ const SORTS = [
   { key: "name", label: "이름순" },
 ];
 const PAGE = 36;
-
-function pageList(cur: number, total: number): (number | "…")[] {
-  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
-  const out: (number | "…")[] = [1];
-  const s = Math.max(2, cur - 1), e = Math.min(total - 1, cur + 1);
-  if (s > 2) out.push("…");
-  for (let i = s; i <= e; i++) out.push(i);
-  if (e < total - 1) out.push("…");
-  out.push(total);
-  return out;
-}
 
 function GIcon({ id, size }: { id: string; size: number }) {
   const src = gicon(id);
@@ -74,7 +64,6 @@ export default function Gear({ kind }: { kind: GearKind }) {
   const pages = Math.max(1, Math.ceil(view.length / PAGE));
   const pageItems = view.slice((page - 1) * PAGE, page * PAGE);
   useEffect(() => setPage(1), [q, sub, sort, kind]);
-  const go = (n: number) => { setPage(n); window.scrollTo({ top: 0, behavior: "smooth" }); };
 
   return (
     <>
@@ -103,17 +92,7 @@ export default function Gear({ kind }: { kind: GearKind }) {
         {!view.length && <p className="muted pad">조건에 맞는 항목이 없습니다.</p>}
       </div>
 
-      {pages > 1 && (
-        <nav className="pager">
-          <button className="pg" disabled={page === 1} onClick={() => go(page - 1)}>‹ 이전</button>
-          {pageList(page, pages).map((p, k) =>
-            p === "…"
-              ? <span key={"e" + k} className="pg dots">…</span>
-              : <button key={p} className={"pg" + (p === page ? " on" : "")} onClick={() => go(p)}>{p}</button>
-          )}
-          <button className="pg" disabled={page === pages} onClick={() => go(page + 1)}>다음 ›</button>
-        </nav>
-      )}
+      <Pager page={page} pages={pages} onGo={setPage} />
     </>
   );
 }
@@ -164,9 +143,14 @@ function GCard({ g }: { g: GearItem }) {
         </div>
         <div className="wmats">
           {g.materials.map((m) => (
-            <span className="wmat" key={m.id} title={m.name_en}>{m.name_ko} <b>{matAmount(m)}</b></span>
+            <span className="wmat" key={m.id} title={m.src_detail || m.name_en}>
+              {m.name_ko} <b>{matAmount(m)}</b>
+              {m.src_type && <i className="msrc">{m.src_type}</i>}
+            </span>
           ))}
-          {!g.materials.length && <span className="muted">제작 불가 (드롭/기타)</span>}
+          {!g.materials.length && (g.drops.length
+            ? <span className="muted">드롭: {g.drops.join(", ")}</span>
+            : <span className="muted">제작 불가 (드롭/기타)</span>)}
         </div>
       </div>
     </article>
