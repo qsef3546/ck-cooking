@@ -1,0 +1,2826 @@
+[
+  {
+    "id": "wooden_sword",
+    "name_en": "Wooden Sword",
+    "name_ko": "나무 검",
+    "desc_en": "A crude weapon to fend off foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "common",
+    "level": 1,
+    "area": "StartArea",
+    "area_ko": "시작 지역(흙 비옴)",
+    "dmg_base": 33,
+    "dmg_max": 342,
+    "atk_rate": 2.5,
+    "durability": 88,
+    "sell": 1,
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "wooden_sword.webp"
+  },
+  {
+    "id": "copper_sword",
+    "name_en": "Copper Sword",
+    "name_ko": "구리 검",
+    "desc_en": "A good weapon for slaying foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "dmg_base": 50,
+    "dmg_max": 349,
+    "atk_rate": 2.5,
+    "durability": 250,
+    "sell": 6,
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "copper_sword.webp"
+  },
+  {
+    "id": "simple_staff",
+    "name_en": "Simple Staff",
+    "name_ko": "단순한 지팡이",
+    "desc_en": "Commonly used by apprentice mages.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "dmg_base": 68,
+    "dmg_max": 479,
+    "atk_rate": 1,
+    "durability": 255,
+    "sell": 13,
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "simple_staff.webp"
+  },
+  {
+    "id": "splintered_wooden_sword",
+    "name_en": "Splintered Wooden Sword",
+    "name_ko": "쪼개진 나무 검",
+    "desc_en": "This simple sword has seen far more battles than its maker would ever suggest. A worn reminder that even the humblest blade can do the impossible, where every crack Dares the next blow to land.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 2,
+    "area": "StartArea",
+    "area_ko": "시작 지역(흙 비옴)",
+    "dmg_base": 51,
+    "dmg_max": 357,
+    "atk_rate": 2.5,
+    "durability": 88,
+    "sell": 6,
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "splintered_wooden_sword.webp"
+  },
+  {
+    "id": "tome_of_the_dark",
+    "name_en": "Tome of the Dark",
+    "name_ko": "어둠의 마도서",
+    "desc_en": "More of a pamphlet, beginners guide to shadowmancy.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "dmg_base": null,
+    "dmg_max": null,
+    "atk_rate": 1,
+    "durability": 100,
+    "sell": 18,
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "tome_of_the_dark.webp"
+  },
+  {
+    "id": "wood_bow",
+    "name_en": "Wood Bow",
+    "name_ko": "나무 활",
+    "desc_en": "A crude bow to shoot foes from afar.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "dmg_base": 33,
+    "dmg_max": 230,
+    "atk_rate": 1.4,
+    "durability": 257,
+    "sell": 1,
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "wood_bow.webp"
+  },
+  {
+    "id": "wood_crossbow",
+    "name_en": "Wood Crossbow",
+    "name_ko": "나무 석궁",
+    "desc_en": "A small wooden crossbow that swiftly shoots bolts.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "dmg_base": 47,
+    "dmg_max": 329,
+    "atk_rate": 1,
+    "durability": 255,
+    "sell": 6,
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "wood_crossbow.webp"
+  },
+  {
+    "id": "rusty_dagger",
+    "name_en": "Rusty Dagger",
+    "name_ko": "녹슨 단검",
+    "desc_en": "A blade so corroded it only vaguely resembles copper. It's deceptively sharp.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "dmg_base": 54,
+    "dmg_max": 285,
+    "atk_rate": 3.3,
+    "durability": 233,
+    "sell": 9,
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ],
+    "icon": "rusty_dagger.webp"
+  },
+  {
+    "id": "sticky_stick",
+    "name_en": "Sticky Stick",
+    "name_ko": "끈적이는 막대기",
+    "desc_en": "This staff is drenched in slime that never seems to end no matter how much is flung away.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 4,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "dmg_base": 103,
+    "dmg_max": 434,
+    "atk_rate": 1,
+    "durability": 150,
+    "sell": 25,
+    "materials": [
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "sticky_stick.webp"
+  },
+  {
+    "id": "flintlock_musket",
+    "name_en": "Flintlock Musket",
+    "name_ko": "플린트락 머스킷",
+    "desc_en": "Can't argue much with a handful of lead coming right at you.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": 230,
+    "dmg_max": 805,
+    "atk_rate": 0.5,
+    "durability": 150,
+    "sell": 12,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "flintlock_musket.webp"
+  },
+  {
+    "id": "hunting_spear",
+    "name_en": "Hunting Spear",
+    "name_ko": "사냥용 창",
+    "desc_en": "A very crude long-reach weapon used by the cavelings dwelling in the Clay Caves. Good to hunt larvae and place them over a fire.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": 101,
+    "dmg_max": 355,
+    "atk_rate": 2.5,
+    "durability": 300,
+    "sell": 7,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ],
+    "icon": "hunting_spear.webp"
+  },
+  {
+    "id": "slingshot",
+    "name_en": "Slingshot",
+    "name_ko": "새총",
+    "desc_en": "Simple ranged weapon to fire away at enemies.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": 58,
+    "dmg_max": 205,
+    "atk_rate": 2,
+    "durability": 300,
+    "sell": 5,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "slingshot.webp"
+  },
+  {
+    "id": "tin_axe",
+    "name_en": "Tin Axe",
+    "name_ko": "주석 도끼",
+    "desc_en": "A slower but more damaging weapon against multiple enemies.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": 140,
+    "dmg_max": 489,
+    "atk_rate": 1.7,
+    "durability": 200,
+    "sell": 11,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 9,
+        "amount_min": 9,
+        "amount_max": 9
+      }
+    ],
+    "icon": "tin_axe.webp"
+  },
+  {
+    "id": "tin_dagger",
+    "name_en": "Tin Dagger",
+    "name_ko": "주석 단검",
+    "desc_en": "A small blade that allows for quick stabs.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": 82,
+    "dmg_max": 286,
+    "atk_rate": 3.3,
+    "durability": 400,
+    "sell": 9,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      }
+    ],
+    "icon": "tin_dagger.webp"
+  },
+  {
+    "id": "tin_sword",
+    "name_en": "Tin Sword",
+    "name_ko": "주석 검",
+    "desc_en": "A sharp weapon for slaying foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": 98,
+    "dmg_max": 342,
+    "atk_rate": 2.5,
+    "durability": 300,
+    "sell": 8,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      }
+    ],
+    "icon": "tin_sword.webp"
+  },
+  {
+    "id": "tome_of_breach",
+    "name_en": "Tome of Breach",
+    "name_ko": "균열의 마도서",
+    "desc_en": "More of an unfinished journal detailing the author's obsession with unearthing secrets.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": null,
+    "dmg_max": null,
+    "atk_rate": 1,
+    "durability": 100,
+    "sell": 20,
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "tome_of_breach.webp"
+  },
+  {
+    "id": "slime_sword",
+    "name_en": "Slime Sword",
+    "name_ko": "슬라임 검",
+    "desc_en": "A strange weapon, good for damaging enemies and slowing them down.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 6,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "dmg_base": 99,
+    "dmg_max": 298,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 27,
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "slime_sword.webp"
+  },
+  {
+    "id": "battle_axe",
+    "name_en": "Battle Axe",
+    "name_ko": "전투 도끼",
+    "desc_en": "A menacing weapon that swings wide and hits hard.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 191,
+    "dmg_max": 500,
+    "atk_rate": 1.7,
+    "durability": 350,
+    "sell": 59,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "battle_axe.webp"
+  },
+  {
+    "id": "iron_bow",
+    "name_en": "Iron Bow",
+    "name_ko": "철 활",
+    "desc_en": "A sturdy bow to shoot foes from afar.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 111,
+    "dmg_max": 291,
+    "atk_rate": 1.4,
+    "durability": 257,
+    "sell": 56,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "iron_bow.webp"
+  },
+  {
+    "id": "iron_halberd",
+    "name_en": "Iron Halberd",
+    "name_ko": "철 미늘창",
+    "desc_en": "A luxurious pole-weapon fit for a royal guardian and perfect for poking at adversaries.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 131,
+    "dmg_max": 343,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 73,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 9,
+        "amount_min": 9,
+        "amount_max": 9
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "iron_halberd.webp"
+  },
+  {
+    "id": "iron_sword",
+    "name_en": "Iron Sword",
+    "name_ko": "철 검",
+    "desc_en": "A strong weapon for slaying foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 132,
+    "dmg_max": 347,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 61,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "iron_sword.webp"
+  },
+  {
+    "id": "quill_rifle",
+    "name_en": "Quill Rifle",
+    "name_ko": "가시 라이플",
+    "desc_en": "A re-engineered bioweapon, discharging quills as deadly bolts.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 36,
+    "dmg_max": 94,
+    "atk_rate": 4,
+    "durability": 720,
+    "sell": 55,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "quill_rifle.webp"
+  },
+  {
+    "id": "stone_mortar",
+    "name_en": "Stone Mortar",
+    "name_ko": "돌 박격포",
+    "desc_en": "A handheld cannon hurling rocks into the air. They won't know what hit 'em!",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 11,
+    "dmg_max": 29,
+    "atk_rate": 1.7,
+    "durability": 250,
+    "sell": 60,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "stone_mortar.webp"
+  },
+  {
+    "id": "tome_of_ashes",
+    "name_en": "Tome of Ashes",
+    "name_ko": "잿더미의 마도서",
+    "desc_en": "Reeks of sulfur and is hot to the touch.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": null,
+    "dmg_max": null,
+    "atk_rate": 1,
+    "durability": 100,
+    "sell": 17,
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "tome_of_ashes.webp"
+  },
+  {
+    "id": "arcane_staff",
+    "name_en": "Arcane Staff",
+    "name_ko": "비전 지팡이",
+    "desc_en": "Unleash a torrent of arcane energies.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 67,
+    "dmg_max": 157,
+    "atk_rate": 3.3,
+    "durability": 500,
+    "sell": 94,
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ],
+    "icon": "arcane_staff.webp"
+  },
+  {
+    "id": "fireball_staff",
+    "name_en": "Fireball Staff",
+    "name_ko": "화염구 지팡이",
+    "desc_en": "A magical staff that the caveling shamans use in their rituals and against uninvited guests.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 207,
+    "dmg_max": 484,
+    "atk_rate": 1,
+    "durability": 225,
+    "sell": 14,
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "fireball_staff.webp"
+  },
+  {
+    "id": "larva_spike_club",
+    "name_en": "Larva Spike Club",
+    "name_ko": "유충 가시 곤봉",
+    "desc_en": "A bludgeoning weapon that is hard to withstand.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 8,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "dmg_base": 147,
+    "dmg_max": 342,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 20,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "larva_spike_club.webp"
+  },
+  {
+    "id": "pipe_club",
+    "name_en": "Pipe Club",
+    "name_ko": "파이프 곤봉",
+    "desc_en": "A hefty pipe with a gauge on the end for added weight.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 298,
+    "dmg_max": 695,
+    "atk_rate": 1.3,
+    "durability": 175,
+    "sell": 19,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "pipe_club.webp"
+  },
+  {
+    "id": "scrapzooka",
+    "name_en": "Scrapzooka",
+    "name_ko": "고철 바주카",
+    "desc_en": "A weapon of scrap. Because some problems are best blasted away.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 27,
+    "dmg_max": 63,
+    "atk_rate": 0.7,
+    "durability": 250,
+    "sell": 58,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "scrapzooka.webp"
+  },
+  {
+    "id": "grubzooka",
+    "name_en": "Grubzooka",
+    "name_ko": "굼벵이 바주카",
+    "desc_en": "The heavy shots from the Grubzooka also tear down any dirt, sand and turf walls in its path.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "epic",
+    "level": 9,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "dmg_base": 115,
+    "dmg_max": 241,
+    "atk_rate": 0.7,
+    "durability": 150,
+    "sell": 36,
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      },
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "grubzooka.webp"
+  },
+  {
+    "id": "ritual_dagger",
+    "name_en": "Ritual Dagger",
+    "name_ko": "의식용 단검",
+    "desc_en": "This unusual dagger is made from a big gemstone shard. There are dark red spots on the handle.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "epic",
+    "level": 9,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg_base": 137,
+    "dmg_max": 287,
+    "atk_rate": 3.3,
+    "durability": 467,
+    "sell": 116,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ],
+    "icon": "ritual_dagger.webp"
+  },
+  {
+    "id": "scarlet_crossbow",
+    "name_en": "Scarlet Crossbow",
+    "name_ko": "진홍 석궁",
+    "desc_en": "A heavy metallic crossbow that shoots potent bolts.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "dmg_base": 157,
+    "dmg_max": 329,
+    "atk_rate": 1,
+    "durability": 300,
+    "sell": 149,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "scarlet_crossbow.webp"
+  },
+  {
+    "id": "scarlet_dagger",
+    "name_en": "Scarlet Dagger",
+    "name_ko": "진홍 단검",
+    "desc_en": "This wavy, crimson dagger pierces through most materials.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "dmg_base": 134,
+    "dmg_max": 280,
+    "atk_rate": 3.3,
+    "durability": 350,
+    "sell": 141,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "scarlet_dagger.webp"
+  },
+  {
+    "id": "scarlet_sword",
+    "name_en": "Scarlet Sword",
+    "name_ko": "진홍 검",
+    "desc_en": "A great weapon for slaying foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "dmg_base": 163,
+    "dmg_max": 341,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 134,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "scarlet_sword.webp"
+  },
+  {
+    "id": "blowpipe",
+    "name_en": "Blowpipe",
+    "name_ko": "바람총",
+    "desc_en": "A simple weapon loaded with poisonous darts.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "uncommon",
+    "level": 10,
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "dmg_base": 131,
+    "dmg_max": 250,
+    "atk_rate": 1.7,
+    "durability": 250,
+    "sell": 24,
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      },
+      {
+        "id": "PoisonSlime",
+        "name_en": "Poison Slime",
+        "name_ko": "독 슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "blowpipe.webp"
+  },
+  {
+    "id": "broken_handle",
+    "name_en": "Broken Handle",
+    "name_ko": "부러진 손잡이",
+    "desc_en": "A piece of an ancient weapon. Even though it's only the handle it already feels mysteriously balanced in your hand.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "dmg_base": 129,
+    "dmg_max": 246,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 88,
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 12,
+        "amount_min": 12,
+        "amount_max": 12
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "broken_handle.webp"
+  },
+  {
+    "id": "tome_of_sprouts",
+    "name_en": "Tome of Sprouts",
+    "name_ko": "새싹의 마도서",
+    "desc_en": "A mystical tome germinating with verdant potential.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "dmg_base": null,
+    "dmg_max": null,
+    "atk_rate": 1,
+    "durability": 100,
+    "sell": 21,
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "tome_of_sprouts.webp"
+  },
+  {
+    "id": "tome_of_the_dead",
+    "name_en": "Tome of the Dead",
+    "name_ko": "망자의 마도서",
+    "desc_en": "A vile treatise on the conjuring of restless spirits.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "uncommon",
+    "level": 10,
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "dmg_base": null,
+    "dmg_max": null,
+    "atk_rate": 1,
+    "durability": 100,
+    "sell": 37,
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ],
+    "icon": "tome_of_the_dead.webp"
+  },
+  {
+    "id": "noxious_meteor_staff",
+    "name_en": "Noxious Meteor Staff",
+    "name_ko": "유독성 메테오 지팡이",
+    "desc_en": "A tainted staff laced with corroding blight. It sizzles with embittered energies that rain down a dense drop of toxin.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "epic",
+    "level": 11,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "dmg_base": 608,
+    "dmg_max": 1064,
+    "atk_rate": 0.5,
+    "durability": 250,
+    "sell": 180,
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 16,
+        "amount_min": 16,
+        "amount_max": 16
+      },
+      {
+        "id": "PoisonSlime",
+        "name_en": "Poison Slime",
+        "name_ko": "독 슬라임",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "noxious_meteor_staff.webp"
+  },
+  {
+    "id": "tentacle_whip",
+    "name_en": "Tentacle Whip",
+    "name_ko": "촉수 채찍",
+    "desc_en": "An elastic tentacle that lashes out at enemies from afar. It's still alive and wiggling in your hand.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "uncommon",
+    "level": 11,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": 293,
+    "dmg_max": 513,
+    "atk_rate": 1.7,
+    "durability": 233,
+    "sell": 167,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "tentacle_whip.webp"
+  },
+  {
+    "id": "bubble_gun",
+    "name_en": "Bubble Gun",
+    "name_ko": "거품 총",
+    "desc_en": "A strange ranged weapon that shoots out hovering bubbles, adding slippery movement on contact.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": 103,
+    "dmg_max": 166,
+    "atk_rate": 2.5,
+    "durability": 375,
+    "sell": 167,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "bubble_gun.webp"
+  },
+  {
+    "id": "octarine_axe",
+    "name_en": "Octarine Axe",
+    "name_ko": "옥타린 도끼",
+    "desc_en": "This crescent-shaped weapon hits hard and magically arcs towards enemies' weak spots.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": 312,
+    "dmg_max": 503,
+    "atk_rate": 1.7,
+    "durability": 350,
+    "sell": 200,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      }
+    ],
+    "icon": "octarine_axe.webp"
+  },
+  {
+    "id": "octarine_bow",
+    "name_en": "Octarine Bow",
+    "name_ko": "옥타린 활",
+    "desc_en": "A strange bow that enhances the way arrows fly, allowing for quicker shots.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": 174,
+    "dmg_max": 280,
+    "atk_rate": 1.4,
+    "durability": 257,
+    "sell": 175,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "octarine_bow.webp"
+  },
+  {
+    "id": "octarine_sword",
+    "name_en": "Octarine Sword",
+    "name_ko": "옥타린 검",
+    "desc_en": "An extraordinary weapon for slaying foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": 214,
+    "dmg_max": 346,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 184,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 16,
+        "amount_min": 16,
+        "amount_max": 16
+      }
+    ],
+    "icon": "octarine_sword.webp"
+  },
+  {
+    "id": "poisonous_sickle",
+    "name_en": "Poisonous Sickle",
+    "name_ko": "맹독 낫",
+    "desc_en": "Farming tool that turned into a weapon when a great threat had to be slain.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "epic",
+    "level": 12,
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "dmg_base": 221,
+    "dmg_max": 356,
+    "atk_rate": 2.5,
+    "durability": 525,
+    "sell": 196,
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "PoisonSlime",
+        "name_en": "Poison Slime",
+        "name_ko": "독 슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "poisonous_sickle.webp"
+  },
+  {
+    "id": "tome_of_the_deep",
+    "name_en": "Tome of the Deep",
+    "name_ko": "심연의 마도서",
+    "desc_en": "A tome that contains powerful incantions barely utterable by the human tongue.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": null,
+    "dmg_max": null,
+    "atk_rate": 1,
+    "durability": 100,
+    "sell": 62,
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "tome_of_the_deep.webp"
+  },
+  {
+    "id": "anchor_axe",
+    "name_en": "Anchor Axe",
+    "name_ko": "닻 도끼",
+    "desc_en": "This heavy weapon is actually just a ship anchor. Hits very hard and can throw enemies off.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 13,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "dmg_base": 322,
+    "dmg_max": 483,
+    "atk_rate": 1.7,
+    "durability": 350,
+    "sell": 294,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 25,
+        "amount_min": 25,
+        "amount_max": 25
+      }
+    ],
+    "icon": "anchor_axe.webp"
+  },
+  {
+    "id": "rune_song",
+    "name_en": "Rune Song",
+    "name_ko": "룬의 노래",
+    "desc_en": "A legendary sword that hums when swung through the air. Its durability is a testament to extraordinary craftsmanship, said to carry the whispers of ancient battles within its blade.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "legendary",
+    "level": 13,
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "dmg_base": 259,
+    "dmg_max": 388,
+    "atk_rate": 2.5,
+    "durability": "Infinite",
+    "sell": null,
+    "materials": [
+      {
+        "id": "BrokenLegendarySword",
+        "name_en": "Broken Handle",
+        "name_ko": "부러진 손잡이",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendarySwordBlade",
+        "name_en": "Chipped Blade",
+        "name_ko": "이 빠진 검신",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendarySwordGemstone",
+        "name_en": "Clear Gemstone",
+        "name_ko": "맑은 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 50,
+        "amount_min": 50,
+        "amount_max": 50
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "rune_song.webp"
+  },
+  {
+    "id": "scholars_staff",
+    "name_en": "Scholar's Staff",
+    "name_ko": "학자의 지팡이",
+    "desc_en": "A magical staff wielded by caveling scholars that utilizes an ancient gemstone to produce powerful bolts of energy.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 13,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "dmg_base": 319,
+    "dmg_max": 478,
+    "atk_rate": 1,
+    "durability": 225,
+    "sell": 258,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ],
+    "icon": "scholars_staff.webp"
+  },
+  {
+    "id": "slippery_slime_sword",
+    "name_en": "Slippery Slime Sword",
+    "name_ko": "미끌 슬라임 검",
+    "desc_en": "A blue variant of the slime sword. It sometimes spreads slime onto your enemies that makes them slide around.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": 230,
+    "dmg_max": 345,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 192,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 16,
+        "amount_min": 16,
+        "amount_max": 16
+      },
+      {
+        "id": "SlipperySlime",
+        "name_en": "Slippery Slime",
+        "name_ko": "미끌 슬라임",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "slippery_slime_sword.webp"
+  },
+  {
+    "id": "sun_caller",
+    "name_en": "Sun Caller",
+    "name_ko": "태양 소환자",
+    "desc_en": "Used by great mages to conjure small stars.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "dmg_base": 326,
+    "dmg_max": 490,
+    "atk_rate": 1,
+    "durability": 225,
+    "sell": 334,
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "sun_caller.webp"
+  },
+  {
+    "id": "bomb_scarab_mortar",
+    "name_en": "Bomb Scarab Mortar",
+    "name_ko": "폭탄 풍뎅이 박격포",
+    "desc_en": "A powerful weapon launching explosive projectiles that resemble the center eye of a bomb scarab.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "dmg_base": 45,
+    "dmg_max": 63,
+    "atk_rate": 0.7,
+    "durability": 250,
+    "sell": 228,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "bomb_scarab_mortar.webp"
+  },
+  {
+    "id": "galaxite_chakram",
+    "name_en": "Galaxite Chakram",
+    "name_ko": "갤럭사이트 차크람",
+    "desc_en": "This unique throwing weapon requires finesse and dexterity to be used to its full potential.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "dmg_base": 120,
+    "dmg_max": 168,
+    "atk_rate": 2.5,
+    "durability": 375,
+    "sell": 267,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 22,
+        "amount_min": 22,
+        "amount_max": 22
+      }
+    ],
+    "icon": "galaxite_chakram.webp"
+  },
+  {
+    "id": "galaxite_dagger",
+    "name_en": "Galaxite Dagger",
+    "name_ko": "갤럭사이트 단검",
+    "desc_en": "A quick-stabbing weapon made for close combat. The blade is so fine that it can cut a hair into two pieces lengthways.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "dmg_base": 210,
+    "dmg_max": 293,
+    "atk_rate": 3.3,
+    "durability": 350,
+    "sell": 210,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "galaxite_dagger.webp"
+  },
+  {
+    "id": "galaxite_sword",
+    "name_en": "Galaxite Sword",
+    "name_ko": "갤럭사이트 검",
+    "desc_en": "An otherworldly weapon for slaying foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "dmg_base": 248,
+    "dmg_max": 347,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 257,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 24,
+        "amount_min": 24,
+        "amount_max": 24
+      }
+    ],
+    "icon": "galaxite_sword.webp"
+  },
+  {
+    "id": "throwing_daggers",
+    "name_en": "Throwing Daggers",
+    "name_ko": "투척 단검",
+    "desc_en": "A set of curved blades. They're evenly balanced so that throwing them is as easy as pointing a finger.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "dmg_base": 120,
+    "dmg_max": 168,
+    "atk_rate": 2.5,
+    "durability": 375,
+    "sell": 264,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "throwing_daggers.webp"
+  },
+  {
+    "id": "zealots_scimitar",
+    "name_en": "Zealot's Scimitar",
+    "name_ko": "광신도의 시미터",
+    "desc_en": "A brilliant sword that channels mana into the blade to increase its power.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "dmg_base": 343,
+    "dmg_max": 481,
+    "atk_rate": 1.7,
+    "durability": 233,
+    "sell": 206,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "zealots_scimitar.webp"
+  },
+  {
+    "id": "lava_battle_axe",
+    "name_en": "Lava Battle Axe",
+    "name_ko": "용암 전투 도끼",
+    "desc_en": "A smoldering, heavy weapon that looks like it was just taken out of the forge.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 15,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "dmg_base": 372,
+    "dmg_max": 488,
+    "atk_rate": 1.7,
+    "durability": 350,
+    "sell": 239,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 22,
+        "amount_min": 22,
+        "amount_max": 22
+      },
+      {
+        "id": "LavaSlime",
+        "name_en": "Magma Slime",
+        "name_ko": "마그마 슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "lava_battle_axe.webp"
+  },
+  {
+    "id": "phantom_spark",
+    "name_en": "Phantom Spark",
+    "name_ko": "팬텀 스파크",
+    "desc_en": "A legendary, masterfully crafted bow that shoots pure energy projectiles. Sometimes those pierce the veil of time and space, calling upon the spirits of the past.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "legendary",
+    "level": 15,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "dmg_base": 220,
+    "dmg_max": 289,
+    "atk_rate": 1.4,
+    "durability": "Infinite",
+    "sell": null,
+    "materials": [
+      {
+        "id": "LegendaryBowPart1",
+        "name_en": "Channeling Gemstone",
+        "name_ko": "전도의 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendaryBowPart2",
+        "name_en": "Fractured Limbs",
+        "name_ko": "부러진 활대",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendaryBowPart3",
+        "name_en": "Energy String",
+        "name_ko": "에너지 시위",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 100,
+        "amount_min": 100,
+        "amount_max": 100
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "phantom_spark.webp"
+  },
+  {
+    "id": "prehistoric_crystal_spear",
+    "name_en": "Prehistoric Crystal Spear",
+    "name_ko": "선사시대 크리스탈 창",
+    "desc_en": "One of the first weapons ever made by mankind, but this one has an ancient gemstone in place of a normal spearhead.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "epic",
+    "level": 15,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "dmg_base": 272,
+    "dmg_max": 356,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 242,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "prehistoric_crystal_spear.webp"
+  },
+  {
+    "id": "burnzooka",
+    "name_en": "Burnzooka",
+    "name_ko": "화염 바주카",
+    "desc_en": "This fiery weapon was modeled after the grubzooka but enhanced with lava rock shielding to contain its power. Can blast away stone walls and anything weaker.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "epic",
+    "level": 16,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "dmg_base": 200,
+    "dmg_max": 247,
+    "atk_rate": 0.7,
+    "durability": 200,
+    "sell": 267,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "LavaSlime",
+        "name_en": "Magma Slime",
+        "name_ko": "마그마 슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "burnzooka.webp"
+  },
+  {
+    "id": "crystal_shard_club",
+    "name_en": "Crystal Shard Club",
+    "name_ko": "크리스탈 파편 곤봉",
+    "desc_en": "This bludgeoning weapon is made from fragile crystal, that can send out splinters when swung.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 349,
+    "dmg_max": 431,
+    "atk_rate": 2,
+    "durability": 364,
+    "sell": 311,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GleamWood",
+        "name_en": "Gleam Wood",
+        "name_ko": "빛나무 목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "crystal_shard_club.webp"
+  },
+  {
+    "id": "hydra_bone_sword",
+    "name_en": "Hydra Bone Sword",
+    "name_ko": "히드라 뼈 검",
+    "desc_en": "A jagged sword made from a hydra's spine. It is not particularly sharp but its uneven shape can tear dangerous wounds into your opponents.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 276,
+    "dmg_max": 341,
+    "atk_rate": 2.5,
+    "durability": 500,
+    "sell": 251,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 24,
+        "amount_min": 24,
+        "amount_max": 24
+      },
+      {
+        "id": "GleamWood",
+        "name_en": "Gleam Wood",
+        "name_ko": "빛나무 목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ],
+    "icon": "hydra_bone_sword.webp"
+  },
+  {
+    "id": "ricochet_shuriken",
+    "name_en": "Ricochet Shuriken",
+    "name_ko": "도탄 수리검",
+    "desc_en": "A four-bladed throwing weapon that bounces back and forth across the room. Slicing any enemy in its path.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 94,
+    "dmg_max": 116,
+    "atk_rate": 2.5,
+    "durability": 375,
+    "sell": 255,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ],
+    "icon": "ricochet_shuriken.webp"
+  },
+  {
+    "id": "solarite_crossbow",
+    "name_en": "Solarite Crossbow",
+    "name_ko": "솔라라이트 석궁",
+    "desc_en": "A grand glimmering crossbow that shoots mighty bolts.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 232,
+    "dmg_max": 286,
+    "atk_rate": 1.4,
+    "durability": 257,
+    "sell": 227,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "GleamWood",
+        "name_en": "Gleam Wood",
+        "name_ko": "빛나무 목재",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "solarite_crossbow.webp"
+  },
+  {
+    "id": "solarite_sword",
+    "name_en": "Solarite Sword",
+    "name_ko": "솔라라이트 검",
+    "desc_en": "A superior weapon for obliterating foes.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 280,
+    "dmg_max": 346,
+    "atk_rate": 2.5,
+    "durability": 350,
+    "sell": 248,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 24,
+        "amount_min": 24,
+        "amount_max": 24
+      }
+    ],
+    "icon": "solarite_sword.webp"
+  },
+  {
+    "id": "volcano_mortar",
+    "name_en": "Volcano Mortar",
+    "name_ko": "화산 박격포",
+    "desc_en": "Erupts molten chunks into the air to crash like meteoroids.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "epic",
+    "level": 16,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "dmg_base": 24,
+    "dmg_max": 29,
+    "atk_rate": 1.7,
+    "durability": 250,
+    "sell": 356,
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 27,
+        "amount_min": 27,
+        "amount_max": 27
+      },
+      {
+        "id": "LavaSlime",
+        "name_en": "Magma Slime",
+        "name_ko": "마그마 슬라임",
+        "amount": 25,
+        "amount_min": 25,
+        "amount_max": 25
+      }
+    ],
+    "icon": "volcano_mortar.webp"
+  },
+  {
+    "id": "atlantean_worm_sword",
+    "name_en": "Atlantean Worm Sword",
+    "name_ko": "아틀란티스 웜 검",
+    "desc_en": "A dislodged, razorsharp mandible of the Atlantean Worm. The maker of the deep sea.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 300,
+    "dmg_max": 350,
+    "atk_rate": 2.5,
+    "durability": 525,
+    "sell": 261,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 24,
+        "amount_min": 24,
+        "amount_max": 24
+      }
+    ],
+    "icon": "atlantean_worm_sword.webp"
+  },
+  {
+    "id": "chaos_staff",
+    "name_en": "Chaos Staff",
+    "name_ko": "혼돈의 지팡이",
+    "desc_en": "An unpredictable, powerful weapon that weaves chaotic ancient energy into all kinds of projectiles. The enemy will never know what's coming for them.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "rare",
+    "level": 17,
+    "area": "Passage",
+    "area_ko": "통로",
+    "dmg_base": 448,
+    "dmg_max": 522,
+    "atk_rate": 1,
+    "durability": 225,
+    "sell": 331,
+    "materials": [
+      {
+        "id": "PandoriumBar",
+        "name_en": "Pandorium Bar",
+        "name_ko": "판도리움 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "Cytoplasm",
+        "name_en": "Cytoplasm",
+        "name_ko": "세포질",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "chaos_staff.webp"
+  },
+  {
+    "id": "obliteration_ray",
+    "name_en": "Obliteration Ray",
+    "name_ko": "절멸 광선",
+    "desc_en": "A high energy mining tool that is at the constant limit of bursting. The barely contained laser melts almost anything in its path.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 76,
+    "dmg_max": 89,
+    "atk_rate": 5,
+    "durability": 250,
+    "sell": 308,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      }
+    ],
+    "icon": "obliteration_ray.webp"
+  },
+  {
+    "id": "pandorium_axe",
+    "name_en": "Pandorium Axe",
+    "name_ko": "판도리움 도끼",
+    "desc_en": "This weapon has been designed by minds twisted in the darkness of The Passage. It tears more than it cuts.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 17,
+    "area": "Passage",
+    "area_ko": "통로",
+    "dmg_base": 413,
+    "dmg_max": 482,
+    "atk_rate": 1.7,
+    "durability": 350,
+    "sell": 376,
+    "materials": [
+      {
+        "id": "PandoriumBar",
+        "name_en": "Pandorium Bar",
+        "name_ko": "판도리움 주괴",
+        "amount": 25,
+        "amount_min": 25,
+        "amount_max": 25
+      },
+      {
+        "id": "Cytoplasm",
+        "name_en": "Cytoplasm",
+        "name_ko": "세포질",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "pandorium_axe.webp"
+  },
+  {
+    "id": "tome_of_decay",
+    "name_en": "Tome of Decay",
+    "name_ko": "부패의 마도서",
+    "desc_en": "Flipping through its pages causes your fingers to go numb.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": null,
+    "dmg_max": null,
+    "atk_rate": 1,
+    "durability": 100,
+    "sell": 22,
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "tome_of_decay.webp"
+  },
+  {
+    "id": "void_gun",
+    "name_en": "Void Gun",
+    "name_ko": "공허 총",
+    "desc_en": "A particle weapon with unknown inner workings. It emits balls of void that distort spacetime to inflict high damage.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 283,
+    "dmg_max": 330,
+    "atk_rate": 1,
+    "durability": 225,
+    "sell": 355,
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 25,
+        "amount_min": 25,
+        "amount_max": 25
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ],
+    "icon": "void_gun.webp"
+  },
+  {
+    "id": "corrupted_meteor_staff",
+    "name_en": "Corrupted Meteor Staff",
+    "name_ko": "오염된 메테오 지팡이",
+    "desc_en": "A weathered staff infused with cosmic corruption. It crackles with unfathomable energies and whispers of forbidden power.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "epic",
+    "level": 18,
+    "area": "Passage",
+    "area_ko": "통로",
+    "dmg_base": 949,
+    "dmg_max": 1049,
+    "atk_rate": 0.5,
+    "durability": 250,
+    "sell": 266,
+    "materials": [
+      {
+        "id": "PandoriumBar",
+        "name_en": "Pandorium Bar",
+        "name_ko": "판도리움 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "LavaSlime",
+        "name_en": "Magma Slime",
+        "name_ko": "마그마 슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ],
+    "icon": "corrupted_meteor_staff.webp"
+  },
+  {
+    "id": "flamethrower",
+    "name_en": "Flamethrower",
+    "name_ko": "화염방사기",
+    "desc_en": "A bulky tank attached to a hose spraying ignited fuel, ready to set the world ablaze.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 18,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "dmg_base": 69,
+    "dmg_max": 76,
+    "atk_rate": 5,
+    "durability": 875,
+    "sell": 333,
+    "materials": [
+      {
+        "id": "ReluciteBar",
+        "name_en": "Relucite Bar",
+        "name_ko": "렐루사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "CorruptedAlloy",
+        "name_en": "Corrupted Alloy",
+        "name_ko": "오염된 합금",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "flamethrower.webp"
+  },
+  {
+    "id": "scrap_minigun",
+    "name_en": "Scrap Minigun",
+    "name_ko": "고철 미니건",
+    "desc_en": "A gun-like apparatus that manages to convert disposable debris into a flurry of cutting missiles.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "rare",
+    "level": 18,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "dmg_base": 52,
+    "dmg_max": 57,
+    "atk_rate": 8,
+    "durability": 300,
+    "sell": 351,
+    "materials": [
+      {
+        "id": "ReluciteBar",
+        "name_en": "Relucite Bar",
+        "name_ko": "렐루사이트 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      },
+      {
+        "id": "PandoriumBar",
+        "name_en": "Pandorium Bar",
+        "name_ko": "판도리움 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "CorruptedAlloy",
+        "name_en": "Corrupted Alloy",
+        "name_ko": "오염된 합금",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "scrap_minigun.webp"
+  },
+  {
+    "id": "titan_breath",
+    "name_en": "Titan Breath",
+    "name_ko": "타이탄의 숨결",
+    "desc_en": "Wrought by restrained paradox, it inhales energy to exhale a controlled cut through the aether. Anything trapped within is overwhelmed by the distilled entropy.",
+    "damage_class": "magic",
+    "class_ko": "마법",
+    "rarity": "legendary",
+    "level": 18,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "dmg_base": 48,
+    "dmg_max": 53,
+    "atk_rate": 5,
+    "durability": "Infinite",
+    "sell": null,
+    "materials": [
+      {
+        "id": "LegendaryStaffPart1",
+        "name_en": "Coiled Branch",
+        "name_ko": "휘감긴 나뭇가지",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendaryStaffPart2",
+        "name_en": "Magma Rod",
+        "name_ko": "마그마 막대",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendaryStaffPart3",
+        "name_en": "Frozen Orb",
+        "name_ko": "얼어붙은 구슬",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "titan_breath.webp"
+  },
+  {
+    "id": "void_club",
+    "name_en": "Void Club",
+    "name_ko": "공허 곤봉",
+    "desc_en": "This club feels light when held, yet heavy when swung.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "rare",
+    "level": 18,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "dmg_base": 370,
+    "dmg_max": 409,
+    "atk_rate": 2.5,
+    "durability": 250,
+    "sell": 344,
+    "materials": [
+      {
+        "id": "ReluciteBar",
+        "name_en": "Relucite Bar",
+        "name_ko": "렐루사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "CorruptedAlloy",
+        "name_en": "Corrupted Alloy",
+        "name_ko": "오염된 합금",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ],
+    "icon": "void_club.webp"
+  },
+  {
+    "id": "stormbringer",
+    "name_en": "Stormbringer",
+    "name_ko": "폭풍을 부르는 자",
+    "desc_en": "Augmented by a mysterious energy, this weapon unleashes chaining arcs of lightning upon your foes. Holding it sends a tingling sensation through your arms.",
+    "damage_class": "melee",
+    "class_ko": "근접",
+    "rarity": "legendary",
+    "level": 19,
+    "area": "Passage",
+    "area_ko": "통로",
+    "dmg_base": 93,
+    "dmg_max": 97,
+    "atk_rate": 5,
+    "durability": "Infinite",
+    "sell": null,
+    "materials": [
+      {
+        "id": "PandoriumBar",
+        "name_en": "Pandorium Bar",
+        "name_ko": "판도리움 주괴",
+        "amount": 100,
+        "amount_min": 100,
+        "amount_max": 100
+      },
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 100,
+        "amount_min": 100,
+        "amount_max": 100
+      },
+      {
+        "id": "Cytoplasm",
+        "name_en": "Cytoplasm",
+        "name_ko": "세포질",
+        "amount": 50,
+        "amount_min": 50,
+        "amount_max": 50
+      },
+      {
+        "id": "LaserDrillTool",
+        "name_en": "Obliteration Ray",
+        "name_ko": "절멸 광선",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "stormbringer.webp"
+  },
+  {
+    "id": "credence_of_ruin",
+    "name_en": "Credence of Ruin",
+    "name_ko": "파멸의 신표",
+    "desc_en": "A relic born of cult devotion and void corruption. Forged from S.A.H.A.B.A.R.'s own frame and sanctified components of Breaker's Reach.",
+    "damage_class": "ranged",
+    "class_ko": "원거리",
+    "rarity": "legendary",
+    "level": 20,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "dmg_base": 30,
+    "dmg_max": 30,
+    "atk_rate": 1.7,
+    "durability": "Infinite",
+    "sell": null,
+    "materials": [
+      {
+        "id": "LegendaryMortarPart3",
+        "name_en": "S.A.H.A.B.A.R.'s Mortar Housing",
+        "name_ko": "S.A.H.A.B.A.R.의 박격포 하우징",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendaryMortarPart1",
+        "name_en": "Void-Forged Barrel",
+        "name_ko": "공허로 단조된 총열",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LegendaryMortarPart2",
+        "name_en": "Sanctified Firing Core",
+        "name_ko": "축성된 격발 코어",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ],
+    "icon": "credence_of_ruin.webp"
+  }
+]

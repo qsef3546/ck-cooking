@@ -140,9 +140,64 @@ body {
 .site-foot a { color: var(--muted); }
 .site-foot a:hover { color: var(--amber); }
 
+/* ── 상위 섹션 탭 (요리 / 무기) ── */
+.sectabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.sectab {
+  background: var(--panel); border: 2px solid var(--border); border-radius: 11px;
+  color: var(--muted); font-size: 15px; font-weight: 700; font-family: inherit;
+  padding: 9px 18px; cursor: pointer;
+}
+.sectab:hover:not(.on) { border-color: var(--border-lit); color: var(--text); }
+.sectab.on { background: var(--amber); color: #1a130a; border-color: var(--amber); }
+
+/* ── 무기 도감 ── */
+.wgrid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px; margin-top: 6px;
+}
+.wcard {
+  background: var(--panel); border: 2px solid var(--border); border-radius: 13px;
+  padding: 13px 14px; display: flex; flex-direction: column; gap: 9px;
+}
+.wcard-head { display: flex; align-items: center; gap: 10px; }
+.wic { image-rendering: pixelated; flex: none; }
+.wic-ph { display: inline-block; background: #0000; border: 1px dashed var(--border); border-radius: 6px; flex: none; }
+.wcard-title { min-width: 0; flex: 1; }
+.wcard-name { font-weight: 800; font-size: 16px; letter-spacing: -.3px; }
+.wcard-en { color: var(--dim); font-size: 11.5px; }
+.wcard-lv {
+  flex: none; background: #0000; border: 1.5px solid var(--border-lit); color: var(--amber);
+  border-radius: 8px; padding: 2px 8px; font-size: 12px; font-weight: 700; white-space: nowrap;
+}
+.wcard-badges { display: flex; gap: 6px; }
+.wbadge {
+  display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 700;
+  border: 1.5px solid; border-radius: 7px; padding: 2px 8px;
+}
+.wstats {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px;
+  background: #00000026; border-radius: 9px; padding: 8px 10px;
+}
+.wstat { display: flex; justify-content: space-between; font-size: 12.5px; }
+.wstat span { color: var(--muted); }
+.wstat b { color: var(--text); font-weight: 700; }
+.wstat em { color: var(--dim); font-style: normal; font-weight: 600; font-size: 11px; }
+.wdesc { color: var(--muted); font-size: 12px; font-style: italic; line-height: 1.5; }
+.wcraft { border-top: 1px solid var(--border); padding-top: 9px; }
+.wcraft-h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.wcraft-label { font-size: 12px; font-weight: 700; color: var(--muted); }
+.warea { font-size: 11.5px; color: #8ee0ff; background: #8ee0ff1a; border-radius: 6px; padding: 2px 7px; }
+.wmats { display: flex; flex-wrap: wrap; gap: 5px; }
+.wmat {
+  font-size: 12px; background: #0000; border: 1.5px solid var(--border-lit);
+  border-radius: 7px; padding: 2px 8px; color: var(--text);
+}
+.wmat b { color: var(--amber); font-weight: 700; }
+
 @media (max-width: 640px) {
   .row { grid-template-columns: 1fr; }
   .eq { text-align: left; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
   .reslabel { margin-left: 0; width: 100%; }
+  .wgrid { grid-template-columns: 1fr; }
 }

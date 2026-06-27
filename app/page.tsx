@@ -5,6 +5,7 @@ import { supabase } from "@/lib/supabaseClient";
 import { allCombos, buffLabel, buffValText, CAT_COLOR, RARITY } from "@/lib/combine";
 import type { Ingredient, Combo } from "@/lib/types";
 import ICONS from "@/public/icons/manifest.json";
+import Weapons from "./Weapons";
 
 const iconSrc = (id: string): string | undefined => (ICONS as Record<string, string>)[id];
 
@@ -51,6 +52,7 @@ function pageList(cur: number, total: number): (number | "…")[] {
 }
 
 export default function Page() {
+  const [section, setSection] = useState<"cook" | "weapon">("cook");
   const [items, setItems] = useState<Ingredient[]>([]);
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState<string | null>(null);
@@ -116,24 +118,32 @@ export default function Page() {
     setMode(m); setSel(""); setCat(""); setQ(""); setSort("default");
   }
 
-  if (loading) return <main className="wrap"><p className="muted pad">불러오는 중…</p></main>;
-  if (err)
-    return (
-      <main className="wrap">
-        <h1 className="title">코어 키퍼 요리 도감</h1>
-        <p className="error">데이터를 불러오지 못했습니다: {err}</p>
-      </main>
-    );
-
   return (
     <main className="wrap">
       <header className="top">
         <div>
-          <h1 className="title">코어 키퍼 요리 도감</h1>
-          <p className="sub">재료1 + 재료2 = 완성 요리 · 효과 · 획득처 · 총 {combos.length.toLocaleString()} 조합</p>
+          <h1 className="title">코어 키퍼 도감</h1>
+          <p className="sub">
+            {section === "cook"
+              ? `재료1 + 재료2 = 완성 요리 · 효과 · 획득처 · 총 ${combos.length.toLocaleString()} 조합`
+              : "무기 · 등급 · 공격력 · 제작 재료 · 파밍 지역"}
+          </p>
         </div>
       </header>
 
+      <div className="sectabs">
+        <button className={"sectab" + (section === "cook" ? " on" : "")} onClick={() => setSection("cook")}>🍳 요리</button>
+        <button className={"sectab" + (section === "weapon" ? " on" : "")} onClick={() => setSection("weapon")}>⚔️ 무기</button>
+      </div>
+
+      {section === "weapon" && <Weapons />}
+
+      {section === "cook" && loading && <p className="muted pad">불러오는 중…</p>}
+      {section === "cook" && !loading && err && (
+        <p className="error">데이터를 불러오지 못했습니다: {err}</p>
+      )}
+      {section === "cook" && !loading && !err && (
+      <>
       <div className="tabs">
         <button className={"tab" + (mode === "ingredient" ? " on" : "")} onClick={() => switchMode("ingredient")}>
           재료로 찾기
@@ -203,6 +213,8 @@ export default function Page() {
           )}
           {!cat && <p className="muted pad">위에서 효과를 선택하세요.</p>}
         </>
+      )}
+      </>
       )}
     </main>
   );
