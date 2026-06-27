@@ -1,0 +1,2892 @@
+[
+  {
+    "id": "large_watering_can",
+    "name_en": "Large Watering Can",
+    "name_ko": "큰 물뿌리개 통",
+    "desc_en": "Used to water seeds and soil. It holds more water than a regular watering can and covers an area of up to 2x2 tiles.",
+    "subtype": "WaterCan",
+    "subtype_ko": "물뿌리개",
+    "rarity": "common",
+    "level": null,
+    "area": null,
+    "area_ko": null,
+    "sell": 63,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "watering_can",
+    "name_en": "Watering Can",
+    "name_ko": "물뿌리개 통",
+    "desc_en": "Used to water seeds and soil.",
+    "subtype": "WaterCan",
+    "subtype_ko": "물뿌리개",
+    "rarity": "common",
+    "level": null,
+    "area": null,
+    "area_ko": null,
+    "sell": 5,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "wood_pickaxe",
+    "name_en": "Wood Pickaxe",
+    "name_ko": "나무 곡괭이",
+    "desc_en": "A crude tool, useful for breaking down walls.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "common",
+    "level": 1,
+    "area": "StartArea",
+    "area_ko": "시작 지역(흙 비옴)",
+    "sell": 1,
+    "durability": 200,
+    "dmg_base": 18,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 15,
+        "max": 900
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "wood_shovel",
+    "name_en": "Wood Shovel",
+    "name_ko": "나무 삽",
+    "desc_en": "A crude shovel, useful for digging up ground.",
+    "subtype": "Shovel",
+    "subtype_ko": "삽",
+    "rarity": "common",
+    "level": 1,
+    "area": "StartArea",
+    "area_ko": "시작 지역(흙 비옴)",
+    "sell": 1,
+    "durability": 100,
+    "dmg_base": 15,
+    "conditions": [
+      {
+        "id": "DiggingIncrease",
+        "label": "굴착",
+        "unit": "",
+        "base": 20,
+        "max": 246
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "wooden_hoe",
+    "name_en": "Wooden Hoe",
+    "name_ko": "나무 괭이",
+    "desc_en": "A crude tool to prepare ground for farming.",
+    "subtype": "Hoe",
+    "subtype_ko": "괭이",
+    "rarity": "common",
+    "level": 1,
+    "area": "StartArea",
+    "area_ko": "시작 지역(흙 비옴)",
+    "sell": 1,
+    "durability": 50,
+    "dmg_base": 19,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "copper_hoe",
+    "name_en": "Copper Hoe",
+    "name_ko": "구리 괭이",
+    "desc_en": "A sturdy tool to prepare ground for farming. Covers an area of up to 2x2 tiles.",
+    "subtype": "Hoe",
+    "subtype_ko": "괭이",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 3,
+    "durability": 250,
+    "dmg_base": 28,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "copper_pickaxe",
+    "name_en": "Copper Pickaxe",
+    "name_ko": "구리 곡괭이",
+    "desc_en": "A sturdy tool, well-suited for breaking down walls effortlessly.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 3,
+    "durability": 400,
+    "dmg_base": 28,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 42,
+        "max": 1366
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "copper_shovel",
+    "name_en": "Copper Shovel",
+    "name_ko": "구리 삽",
+    "desc_en": "A sturdy shovel, good for digging up ground.",
+    "subtype": "Shovel",
+    "subtype_ko": "삽",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 3,
+    "durability": 240,
+    "dmg_base": 22,
+    "conditions": [
+      {
+        "id": "DiggingIncrease",
+        "label": "굴착",
+        "unit": "",
+        "base": 30,
+        "max": 252
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "copper_sledge_hammer",
+    "name_en": "Copper Sledge Hammer",
+    "name_ko": "Copper Sledge Hammer",
+    "desc_en": "A good weapon for smashing foes and walls.",
+    "subtype": "Sledge",
+    "subtype_ko": "슬레지해머",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 4,
+    "durability": 200,
+    "dmg_base": 17,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 23,
+        "max": 746
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "miner_backpack",
+    "name_en": "Miner Backpack",
+    "name_ko": "Miner Backpack",
+    "desc_en": "Every underground miner needs one of those!",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 6,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 5,
+        "max": 45
+      },
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 20,
+        "max": 57
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "small_backpack",
+    "name_en": "Small Backpack",
+    "name_ko": "Small Backpack",
+    "desc_en": "A simple backpack, made from smoothened bark.",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 3,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 6,
+        "max": 58
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "small_lantern",
+    "name_en": "Small Lantern",
+    "name_ko": "작은 랜턴",
+    "desc_en": "A weak light to attach to your belt.",
+    "subtype": "Lantern",
+    "subtype_ko": "랜턴",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 7,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "OrangeGlow",
+        "label": "주황 발광",
+        "unit": "",
+        "base": 3,
+        "max": 8
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "wood_fishing_rod",
+    "name_en": "Wood Fishing Rod",
+    "name_ko": "나무 낚시 낚싯대",
+    "desc_en": "A crude tool for pulling up fish.",
+    "subtype": "FishingRod",
+    "subtype_ko": "낚싯대",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 1,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 21,
+        "max": 206
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "garden_trowel",
+    "name_en": "Garden Trowel",
+    "name_ko": "Garden Trowel",
+    "desc_en": "A useful tool that makes planting seeds a breeze. Covers an area of up to 2x2 tiles.",
+    "subtype": "Seeder",
+    "subtype_ko": "파종기",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 34,
+    "durability": 250,
+    "dmg_base": 37,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "small_fish_pouch",
+    "name_en": "Small Fish Pouch",
+    "name_ko": "Small Fish Pouch",
+    "desc_en": "A small pouch made exclusively for fish, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 7,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "small_ore_and_block_pouch",
+    "name_en": "Small Ore and Block Pouch",
+    "name_ko": "Small Ore and Block Pouch",
+    "desc_en": "A small pouch made exclusively for ores and blocks, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 7,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "small_seed_and_crop_pouch",
+    "name_en": "Small Seed and Crop Pouch",
+    "name_ko": "Small Seed and Crop Pouch",
+    "desc_en": "A small pouch made exclusively for seeds and crops, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 7,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "small_valuable_pouch",
+    "name_en": "Small Valuable Pouch",
+    "name_ko": "Small Valuable Pouch",
+    "desc_en": "A small pouch made exclusively for valuables, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 7,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "bug_net",
+    "name_en": "Bug Net",
+    "name_ko": "곤충 망",
+    "desc_en": "This handy tool allows you to catch tiny critters instead of accidentally stepping on them.",
+    "subtype": "BugNet",
+    "subtype_ko": "곤충망",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 9,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "hand_drill",
+    "name_en": "Hand Drill",
+    "name_ko": "Hand Drill",
+    "desc_en": "A powerfull tool to cut through weaker walls like butter.",
+    "subtype": "DrillTool",
+    "subtype_ko": "드릴",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 7,
+    "durability": 250,
+    "dmg_base": 20,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 85,
+        "max": 1167
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "medium_fish_pouch",
+    "name_en": "Medium Fish Pouch",
+    "name_ko": "Medium Fish Pouch",
+    "desc_en": "A medium pouch made exclusively for fish, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "rare",
+    "level": 4,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 40,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "medium_ore_and_block_pouch",
+    "name_en": "Medium Ore and Block Pouch",
+    "name_ko": "Medium Ore and Block Pouch",
+    "desc_en": "A medium pouch made exclusively for ores and blocks, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "rare",
+    "level": 4,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 47,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "medium_seed_and_crop_pouch",
+    "name_en": "Medium Seed and Crop Pouch",
+    "name_ko": "Medium Seed and Crop Pouch",
+    "desc_en": "A medium pouch made exclusively for seeds and crops, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "rare",
+    "level": 4,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 46,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "medium_valuable_pouch",
+    "name_en": "Medium Valuable Pouch",
+    "name_ko": "Medium Valuable Pouch",
+    "desc_en": "A medium pouch made exclusively for valuables, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "rare",
+    "level": 4,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 41,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "tin_fishing_rod",
+    "name_en": "Tin Fishing Rod",
+    "name_ko": "주석 낚시 낚싯대",
+    "desc_en": "A durable tool for pulling up bigger fish.",
+    "subtype": "FishingRod",
+    "subtype_ko": "낚싯대",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 5,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 74,
+        "max": 368
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "tin_hoe",
+    "name_en": "Tin Hoe",
+    "name_ko": "주석 괭이",
+    "desc_en": "A durable tool to prepare ground for farming. Covers an area of up to 3x3 tiles.",
+    "subtype": "Hoe",
+    "subtype_ko": "괭이",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 4,
+    "durability": 150,
+    "dmg_base": 46,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "tin_pickaxe",
+    "name_en": "Tin Pickaxe",
+    "name_ko": "주석 곡괭이",
+    "desc_en": "A durable tool, good for breaking down walls more easily.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 4,
+    "durability": 550,
+    "dmg_base": 44,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 83,
+        "max": 1144
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "tin_shovel",
+    "name_en": "Tin Shovel",
+    "name_ko": "주석 삽",
+    "desc_en": "A durable shovel, well-suited for digging up ground. Covers an area of up to 2x2 tiles.",
+    "subtype": "Shovel",
+    "subtype_ko": "삽",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 4,
+    "durability": 320,
+    "dmg_base": 36,
+    "conditions": [
+      {
+        "id": "DiggingIncrease",
+        "label": "굴착",
+        "unit": "",
+        "base": 41,
+        "max": 206
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "tin_sledge_hammer",
+    "name_en": "Tin Sledge Hammer",
+    "name_ko": "Tin Sledge Hammer",
+    "desc_en": "A bulky weapon for smashing foes and walls.",
+    "subtype": "Sledge",
+    "subtype_ko": "슬레지해머",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 5,
+    "durability": 300,
+    "dmg_base": 29,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 48,
+        "max": 657
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "explorer_backpack",
+    "name_en": "Explorer Backpack",
+    "name_ko": "Explorer Backpack",
+    "desc_en": "A simple backpack made for traveling the underground caves. Holds quite a few items.",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 17,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 43,
+        "max": 92
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "large_fish_pouch",
+    "name_en": "Large Fish Pouch",
+    "name_ko": "Large Fish Pouch",
+    "desc_en": "A large pouch made exclusively for fish, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "epic",
+    "level": 5,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 87,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "large_ore_and_block_pouch",
+    "name_en": "Large Ore and Block Pouch",
+    "name_ko": "Large Ore and Block Pouch",
+    "desc_en": "A large pouch made exclusively for ores and blocks, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "epic",
+    "level": 5,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 78,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "large_seed_and_crop_pouch",
+    "name_en": "Large Seed and Crop Pouch",
+    "name_ko": "Large Seed and Crop Pouch",
+    "desc_en": "A large pouch made exclusively for seeds and crops, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "epic",
+    "level": 5,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 81,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "large_valuable_pouch",
+    "name_en": "Large Valuable Pouch",
+    "name_ko": "Large Valuable Pouch",
+    "desc_en": "A large pouch made exclusively for valuables, with dedicated slots that auto-sort items as you gather them.",
+    "subtype": "Pouch",
+    "subtype_ko": "주머니",
+    "rarity": "epic",
+    "level": 5,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 88,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "iron_fishing_rod",
+    "name_en": "Iron Fishing Rod",
+    "name_ko": "철 낚시 낚싯대",
+    "desc_en": "A strong tool for pulling up rare fish.",
+    "subtype": "FishingRod",
+    "subtype_ko": "낚싯대",
+    "rarity": "common",
+    "level": 6,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 39,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 126,
+        "max": 418
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "iron_hoe",
+    "name_en": "Iron Hoe",
+    "name_ko": "철 괭이",
+    "desc_en": "A strong tool to prepare ground for farming. Covers an area of up to 4x4 tiles.",
+    "subtype": "Hoe",
+    "subtype_ko": "괭이",
+    "rarity": "common",
+    "level": 6,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 38,
+    "durability": 250,
+    "dmg_base": 63,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "iron_pickaxe",
+    "name_en": "Iron Pickaxe",
+    "name_ko": "철 곡괭이",
+    "desc_en": "A strong tool, excellent for breaking down harder walls.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "common",
+    "level": 6,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 33,
+    "durability": 800,
+    "dmg_base": 64,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 180,
+        "max": 1386
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "iron_shovel",
+    "name_en": "Iron Shovel",
+    "name_ko": "철 삽",
+    "desc_en": "A strong shovel, excellent for digging up ground. Covers an area of up to 2x2 tiles.",
+    "subtype": "Shovel",
+    "subtype_ko": "삽",
+    "rarity": "common",
+    "level": 6,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 36,
+    "durability": 450,
+    "dmg_base": 53,
+    "conditions": [
+      {
+        "id": "DiggingIncrease",
+        "label": "굴착",
+        "unit": "",
+        "base": 66,
+        "max": 235
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "iron_sledge_hammer",
+    "name_en": "Iron Sledge Hammer",
+    "name_ko": "Iron Sledge Hammer",
+    "desc_en": "A strong weapon for smashing foes and walls.",
+    "subtype": "Sledge",
+    "subtype_ko": "슬레지해머",
+    "rarity": "common",
+    "level": 6,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 31,
+    "durability": 400,
+    "dmg_base": 40,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 110,
+        "max": 849
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "lantern",
+    "name_en": "Lantern",
+    "name_ko": "랜턴",
+    "desc_en": "A small, useful light that leaves your hands free.",
+    "subtype": "Lantern",
+    "subtype_ko": "랜턴",
+    "rarity": "common",
+    "level": 6,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 35,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "OrangeGlow",
+        "label": "주황 발광",
+        "unit": "",
+        "base": 4,
+        "max": 8
+      },
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 9,
+        "max": 29
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "pumpkin_lantern",
+    "name_en": "Pumpkin Lantern",
+    "name_ko": "Pumpkin Lantern",
+    "desc_en": "A scary, yet cozy lantern carved from a fruit. Don't smash it, it brings bad luck.",
+    "subtype": "Lantern",
+    "subtype_ko": "랜턴",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 107,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "OrangeGlow",
+        "label": "주황 발광",
+        "unit": "",
+        "base": 4,
+        "max": 8
+      },
+      {
+        "id": "HealOverTime",
+        "label": "지속 회복",
+        "unit": "",
+        "base": 5,
+        "max": 18
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "ghorms_stomach_backpack",
+    "name_en": "Ghorm's Stomach Backpack",
+    "name_ko": "Ghorm's Stomach Backpack",
+    "desc_en": "A well-preserved stomach portion of the Devourer, comes with two handy straps.",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "rare",
+    "level": 8,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 13,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 30,
+        "max": 75
+      }
+    ],
+    "materials": [
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "roofing_gadget",
+    "name_en": "Roofing Gadget",
+    "name_ko": "Roofing Gadget",
+    "desc_en": "This strange gauntlet can create or remove a roof light on a tile you are facing; yet, it cannot aid in your escape. Covers an area of up to 3x3 tiles.",
+    "subtype": "RoofingTool",
+    "subtype_ko": "지붕 도구",
+    "rarity": "common",
+    "level": 8,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 141,
+    "durability": 200,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Plank",
+        "name_en": "Plank",
+        "name_ko": "판자",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "orb_lantern",
+    "name_en": "Orb Lantern",
+    "name_ko": "Orb Lantern",
+    "desc_en": "A better, brighter source of light to attach to your belt.",
+    "subtype": "Lantern",
+    "subtype_ko": "랜턴",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 95,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "OrangeGlow",
+        "label": "주황 발광",
+        "unit": "",
+        "base": 5,
+        "max": 8
+      },
+      {
+        "id": "MiningPercentageIncrease",
+        "label": "채광 피해",
+        "unit": "%",
+        "base": 9,
+        "max": 20
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "scarlet_fishing_rod",
+    "name_en": "Scarlet Fishing Rod",
+    "name_ko": "진홍 낚시 낚싯대",
+    "desc_en": "A great tool for pulling up very resistant fish.",
+    "subtype": "FishingRod",
+    "subtype_ko": "낚싯대",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 83,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 169,
+        "max": 375
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      }
+    ]
+  },
+  {
+    "id": "scarlet_hand_drill",
+    "name_en": "Scarlet Hand Drill",
+    "name_ko": "Scarlet Hand Drill",
+    "desc_en": "A powered up hand drill, ready to tear down stronger walls without struggle.",
+    "subtype": "DrillTool",
+    "subtype_ko": "드릴",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 206,
+    "durability": 250,
+    "dmg_base": 42,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 327,
+        "max": 1315
+      },
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 83,
+        "max": 137
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "scarlet_hoe",
+    "name_en": "Scarlet Hoe",
+    "name_ko": "진홍 괭이",
+    "desc_en": "An excellent tool to prepare ground for farming. Covers an area of up to 5x5 tiles.",
+    "subtype": "Hoe",
+    "subtype_ko": "괭이",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 75,
+    "durability": 250,
+    "dmg_base": 91,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "scarlet_pickaxe",
+    "name_en": "Scarlet Pickaxe",
+    "name_ko": "진홍 곡괭이",
+    "desc_en": "A great tool for breaking down extremely hard walls.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 66,
+    "durability": 800,
+    "dmg_base": 85,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 289,
+        "max": 1163
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "scarlet_shovel",
+    "name_en": "Scarlet Shovel",
+    "name_ko": "진홍 삽",
+    "desc_en": "A very robust shovel, exceptional at digging up ground. Covers an area of up to 3x3 tiles.",
+    "subtype": "Shovel",
+    "subtype_ko": "삽",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 80,
+    "durability": 550,
+    "dmg_base": 76,
+    "conditions": [
+      {
+        "id": "DiggingIncrease",
+        "label": "굴착",
+        "unit": "",
+        "base": 94,
+        "max": 236
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "scarlet_sledge_hammer",
+    "name_en": "Scarlet Sledge Hammer",
+    "name_ko": "Scarlet Sledge Hammer",
+    "desc_en": "A great weapon for smashing foes and walls.",
+    "subtype": "Sledge",
+    "subtype_ko": "슬레지해머",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 80,
+    "durability": 450,
+    "dmg_base": 59,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 201,
+        "max": 808
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      },
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "scarlet_shell_backpack",
+    "name_en": "Scarlet Shell Backpack",
+    "name_ko": "Scarlet Shell Backpack",
+    "desc_en": "A hard-case backpack with lots of space and additional protection.",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 124,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 15,
+        "max": 31
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 14,
+        "max": 27
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "Wool",
+        "name_en": "Wool",
+        "name_ko": "Wool",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "RolyPolyPlate",
+        "name_en": "Strolly Poly Plate",
+        "name_ko": "Strolly Poly Plate",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "ancient_pickaxe",
+    "name_en": "Ancient Pickaxe",
+    "name_ko": "고대 곡괭이",
+    "desc_en": "Great architects of the lost civilization must have used this to take down almost any wall in their way.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "epic",
+    "level": 11,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 146,
+    "durability": 800,
+    "dmg_base": 108,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 385,
+        "max": 1106
+      },
+      {
+        "id": "MiningSpeedIncrease",
+        "label": "채광 속도",
+        "unit": "%",
+        "base": 91,
+        "max": 142
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 12,
+        "amount_min": 12,
+        "amount_max": 12
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "octarine_shovel",
+    "name_en": "Octarine Shovel",
+    "name_ko": "옥타린 삽",
+    "desc_en": "An incredibly versatile shovel, unmatched at digging up ground. Covers an area of up to 3x3 tiles.",
+    "subtype": "Shovel",
+    "subtype_ko": "삽",
+    "rarity": "uncommon",
+    "level": 11,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 121,
+    "durability": 650,
+    "dmg_base": 90,
+    "conditions": [
+      {
+        "id": "DiggingIncrease",
+        "label": "굴착",
+        "unit": "",
+        "base": 165,
+        "max": 258
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "morphas_bubble_bag",
+    "name_en": "Morpha's Bubble Bag",
+    "name_ko": "Morpha's Bubble Bag",
+    "desc_en": "An elastic bag with lots of space that formed from one of Morpha's outer growths.",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 44,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 47,
+        "max": 65
+      },
+      {
+        "id": "MiningPercentageIncrease",
+        "label": "채광 피해",
+        "unit": "%",
+        "base": 12,
+        "max": 20
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      },
+      {
+        "id": "SlipperySlime",
+        "name_en": "Slippery Slime",
+        "name_ko": "미끌 슬라임",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ]
+  },
+  {
+    "id": "octarine_backpack",
+    "name_en": "Octarine Backpack",
+    "name_ko": "Octarine Backpack",
+    "desc_en": "A strange backpack that has more space inside than it looks like from the outside.",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 266,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MagicBarrier",
+        "label": "마법 보호막",
+        "unit": "",
+        "base": 13,
+        "max": 21
+      },
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 3,
+        "max": 5
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "Wool",
+        "name_en": "Wool",
+        "name_ko": "Wool",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ]
+  },
+  {
+    "id": "octarine_fishing_rod",
+    "name_en": "Octarine Fishing Rod",
+    "name_ko": "옥타린 낚시 낚싯대",
+    "desc_en": "An extraordinary tool for pulling up deep sea fish.",
+    "subtype": "FishingRod",
+    "subtype_ko": "낚싯대",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 96,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 202,
+        "max": 337
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 9,
+        "amount_min": 9,
+        "amount_max": 9
+      }
+    ]
+  },
+  {
+    "id": "octarine_garden_trowel",
+    "name_en": "Octarine Garden Trowel",
+    "name_ko": "Octarine Garden Trowel",
+    "desc_en": "Made with ingenious engineering, this trowel is efficient enough to feed a village. Covers an area of up to 5x5 tiles.",
+    "subtype": "Seeder",
+    "subtype_ko": "파종기",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 112,
+    "durability": 250,
+    "dmg_base": 119,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 11,
+        "amount_min": 11,
+        "amount_max": 11
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 11,
+        "amount_min": 11,
+        "amount_max": 11
+      }
+    ]
+  },
+  {
+    "id": "octarine_pickaxe",
+    "name_en": "Octarine Pickaxe",
+    "name_ko": "옥타린 곡괭이",
+    "desc_en": "An extraordinary tool for breaking down compact walls.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 137,
+    "durability": 800,
+    "dmg_base": 110,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 417,
+        "max": 1034
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 12,
+        "amount_min": 12,
+        "amount_max": 12
+      }
+    ]
+  },
+  {
+    "id": "octarine_sledge_hammer",
+    "name_en": "Octarine Sledge Hammer",
+    "name_ko": "Octarine Sledge Hammer",
+    "desc_en": "An extraordinary weapon for smashing foes and walls.",
+    "subtype": "Sledge",
+    "subtype_ko": "슬레지해머",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 155,
+    "durability": 500,
+    "dmg_base": 76,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 318,
+        "max": 787
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 13,
+        "amount_min": 13,
+        "amount_max": 13
+      },
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "pearl_lantern",
+    "name_en": "Pearl Lantern",
+    "name_ko": "Pearl Lantern",
+    "desc_en": "A shimmering blue pearl in a scallop that illuminates your path above the dark depths of the sea.",
+    "subtype": "Lantern",
+    "subtype_ko": "랜턴",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 103,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 5,
+        "max": 8
+      },
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 70,
+        "max": 98
+      },
+      {
+        "id": "IncreasedManaRegen",
+        "label": "마나 재생",
+        "unit": "",
+        "base": 16,
+        "max": 26
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "SlipperySlime",
+        "name_en": "Slippery Slime",
+        "name_ko": "미끌 슬라임",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "soul_lantern",
+    "name_en": "Soul Lantern",
+    "name_ko": "Soul Lantern",
+    "desc_en": "A vessel with a hot, oil-like substance within.",
+    "subtype": "Lantern",
+    "subtype_ko": "랜턴",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 91,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 6,
+        "max": 8
+      },
+      {
+        "id": "IncreasedMinionAttackSpeed",
+        "label": "소환수 공격 속도",
+        "unit": "%",
+        "base": 321,
+        "max": 535
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "SlipperySlime",
+        "name_en": "Slippery Slime",
+        "name_ko": "미끌 슬라임",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "galaxite_fishing_rod",
+    "name_en": "Galaxite Fishing Rod",
+    "name_ko": "갤럭사이트 낚시 낚싯대",
+    "desc_en": "An otherworldly tool for pulling up rare fish. Able to withstand great heat.",
+    "subtype": "FishingRod",
+    "subtype_ko": "낚싯대",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 205,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 246,
+        "max": 351
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralPlank",
+        "name_en": "Coral Wood Plank",
+        "name_ko": "Coral Wood Plank",
+        "amount": 17,
+        "amount_min": 17,
+        "amount_max": 17
+      },
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 17,
+        "amount_min": 17,
+        "amount_max": 17
+      }
+    ]
+  },
+  {
+    "id": "galaxite_pickaxe",
+    "name_en": "Galaxite Pickaxe",
+    "name_ko": "갤럭사이트 곡괭이",
+    "desc_en": "An otherworldly tool for breaking down exceptionally hard walls.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 251,
+    "durability": 800,
+    "dmg_base": 126,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 576,
+        "max": 1093
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralPlank",
+        "name_en": "Coral Wood Plank",
+        "name_ko": "Coral Wood Plank",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ]
+  },
+  {
+    "id": "galaxite_shovel",
+    "name_en": "Galaxite Shovel",
+    "name_ko": "갤럭사이트 삽",
+    "desc_en": "An otherworldly shovel, outstanding at digging up ground. Covers an area of up to 3x3 tiles.",
+    "subtype": "Shovel",
+    "subtype_ko": "삽",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 227,
+    "durability": 650,
+    "dmg_base": 111,
+    "conditions": [
+      {
+        "id": "DiggingIncrease",
+        "label": "굴착",
+        "unit": "",
+        "base": 201,
+        "max": 265
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralPlank",
+        "name_en": "Coral Wood Plank",
+        "name_ko": "Coral Wood Plank",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      },
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      }
+    ]
+  },
+  {
+    "id": "galaxite_sledge_hammer",
+    "name_en": "Galaxite Sledge Hammer",
+    "name_ko": "Galaxite Sledge Hammer",
+    "desc_en": "An otherworldly weapon for smashing foes and walls.",
+    "subtype": "Sledge",
+    "subtype_ko": "슬레지해머",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 242,
+    "durability": 600,
+    "dmg_base": 87,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 437,
+        "max": 828
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 21,
+        "amount_min": 21,
+        "amount_max": 21
+      }
+    ]
+  },
+  {
+    "id": "scholar_backpack",
+    "name_en": "Scholar Backpack",
+    "name_ko": "Scholar Backpack",
+    "desc_en": "Has the comforting smell of musty old books.",
+    "subtype": "Bag",
+    "subtype_ko": "가방",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 117,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxMana",
+        "label": "최대 마나",
+        "unit": "",
+        "base": 25,
+        "max": 31
+      },
+      {
+        "id": "IncreasedMagicDamagePercentage",
+        "label": "마법 피해",
+        "unit": "%",
+        "base": 154,
+        "max": 189
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "solarite_fishing_rod",
+    "name_en": "Solarite Fishing Rod",
+    "name_ko": "솔라라이트 낚시 낚싯대",
+    "desc_en": "A superior tool for pulling up elusive fish.",
+    "subtype": "FishingRod",
+    "subtype_ko": "낚싯대",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 211,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 287,
+        "max": 359
+      }
+    ],
+    "materials": [
+      {
+        "id": "GleamWoodPlank",
+        "name_en": "Gleam Wood Plank",
+        "name_ko": "Gleam Wood Plank",
+        "amount": 17,
+        "amount_min": 17,
+        "amount_max": 17
+      },
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 17,
+        "amount_min": 17,
+        "amount_max": 17
+      }
+    ]
+  },
+  {
+    "id": "solarite_pickaxe",
+    "name_en": "Solarite Pickaxe",
+    "name_ko": "솔라라이트 곡괭이",
+    "desc_en": "A superior tool for breaking down perplexingly hard walls.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 202,
+    "durability": 800,
+    "dmg_base": 143,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 735,
+        "max": 1099
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "GleamWood",
+        "name_en": "Gleam Wood",
+        "name_ko": "빛나무 목재",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ]
+  },
+  {
+    "id": "soul_seeker",
+    "name_en": "Soul Seeker",
+    "name_ko": "Soul Seeker",
+    "desc_en": "A successor prototype to the Ancient Pickaxe that had been left unfinished before. In the fires of the Ancient Forge it was now finally completed.",
+    "subtype": "MiningPick",
+    "subtype_ko": "곡괭이",
+    "rarity": "legendary",
+    "level": 16,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": null,
+    "durability": "Infinite",
+    "dmg_base": 153,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 769,
+        "max": 1150
+      },
+      {
+        "id": "MiningSpeedIncrease",
+        "label": "채광 속도",
+        "unit": "%",
+        "base": 97,
+        "max": 116
+      },
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 3,
+        "max": 3
+      },
+      {
+        "id": "ChanceForOreOnMiningWall",
+        "label": "벽 채광 광석 확률",
+        "unit": "%",
+        "base": 15,
+        "max": 19
+      }
+    ],
+    "materials": [
+      {
+        "id": "AncientMiningPick",
+        "name_en": "Ancient Pickaxe",
+        "name_ko": "Ancient Pickaxe",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 400,
+        "amount_min": 400,
+        "amount_max": 400
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 800,
+        "amount_min": 800,
+        "amount_max": 800
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 800,
+        "amount_min": 800,
+        "amount_max": 800
+      },
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 800,
+        "amount_min": 800,
+        "amount_max": 800
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 100,
+        "amount_min": 100,
+        "amount_max": 100
+      }
+    ]
+  }
+]

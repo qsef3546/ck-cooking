@@ -1,0 +1,6516 @@
+[
+  {
+    "id": "copper_cross_necklace",
+    "name_en": "Copper Cross Necklace",
+    "name_ko": "Copper Cross Necklace",
+    "desc_en": "This pendant sharpens the focus, allowing for more precise hits.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 10,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 4,
+        "max": 18
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "wooden_shield",
+    "name_en": "Wooden Shield",
+    "name_ko": "나무 방패",
+    "desc_en": "A useful off-hand item to block hits from enemies.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "common",
+    "level": 2,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 5,
+    "durability": 100,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "Shield",
+        "label": "막기",
+        "unit": "%",
+        "base": 70,
+        "max": 70
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 6,
+        "max": 43
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "cave_guppy_necklace",
+    "name_en": "Cave Guppy Necklace",
+    "name_ko": "Cave Guppy Necklace",
+    "desc_en": "Odd necklace made from a fish that never let go of the hook.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 9,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 5,
+        "max": 16
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "ring_of_stone",
+    "name_en": "Ring of Stone",
+    "name_ko": "Ring of Stone",
+    "desc_en": "Simple ring carved out of stone.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 3,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 7,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 14,
+        "max": 276
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "glowing_lure",
+    "name_en": "Glowing Lure",
+    "name_ko": "Glowing Lure",
+    "desc_en": "A luminous type of lure that increases the chance of pulling up loot.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 2,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedChanceToGetFishLoot",
+        "label": "낚시 전리품 확률",
+        "unit": "%",
+        "base": 10,
+        "max": 27
+      }
+    ],
+    "materials": [
+      {
+        "id": "GlowingTulipFlower",
+        "name_en": "Glow Tulip",
+        "name_ko": "Glow Tulip",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "spicy_lure",
+    "name_en": "Spicy Lure",
+    "name_ko": "Spicy Lure",
+    "desc_en": "A well-seasoned type of lure that attracts fish and other things more quickly.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 2,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "FishBitesFaster",
+        "label": "입질 속도",
+        "unit": "%",
+        "base": 9,
+        "max": 26
+      }
+    ],
+    "materials": [
+      {
+        "id": "BombPepper",
+        "name_en": "Bomb Pepper",
+        "name_ko": "Bomb Pepper",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "CritterBeetle",
+        "name_en": "Blackbug",
+        "name_ko": "Blackbug",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "sticky_lure",
+    "name_en": "Sticky Lure",
+    "name_ko": "Sticky Lure",
+    "desc_en": "An icky type of lure that may stick on to fish that didn't even bite.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 2,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ChanceToGetDoubleFish",
+        "label": "물고기 2배 확률",
+        "unit": "%",
+        "base": 11,
+        "max": 30
+      }
+    ],
+    "materials": [
+      {
+        "id": "Mushroom",
+        "name_en": "Mushroom",
+        "name_ko": "Mushroom",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "CritterLarva",
+        "name_en": "Larvlet",
+        "name_ko": "Larvlet",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "sweet_lure",
+    "name_en": "Sweet Lure",
+    "name_ko": "Sweet Lure",
+    "desc_en": "A sugary type of lure that increases the chance of catching fish instead of loot.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 2,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedChanceToGetFish",
+        "label": "물고기 획득 확률",
+        "unit": "%",
+        "base": 10,
+        "max": 27
+      }
+    ],
+    "materials": [
+      {
+        "id": "HeartBerry",
+        "name_en": "Heart Berry",
+        "name_ko": "Heart Berry",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "CritterWorm",
+        "name_en": "Earthworm",
+        "name_ko": "Earthworm",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "swift_feather",
+    "name_en": "Swift Feather",
+    "name_ko": "Swift Feather",
+    "desc_en": "A mysterious feather that allows you to dash out of danger.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "common",
+    "level": 4,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 6,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 2,
+        "max": 5
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "blob_rosary_necklace",
+    "name_en": "Blob Rosary Necklace",
+    "name_ko": "Blob Rosary Necklace",
+    "desc_en": "Sticky necklace infused with energy made for an unknown purpose.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 5,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 31,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 15,
+        "max": 62
+      }
+    ],
+    "materials": [
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "crescent_ring",
+    "name_en": "Crescent Ring",
+    "name_ko": "Crescent Ring",
+    "desc_en": "Allows the bearer to reach further sources of wisdom.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 31,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxMana",
+        "label": "최대 마나",
+        "unit": "",
+        "base": 14,
+        "max": 58
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "fang_necklace",
+    "name_en": "Fang Necklace",
+    "name_ko": "Fang Necklace",
+    "desc_en": "A status symbol among tribal cavelings. You can sense blood lust from the loose tooth.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 9,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 3,
+        "max": 8
+      },
+      {
+        "id": "LifeOnHit",
+        "label": "적중 시 생명 흡수",
+        "unit": "",
+        "base": 2,
+        "max": 9
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "glow_tulip_ring",
+    "name_en": "Glow Tulip Ring",
+    "name_ko": "Glow Tulip Ring",
+    "desc_en": "A luminous ring that holds the essence of glow tulips.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 128,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 3,
+        "max": 8
+      },
+      {
+        "id": "IncreasedManaRegen",
+        "label": "마나 재생",
+        "unit": "",
+        "base": 9,
+        "max": 37
+      }
+    ],
+    "materials": [
+      {
+        "id": "GlowingTulipFlower",
+        "name_en": "Glow Tulip",
+        "name_ko": "Glow Tulip",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "heart_berry_necklace",
+    "name_en": "Heart Berry Necklace",
+    "name_ko": "Heart Berry Necklace",
+    "desc_en": "A heart berry on the neck makes for an easy snack!",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 5,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 16,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "HealOverTime",
+        "label": "지속 회복",
+        "unit": "",
+        "base": 7,
+        "max": 37
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "HeartBerry",
+        "name_en": "Heart Berry",
+        "name_ko": "Heart Berry",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "melting_crystal_ring",
+    "name_en": "Melting Crystal Ring",
+    "name_ko": "Melting Crystal Ring",
+    "desc_en": "A gooey ring dripping slippery slime on the floor.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 5,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "sell": 24,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 5,
+        "max": 15
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      },
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ]
+  },
+  {
+    "id": "rusted_ring",
+    "name_en": "Rusted Ring",
+    "name_ko": "Rusted Ring",
+    "desc_en": "A ring from the depths that someone must have lost long time ago.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 6,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 7,
+        "max": 28
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "valentine_necklace",
+    "name_en": "Valentine Necklace",
+    "name_ko": "Valentine Necklace",
+    "desc_en": "A golden necklace featuring a big, shiny heart. You feel something you can't describe, when wearing it so close to your own.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 13,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedHealthRegenEffectiveness",
+        "label": "회복 효과",
+        "unit": "%",
+        "base": 7,
+        "max": 27
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "valentine_ring",
+    "name_en": "Valentine Ring",
+    "name_ko": "Valentine Ring",
+    "desc_en": "A golden ring featuring a candy-colored heart. The perfect gift to give to someone you like.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 5,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 8,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "HealOverTime",
+        "label": "지속 회복",
+        "unit": "",
+        "base": 7,
+        "max": 37
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "clot_ring",
+    "name_en": "Clot Ring",
+    "name_ko": "Clot Ring",
+    "desc_en": "A blood-red ring that latches onto your finger.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 6,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 10,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "LifeOnHit",
+        "label": "적중 시 생명 흡수",
+        "unit": "",
+        "base": 3,
+        "max": 10
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "minion_kindler",
+    "name_en": "Minion Kindler",
+    "name_ko": "Minion Kindler",
+    "desc_en": "A rusted skull crest turning conjured sparks of life into ones of lesser death.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "common",
+    "level": 6,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 22,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "Bomb",
+        "name_en": "Bomb",
+        "name_ko": "Bomb",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "swift_ring",
+    "name_en": "Swift Ring",
+    "name_ko": "Swift Ring",
+    "desc_en": "Wearing this winged ring creates a slight wind that pushes you forward.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 6,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "sell": 97,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 69,
+        "max": 138
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 12,
+        "amount_min": 12,
+        "amount_max": 12
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "boundary_ring",
+    "name_en": "Boundary Ring",
+    "name_ko": "Boundary Ring",
+    "desc_en": "A simple ring that forms a magical veil.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 18,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MagicBarrier",
+        "label": "마법 보호막",
+        "unit": "",
+        "base": 20,
+        "max": 48
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "gold_crystal_ring",
+    "name_en": "Gold Crystal Ring",
+    "name_ko": "금 크리스탈 반지",
+    "desc_en": "A precious ring featuring ancient gemstones.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 110,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "PhysicalRangeDamageIncrease",
+        "label": "원거리 피해",
+        "unit": "%",
+        "base": 173,
+        "max": 436
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "hourglass_ring",
+    "name_en": "Hourglass Ring",
+    "name_ko": "Hourglass Ring",
+    "desc_en": "Has a small hourglass on top. The sand within has stopped flowing down.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 66,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMinionLifespanPercentage",
+        "label": "소환수 지속시간",
+        "unit": "%",
+        "base": 31,
+        "max": 70
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "iron_chunk_necklace",
+    "name_en": "Iron Chunk Necklace",
+    "name_ko": "Iron Chunk Necklace",
+    "desc_en": "A heavy piece of jewelry that increases defense.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 59,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 12,
+        "max": 31
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "iron_shield",
+    "name_en": "Iron Shield",
+    "name_ko": "철 방패",
+    "desc_en": "A heraldic shield offering significant protection from attacks.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 74,
+    "durability": 100,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "Shield",
+        "label": "막기",
+        "unit": "%",
+        "base": 70,
+        "max": 70
+      },
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 14,
+        "max": 39
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 12,
+        "max": 31
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "larva_ring",
+    "name_en": "Larva Ring",
+    "name_ko": "유충 반지",
+    "desc_en": "A living ring, not for the squirmish to wear.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 7,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 7,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 21,
+        "max": 59
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "ammonite_necklace",
+    "name_en": "Ammonite Necklace",
+    "name_ko": "Ammonite Necklace",
+    "desc_en": "Simple but beautiful necklace featuring a fossil.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 46,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 22,
+        "max": 54
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 13,
+        "max": 30
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 7,
+        "amount_min": 7,
+        "amount_max": 7
+      }
+    ]
+  },
+  {
+    "id": "bubble_pearl_necklace",
+    "name_en": "Bubble Pearl Necklace",
+    "name_ko": "Bubble Pearl Necklace",
+    "desc_en": "Natural grown jewelry made from rare bubble pearls.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 60,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MagicBarrier",
+        "label": "마법 보호막",
+        "unit": "",
+        "base": 7,
+        "max": 14
+      },
+      {
+        "id": "IncreasedManaRegen",
+        "label": "마나 재생",
+        "unit": "",
+        "base": 10,
+        "max": 26
+      },
+      {
+        "id": "IncreasedMagicDamagePercentage",
+        "label": "마법 피해",
+        "unit": "%",
+        "base": 59,
+        "max": 134
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "gold_crystal_necklace",
+    "name_en": "Gold Crystal Necklace",
+    "name_ko": "금 크리스탈 목걸이",
+    "desc_en": "A shiny trinket combining the most valuable of materials.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 113,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMagicDamagePercentage",
+        "label": "마법 피해",
+        "unit": "%",
+        "base": 80,
+        "max": 182
+      },
+      {
+        "id": "IncreasedMinionDamagePercentage",
+        "label": "소환수 피해",
+        "unit": "%",
+        "base": 83,
+        "max": 190
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "goldfish_ring",
+    "name_en": "Goldfish Ring",
+    "name_ko": "Goldfish Ring",
+    "desc_en": "A quite lively little ring that tries to swim off of your finger. By the time it realizes it's merely a ring it has already forgot about it again.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 31,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "FishBitesFaster",
+        "label": "입질 속도",
+        "unit": "%",
+        "base": 13,
+        "max": 25
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "grub_egg_necklace",
+    "name_en": "Grub Egg Necklace",
+    "name_ko": "Grub Egg Necklace",
+    "desc_en": "This odd necklace seems to have a life of its own.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 8,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 18,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "PhysicalMeleeDamageIncrease",
+        "label": "근접 피해",
+        "unit": "%",
+        "base": 181,
+        "max": 410
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "neptune_necklace",
+    "name_en": "Neptune Necklace",
+    "name_ko": "Neptune Necklace",
+    "desc_en": "A true trinket of the sea, made from kelp and a trident pendant. Mistaking you for a mythic sea ruler, fish come to you more often.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 8,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 62,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 53,
+        "max": 133
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "rift_lens",
+    "name_en": "Rift Lens",
+    "name_ko": "Rift Lens",
+    "desc_en": "A peculiar handheld device, used for short range teleportation.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 81,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMagicDamagePercentage",
+        "label": "마법 피해",
+        "unit": "%",
+        "base": 80,
+        "max": 183
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "ring_of_rock",
+    "name_en": "Ring of Rock",
+    "name_ko": "Ring of Rock",
+    "desc_en": "Simple ring found in the deepest of rocks.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 8,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 33,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 13,
+        "max": 32
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "samhain_curse_ring",
+    "name_en": "Samhain Curse Ring",
+    "name_ko": "Samhain Curse Ring",
+    "desc_en": "A cursed ring that was used to welcome the cold season into the lands. It represents decay and darkness.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 8,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 31,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ChanceToApplyPoisoned",
+        "label": "독 적용 확률",
+        "unit": "%",
+        "base": 6,
+        "max": 12
+      },
+      {
+        "id": "AllDamageDecrease",
+        "label": "전체 피해 감소",
+        "unit": "%",
+        "base": -38,
+        "max": -88
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "samhain_offering_necklace",
+    "name_en": "Samhain Offering Necklace",
+    "name_ko": "Samhain Offering Necklace",
+    "desc_en": "A blessed necklace offered as a gift to farewell the warm season. It represents the harvest and the evening sun.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 8,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 47,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "LifeOnHit",
+        "label": "적중 시 생명 흡수",
+        "unit": "",
+        "base": 4,
+        "max": 11
+      },
+      {
+        "id": "AllDamageDecrease",
+        "label": "전체 피해 감소",
+        "unit": "%",
+        "base": -45,
+        "max": -103
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "scratched_stone",
+    "name_en": "Scratched Stone",
+    "name_ko": "Scratched Stone",
+    "desc_en": "The claw marks in this rock reveal dormant energies inside, waiting to be awoken.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 8,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 31,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMinionDamagePercentage",
+        "label": "소환수 피해",
+        "unit": "%",
+        "base": 81,
+        "max": 186
+      },
+      {
+        "id": "IncreasedMaxMinions",
+        "label": "최대 소환수",
+        "unit": "",
+        "base": 1,
+        "max": 1
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "blue_leather_tome",
+    "name_en": "Blue Leather Tome",
+    "name_ko": "Blue Leather Tome",
+    "desc_en": "An ancient book with stitched blue covers. Is that skin?",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 9,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 111,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMagicDamagePercentage",
+        "label": "마법 피해",
+        "unit": "%",
+        "base": 96,
+        "max": 198
+      },
+      {
+        "id": "IncreasedManaRegen",
+        "label": "마나 재생",
+        "unit": "",
+        "base": 15,
+        "max": 34
+      }
+    ],
+    "materials": [
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "bomb_necklace",
+    "name_en": "Bomb Necklace",
+    "name_ko": "Bomb Necklace",
+    "desc_en": "A necklace made from a fuse tied to a tiny bomb. Hold on to your head if it sizzles right next to your ear.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 9,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 12,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedExplosivesRadiusPercentage",
+        "label": "폭발 반경",
+        "unit": "%",
+        "base": 13,
+        "max": 23
+      },
+      {
+        "id": "ChanceToNotConsumeExplosives",
+        "label": "Chance To Not Consume Explosives",
+        "unit": "%",
+        "base": 9,
+        "max": 20
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "SmallBomb",
+        "name_en": "Crude Bomb",
+        "name_ko": "Crude Bomb",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "green_lure",
+    "name_en": "Green Lure",
+    "name_ko": "Green Lure",
+    "desc_en": "A pointy lure that can stick to fish from the outside to catch more and catch them faster.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 1,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "FishBitesFaster",
+        "label": "입질 속도",
+        "unit": "%",
+        "base": 7,
+        "max": 12
+      },
+      {
+        "id": "IncreasedChanceToGetFish",
+        "label": "물고기 획득 확률",
+        "unit": "%",
+        "base": 7,
+        "max": 13
+      }
+    ],
+    "materials": [
+      {
+        "id": "BombPepper",
+        "name_en": "Bomb Pepper",
+        "name_ko": "Bomb Pepper",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "HeartBerry",
+        "name_en": "Heart Berry",
+        "name_ko": "Heart Berry",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "red_lure",
+    "name_en": "Red Lure",
+    "name_ko": "Red Lure",
+    "desc_en": "A wiggly lure that looks like a red worm, large enough to allow more than one fish to get caught sometimes.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 1,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "FishBitesFaster",
+        "label": "입질 속도",
+        "unit": "%",
+        "base": 8,
+        "max": 13
+      },
+      {
+        "id": "ChanceToGetDoubleFish",
+        "label": "물고기 2배 확률",
+        "unit": "%",
+        "base": 8,
+        "max": 15
+      }
+    ],
+    "materials": [
+      {
+        "id": "BombPepper",
+        "name_en": "Bomb Pepper",
+        "name_ko": "Bomb Pepper",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "royal_gel",
+    "name_en": "Royal Gel",
+    "name_ko": "Royal Gel",
+    "desc_en": "A blob of slime with a tiny crown in its center. With the right headpiece you can reign over all slimes.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 9,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "sell": 24,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AuraApplyMovementSpeedDecrease",
+        "label": "오라: 이동 속도 감소",
+        "unit": "%",
+        "base": -153,
+        "max": -315
+      }
+    ],
+    "materials": [
+      {
+        "id": "Slime",
+        "name_en": "Slime",
+        "name_ko": "슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ]
+  },
+  {
+    "id": "sea_foam_ring",
+    "name_en": "Sea Foam Ring",
+    "name_ko": "Sea Foam Ring",
+    "desc_en": "A translucent ring that looks like a wave frozen in time.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 9,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 62,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedFishing",
+        "label": "낚시",
+        "unit": "",
+        "base": 51,
+        "max": 113
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "skull_necklace",
+    "name_en": "Skull Necklace",
+    "name_ko": "Skull Necklace",
+    "desc_en": "A morbid necklace made from tiny caveling skulls. They're too small to have been children.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 9,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 72,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": -26,
+        "max": -57
+      },
+      {
+        "id": "IncreasedMinionDamagePercentage",
+        "label": "소환수 피해",
+        "unit": "%",
+        "base": 375,
+        "max": 772
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "SmallCavelingSkull",
+        "name_en": "Small Caveling Skull",
+        "name_ko": "Small Caveling Skull",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "skull_ring",
+    "name_en": "Skull Ring",
+    "name_ko": "Skull Ring",
+    "desc_en": "A grotesque blood-red ring, crested with a tiny caveling skull.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 9,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "sell": 38,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": -29,
+        "max": -65
+      },
+      {
+        "id": "AttackSpeed",
+        "label": "공격 속도",
+        "unit": "%",
+        "base": 88,
+        "max": 172
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "SmallCavelingSkull",
+        "name_en": "Small Caveling Skull",
+        "name_ko": "Small Caveling Skull",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "azeos_dash_feather",
+    "name_en": "Azeos' Dash Feather",
+    "name_ko": "Azeos' Dash Feather",
+    "desc_en": "A colorful talon feather from Azeos, the Sky Titan. By holding it you can dash at a high speed.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 8,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 46,
+        "max": 72
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "caveling_mothers_ring",
+    "name_en": "Caveling Mother's Ring",
+    "name_ko": "Caveling Mother's Ring",
+    "desc_en": "An old crystal ring, holding it fills you with a sad feeling you can't describe.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 65,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "HealOverTime",
+        "label": "지속 회복",
+        "unit": "",
+        "base": 16,
+        "max": 36
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "crescent_necklace",
+    "name_en": "Crescent Necklace",
+    "name_ko": "Crescent Necklace",
+    "desc_en": "Grants the bearer access to deeper wellsprings of power.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "common",
+    "level": 10,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 84,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxMana",
+        "label": "최대 마나",
+        "unit": "",
+        "base": 32,
+        "max": 63
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "eostre_necklace",
+    "name_en": "Eostre Necklace",
+    "name_ko": "Eostre Necklace",
+    "desc_en": "A curved twig holding a golden egg at its end. It is a sign of renewal and fertility.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 55,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ExtraHarvestChance",
+        "label": "추가 수확 확률",
+        "unit": "%",
+        "base": 103,
+        "max": 201
+      },
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 49,
+        "max": 76
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "ivys_ring",
+    "name_en": "Ivy's Ring",
+    "name_ko": "Ivy's Ring",
+    "desc_en": "An organic ring grown from slime covered thorns.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 90,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "RangeAttackSpeedIncrease",
+        "label": "원거리 공격 속도",
+        "unit": "%",
+        "base": 54,
+        "max": 90
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "ostara_ring",
+    "name_en": "Ostara Ring",
+    "name_ko": "Ostara Ring",
+    "desc_en": "A ring made of leaves and small golden eggs. It is a sign of emerging life and spring.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 62,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 5,
+        "max": 9
+      },
+      {
+        "id": "HealOverTime",
+        "label": "지속 회복",
+        "unit": "",
+        "base": 9,
+        "max": 19
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "petal_ring",
+    "name_en": "Petal Ring",
+    "name_ko": "Petal Ring",
+    "desc_en": "A precious ring that has naturally grown in the yellow blossoms of the jungle caves.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 57,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 31,
+        "max": 62
+      },
+      {
+        "id": "ExtraHarvestChance",
+        "label": "추가 수확 확률",
+        "unit": "%",
+        "base": 227,
+        "max": 443
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "puppet_ring",
+    "name_en": "Puppet Ring",
+    "name_ko": "Puppet Ring",
+    "desc_en": "An odd, ornate ring. You feel a closer bond with your minions whilst wearing it.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 120,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxMinions",
+        "label": "최대 소환수",
+        "unit": "",
+        "base": 1,
+        "max": 1
+      },
+      {
+        "id": "IncreasedMinionAttackSpeed",
+        "label": "소환수 공격 속도",
+        "unit": "%",
+        "base": 240,
+        "max": 480
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "purple_lure",
+    "name_en": "Purple Lure",
+    "name_ko": "Purple Lure",
+    "desc_en": "A shimmering lure that catches the eye of more rare fish.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 2,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedChanceForHigherRarityFish",
+        "label": "고급 물고기 확률",
+        "unit": "%",
+        "base": 21,
+        "max": 32
+      }
+    ],
+    "materials": []
+  },
+  {
+    "id": "rusted_necklace",
+    "name_en": "Rusted Necklace",
+    "name_ko": "Rusted Necklace",
+    "desc_en": "This pendant used to look pretty but now it's rusted to the core.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "common",
+    "level": 10,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 12,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MiningPercentageIncrease",
+        "label": "채광 피해",
+        "unit": "%",
+        "base": 19,
+        "max": 37
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "toxic_defender",
+    "name_en": "Toxic Defender",
+    "name_ko": "Toxic Defender",
+    "desc_en": "A shield covered in toxic grime. Has a chance to poison enemies when blocking attacks.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 138,
+    "durability": 100,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "Shield",
+        "label": "막기",
+        "unit": "%",
+        "base": 70,
+        "max": 70
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 17,
+        "max": 33
+      },
+      {
+        "id": "ChanceToApplyPoisonOnBlock",
+        "label": "Chance To Apply Poison On Block",
+        "unit": "%",
+        "base": 24,
+        "max": 43
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 12,
+        "amount_min": 12,
+        "amount_max": 12
+      },
+      {
+        "id": "PoisonSlime",
+        "name_en": "Poison Slime",
+        "name_ko": "독 슬라임",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ]
+  },
+  {
+    "id": "wildwarden_necklace",
+    "name_en": "Wildwarden Necklace",
+    "name_ko": "Wildwarden Necklace",
+    "desc_en": "An animalistic emblem decorated with golden trinkets that ring out to the wild.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 12,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 5,
+        "max": 10
+      },
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 3,
+        "max": 5
+      },
+      {
+        "id": "ApplyPetCritChanceIncrease",
+        "label": "펫 치명타 확률",
+        "unit": "%",
+        "base": 4,
+        "max": 6
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      },
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "wildwarden_ring",
+    "name_en": "Wildwarden Ring",
+    "name_ko": "Wildwarden Ring",
+    "desc_en": "A wooden ring with two smaller rings around it. One symbolizes the warden and the other the bonded beast.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 93,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AllDamageIncrease",
+        "label": "전체 피해",
+        "unit": "%",
+        "base": 84,
+        "max": 158
+      },
+      {
+        "id": "ApplyPetDamageIncrease",
+        "label": "펫 피해",
+        "unit": "%",
+        "base": 53,
+        "max": 107
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "wooden_ring",
+    "name_en": "Wooden Ring",
+    "name_ko": "나무 반지",
+    "desc_en": "A simple wooden ring, nothing more, nothing less.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "common",
+    "level": 10,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 1,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 29,
+        "max": 58
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ]
+  },
+  {
+    "id": "wooden_thorn_ring",
+    "name_en": "Wooden Thorn Ring",
+    "name_ko": "Wooden Thorn Ring",
+    "desc_en": "A circular, brambly root with sharp thorns pointing outward.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 10,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 11,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ThornsDamage",
+        "label": "가시 피해",
+        "unit": "",
+        "base": 22,
+        "max": 43
+      }
+    ],
+    "materials": [
+      {
+        "id": "Wood",
+        "name_en": "Wood",
+        "name_ko": "목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "ancient_gem_necklace",
+    "name_en": "Ancient Gem Necklace",
+    "name_ko": "Ancient Gem Necklace",
+    "desc_en": "A necklace crafted with only using ancient gemstones as well as a super rare white version.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 11,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 69,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MeleeAttackSpeedIncrease",
+        "label": "근접 공격 속도",
+        "unit": "%",
+        "base": 33,
+        "max": 51
+      },
+      {
+        "id": "MiningSpeedIncrease",
+        "label": "채광 속도",
+        "unit": "%",
+        "base": 33,
+        "max": 51
+      }
+    ],
+    "materials": [
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "ancient_guardian_necklace",
+    "name_en": "Ancient Guardian Necklace",
+    "name_ko": "Ancient Guardian Necklace",
+    "desc_en": "A truly powerful relic of the past, made for fending off the strongest of foes.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 11,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 80,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ReducedDamageFromBosses",
+        "label": "보스 피해 감소",
+        "unit": "%",
+        "base": 14,
+        "max": 21
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "azeos_beak_necklace",
+    "name_en": "Azeos Beak Necklace",
+    "name_ko": "Azeos Beak Necklace",
+    "desc_en": "Forged from a piece of the sky titan's beak.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 11,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 84,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "LifeOnHit",
+        "label": "적중 시 생명 흡수",
+        "unit": "",
+        "base": 3,
+        "max": 5
+      },
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 41,
+        "max": 118
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "coral_amulet",
+    "name_en": "Coral Amulet",
+    "name_ko": "산호 부적",
+    "desc_en": "A necklace made with a pretty coral badge and white pebbles.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 11,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 6,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedBoatSpeed",
+        "label": "보트 속도",
+        "unit": "%",
+        "base": 11,
+        "max": 20
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 80,
+        "amount_min": 80,
+        "amount_max": 80
+      }
+    ]
+  },
+  {
+    "id": "golden_spike_ring",
+    "name_en": "Golden Spike Ring",
+    "name_ko": "Golden Spike Ring",
+    "desc_en": "This golden ring is very uncomfortable to wear but it looks really cool.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 11,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 340,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 5,
+        "max": 8
+      },
+      {
+        "id": "ThornsDamage",
+        "label": "가시 피해",
+        "unit": "",
+        "base": 11,
+        "max": 20
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 25,
+        "amount_min": 25,
+        "amount_max": 25
+      }
+    ]
+  },
+  {
+    "id": "magnetic_ring",
+    "name_en": "Magnetic Ring",
+    "name_ko": "Magnetic Ring",
+    "desc_en": "A strange ring that pulls in loot around you in a higher radius. Magnets, how do they work?",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 11,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 189,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedPickUpRadius",
+        "label": "획득 반경",
+        "unit": "%",
+        "base": 100,
+        "max": 159
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      }
+    ]
+  },
+  {
+    "id": "mold_ring",
+    "name_en": "Mold Ring",
+    "name_ko": "Mold Ring",
+    "desc_en": "A soft ring slowly releasing mold spores.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 11,
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "sell": 71,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 10,
+        "max": 16
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "mold_vein_necklace",
+    "name_en": "Mold Vein Necklace",
+    "name_ko": "Mold Vein Necklace",
+    "desc_en": "A circle of white organic filaments, it latches onto the skin.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 11,
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "sell": 122,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "PhysicalRangeDamageIncrease",
+        "label": "원거리 피해",
+        "unit": "%",
+        "base": 237,
+        "max": 408
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "remedaisy_necklace",
+    "name_en": "Remedaisy Necklace",
+    "name_ko": "Remedaisy Necklace",
+    "desc_en": "Jewelry made from a rare plant that repels poison.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 11,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 129,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ImmuneToPoison",
+        "label": "독 면역",
+        "unit": "",
+        "base": 15,
+        "max": 15
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "PoisonSlime",
+        "name_en": "Poison Slime",
+        "name_ko": "독 슬라임",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "scarlet_chunk_necklace",
+    "name_en": "Scarlet Chunk Necklace",
+    "name_ko": "Scarlet Chunk Necklace",
+    "desc_en": "The scarlet variant of an iron chunk necklace. It raises your defense even more and gives additional benefits.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 11,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 372,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 19,
+        "max": 32
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 35,
+        "amount_min": 35,
+        "amount_max": 35
+      }
+    ]
+  },
+  {
+    "id": "sky_ring",
+    "name_en": "Sky Ring",
+    "name_ko": "Sky Ring",
+    "desc_en": "This ring reminds you of the wide open sky.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 11,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "sell": 64,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 5,
+        "max": 8
+      },
+      {
+        "id": "PhysicalMeleeDamageIncrease",
+        "label": "근접 피해",
+        "unit": "%",
+        "base": 135,
+        "max": 233
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "topaz_ring",
+    "name_en": "Topaz Ring",
+    "name_ko": "Topaz Ring",
+    "desc_en": "A precious little ring with a yellow gemstone on top.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 11,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 55,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MiningPercentageIncrease",
+        "label": "채광 피해",
+        "unit": "%",
+        "base": 23,
+        "max": 41
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "vicious_ring",
+    "name_en": "Vicious Ring",
+    "name_ko": "Vicious Ring",
+    "desc_en": "The unsettling gaze of this ring causes minions to stay on high alert.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 11,
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "sell": 116,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMinionDamagePercentage",
+        "label": "소환수 피해",
+        "unit": "%",
+        "base": 223,
+        "max": 385
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "CavelingSkull",
+        "name_en": "Caveling Skull",
+        "name_ko": "Caveling Skull",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "white_glass_ring",
+    "name_en": "White Glass Ring",
+    "name_ko": "White Glass Ring",
+    "desc_en": "This ring is made from a milky, translucent material. The light it reflects makes it harder for enemies to hit you.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "common",
+    "level": 11,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "sell": 56,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 36,
+        "max": 65
+      },
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 10,
+        "max": 16
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "ancient_guardian_ring",
+    "name_en": "Ancient Guardian Ring",
+    "name_ko": "Ancient Guardian Ring",
+    "desc_en": "A relic that is made in the same way as the Ancient Guardian Necklace, made for fending off the strongest of foes.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 62,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 18,
+        "max": 30
+      },
+      {
+        "id": "ReducedDamageFromBosses",
+        "label": "보스 피해 감소",
+        "unit": "%",
+        "base": 7,
+        "max": 10
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "caveling_id",
+    "name_en": "Caveling ID",
+    "name_ko": "Caveling ID",
+    "desc_en": "A sturdy card that once belonged to a citizen of the forlorn metropolis. It's thousand of years old but the excellent print hasn't faded.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "uncommon",
+    "level": 12,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "sell": 108,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 8,
+        "max": 12
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "golden_jellyfish",
+    "name_en": "Golden Jellyfish",
+    "name_ko": "Golden Jellyfish",
+    "desc_en": "This rare jellyfish seems to do well without water and apparently it likes your company.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 116,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "HealOverTime",
+        "label": "지속 회복",
+        "unit": "",
+        "base": 19,
+        "max": 35
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "lucky_ring",
+    "name_en": "Lucky Ring",
+    "name_ko": "Lucky Ring",
+    "desc_en": "A cheaply made ring from a vending machine. If you believe hard enough you may feel more lucky.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 12,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "sell": 57,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ChanceForAdditionalOre",
+        "label": "추가 광석 확률",
+        "unit": "%",
+        "base": 7,
+        "max": 11
+      },
+      {
+        "id": "IncreasedChanceToGetFishLoot",
+        "label": "낚시 전리품 확률",
+        "unit": "%",
+        "base": 7,
+        "max": 10
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineOre",
+        "name_en": "Octarine Ore",
+        "name_ko": "Octarine Ore",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "magnet",
+    "name_en": "Magnet",
+    "name_ko": "Magnet",
+    "desc_en": "A magnet with an impressive draw that defies the limits of electromagnetics.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 321,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedPickUpRadius",
+        "label": "획득 반경",
+        "unit": "%",
+        "base": 73,
+        "max": 109
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ]
+  },
+  {
+    "id": "octarine_necklace",
+    "name_en": "Octarine Necklace",
+    "name_ko": "옥타린 목걸이",
+    "desc_en": "A necklace made from pure octarine filled with magic energy.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 421,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AttackSpeed",
+        "label": "공격 속도",
+        "unit": "%",
+        "base": 56,
+        "max": 87
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "octarine_ring",
+    "name_en": "Octarine Ring",
+    "name_ko": "옥타린 반지",
+    "desc_en": "A ring made from pure octarine enhanced with magic properties.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 277,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AttackSpeed",
+        "label": "공격 속도",
+        "unit": "%",
+        "base": 60,
+        "max": 94
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "octarine_shield",
+    "name_en": "Octarine Shield",
+    "name_ko": "옥타린 방패",
+    "desc_en": "An extremely durable shield infused with energy that increases health while holding it.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 12,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 215,
+    "durability": 100,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "Shield",
+        "label": "막기",
+        "unit": "%",
+        "base": 70,
+        "max": 70
+      },
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 18,
+        "max": 31
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 10,
+        "max": 16
+      },
+      {
+        "id": "AttackSpeed",
+        "label": "공격 속도",
+        "unit": "%",
+        "base": 31,
+        "max": 49
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      },
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      }
+    ]
+  },
+  {
+    "id": "septum_ring",
+    "name_en": "Septum Ring",
+    "name_ko": "Septum Ring",
+    "desc_en": "A golden piece of jewelry that's not put onto the finger but rather on the nose.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 12,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "sell": 62,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 19,
+        "max": 31
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "torc_necklace",
+    "name_en": "Torc Necklace",
+    "name_ko": "Torc Necklace",
+    "desc_en": "A piece of jewelry for the neck that's merely a hoop with a gap. Worn by many different cultures throughout world history.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 12,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "sell": 101,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AllDamageIncrease",
+        "label": "전체 피해",
+        "unit": "%",
+        "base": 163,
+        "max": 261
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "ancient_gem_ring",
+    "name_en": "Ancient Gem Ring",
+    "name_ko": "Ancient Gem Ring",
+    "desc_en": "This mysterious ring is entirely made out of ancient gemstones, featuring a super rare white one.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 51,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 17,
+        "max": 24
+      },
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 62,
+        "max": 133
+      }
+    ],
+    "materials": [
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "bone_necklace",
+    "name_en": "Bone Necklace",
+    "name_ko": "Bone Necklace",
+    "desc_en": "A primitive piece of jewelry made from small bones. Early humans have also made these for many different reasons.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 13,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 106,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 10,
+        "max": 15
+      },
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 7,
+        "max": 9
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "bone_ring",
+    "name_en": "Bone Ring",
+    "name_ko": "Bone Ring",
+    "desc_en": "A prehistoric, crude ring made from bone. Rings like these have been discovered in early human graves.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 13,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 74,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 10,
+        "max": 16
+      },
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 6,
+        "max": 9
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "concealed_blade",
+    "name_en": "Concealed Blade",
+    "name_ko": "Concealed Blade",
+    "desc_en": "A knife attached to a wrist band hidden among layers of fabric. It's perfect for an unsuspected stealth attack.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "uncommon",
+    "level": 13,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 119,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 9,
+        "max": 12
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "conch_shell_necklace",
+    "name_en": "Conch Shell Necklace",
+    "name_ko": "Conch Shell Necklace",
+    "desc_en": "A beautiful necklace featuring a small shell. When you hold it up to your ear you can hear distant waves.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 198,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 25,
+        "max": 39
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 14,
+        "max": 22
+      },
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 6,
+        "max": 8
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "coral_ring",
+    "name_en": "Coral Ring",
+    "name_ko": "산호 반지",
+    "desc_en": "An intricate ring naturally grown from pink, branchy corals.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 17,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 45,
+        "max": 69
+      },
+      {
+        "id": "IncreasedBoatSpeed",
+        "label": "보트 속도",
+        "unit": "%",
+        "base": 6,
+        "max": 9
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      }
+    ]
+  },
+  {
+    "id": "expert_lure",
+    "name_en": "Expert Lure",
+    "name_ko": "Expert Lure",
+    "desc_en": "This lure consists of multiple edible and magical components, attracting the one big catch that lingers in deep waters. Is consumed on successful use.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 403,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "BaitIncreaseChanceOfHigherRarityFish",
+        "name_en": "Purple Lure",
+        "name_ko": "Purple Lure",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "BaitFishBitesFaster",
+        "name_en": "Spicy Lure",
+        "name_ko": "Spicy Lure",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "BaitIncreasedChanceToGetFish",
+        "name_en": "Sweet Lure",
+        "name_ko": "Sweet Lure",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "BaitIncreasedChanceToGetFishLoot",
+        "name_en": "Glowing Lure",
+        "name_ko": "Glowing Lure",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "morphas_ring",
+    "name_en": "Morpha's Ring",
+    "name_ko": "Morpha's Ring",
+    "desc_en": "A strange, little loop made from blue slime, it almost slides off of your finger.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 81,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 36,
+        "max": 51
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "SlipperySlime",
+        "name_en": "Slippery Slime",
+        "name_ko": "미끌 슬라임",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ]
+  },
+  {
+    "id": "noble_ring",
+    "name_en": "Noble Ring",
+    "name_ko": "Noble Ring",
+    "desc_en": "An expensive looking ring featuring a ruby. It must have belonged to someone wealthy.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 13,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 68,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 37,
+        "max": 57
+      },
+      {
+        "id": "IncreasedHealthRegenEffectiveness",
+        "label": "회복 효과",
+        "unit": "%",
+        "base": 20,
+        "max": 31
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "oceanheart_necklace",
+    "name_en": "Oceanheart Necklace",
+    "name_ko": "Oceanheart Necklace",
+    "desc_en": "A big blue diamond is the centerpiece of this extraordinary treasure. You feel loved when holding it up to your chest.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 207,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 42,
+        "max": 64
+      },
+      {
+        "id": "IncreasedHealthRegenEffectiveness",
+        "label": "회복 효과",
+        "unit": "%",
+        "base": 21,
+        "max": 31
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "omoroths_necklace",
+    "name_en": "Omoroth's Necklace",
+    "name_ko": "Omoroth's Necklace",
+    "desc_en": "A piece of jewelry with a striking likeness to the sea titan. Wearing it you feel in tune with the Sunken Sea, enhancing your body in multiple ways.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 126,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 7,
+        "max": 11
+      },
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 4,
+        "max": 5
+      },
+      {
+        "id": "AllDamageIncrease",
+        "label": "전체 피해",
+        "unit": "%",
+        "base": 71,
+        "max": 105
+      },
+      {
+        "id": "MiningPercentageIncrease",
+        "label": "채광 피해",
+        "unit": "%",
+        "base": 10,
+        "max": 15
+      },
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 35,
+        "max": 46
+      },
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 4,
+        "max": 4
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "omoroths_ring",
+    "name_en": "Omoroth's Ring",
+    "name_ko": "Omoroth's Ring",
+    "desc_en": "A plated looping tentacle that wraps around your finger. Stemming from a titan, it enhances your might in fighting these giant monsters.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 10,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedDamageAgainstBosses",
+        "label": "보스 추가 피해",
+        "unit": "%",
+        "base": 13,
+        "max": 20
+      },
+      {
+        "id": "LifeOnHit",
+        "label": "적중 시 생명 흡수",
+        "unit": "",
+        "base": 3,
+        "max": 5
+      }
+    ],
+    "materials": [
+      {
+        "id": "TinBar",
+        "name_en": "Tin Bar",
+        "name_ko": "주석 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "polished_copper_cross_necklace",
+    "name_en": "Polished Copper Cross Necklace",
+    "name_ko": "Polished Copper Cross Necklace",
+    "desc_en": "This pendant sharpens the focus, allowing for more precise hits.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 14,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 6,
+        "max": 9
+      },
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 18,
+        "max": 26
+      }
+    ],
+    "materials": [
+      {
+        "id": "CopperBar",
+        "name_en": "Copper Bar",
+        "name_ko": "구리 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "polished_coral_amulet",
+    "name_en": "Polished Coral Amulet",
+    "name_ko": "Polished Coral Amulet",
+    "desc_en": "A necklace made with a pretty coral badge and white pebbles.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 17,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedBoatSpeed",
+        "label": "보트 속도",
+        "unit": "%",
+        "base": 17,
+        "max": 26
+      },
+      {
+        "id": "IncreasedChanceForHigherRarityFish",
+        "label": "고급 물고기 확률",
+        "unit": "%",
+        "base": 12,
+        "max": 16
+      }
+    ],
+    "materials": [
+      {
+        "id": "CoralWood",
+        "name_en": "Coral Wood",
+        "name_ko": "산호 목재",
+        "amount": 80,
+        "amount_min": 80,
+        "amount_max": 80
+      }
+    ]
+  },
+  {
+    "id": "polished_glow_tulip_ring",
+    "name_en": "Polished Glow Tulip Ring",
+    "name_ko": "Polished Glow Tulip Ring",
+    "desc_en": "A luminous ring that holds the essence of glow tulips.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 132,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 4,
+        "max": 5
+      },
+      {
+        "id": "IncreasedMagicDamagePercentage",
+        "label": "마법 피해",
+        "unit": "%",
+        "base": 78,
+        "max": 116
+      },
+      {
+        "id": "IncreasedManaRegen",
+        "label": "마나 재생",
+        "unit": "",
+        "base": 15,
+        "max": 23
+      }
+    ],
+    "materials": [
+      {
+        "id": "GlowingTulipFlower",
+        "name_en": "Glow Tulip",
+        "name_ko": "Glow Tulip",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "polished_gold_crystal_necklace",
+    "name_en": "Polished Gold Crystal Necklace",
+    "name_ko": "Polished Gold Crystal Necklace",
+    "desc_en": "A shiny trinket combining the most valuable of materials.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 123,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMagicDamagePercentage",
+        "label": "마법 피해",
+        "unit": "%",
+        "base": 190,
+        "max": 282
+      },
+      {
+        "id": "IncreasedMinionDamagePercentage",
+        "label": "소환수 피해",
+        "unit": "%",
+        "base": 201,
+        "max": 299
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "polished_gold_crystal_ring",
+    "name_en": "Polished Gold Crystal Ring",
+    "name_ko": "Polished Gold Crystal Ring",
+    "desc_en": "A precious ring featuring ancient gemstones.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 97,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "PhysicalRangeDamageIncrease",
+        "label": "원거리 피해",
+        "unit": "%",
+        "base": 199,
+        "max": 295
+      },
+      {
+        "id": "RangeAttackSpeedIncrease",
+        "label": "원거리 공격 속도",
+        "unit": "%",
+        "base": 39,
+        "max": 54
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "polished_golden_spike_ring",
+    "name_en": "Polished Golden Spike Ring",
+    "name_ko": "Polished Golden Spike Ring",
+    "desc_en": "This golden ring is very uncomfortable to wear but it looks really cool.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 352,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 6,
+        "max": 9
+      },
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 22,
+        "max": 31
+      },
+      {
+        "id": "ThornsDamage",
+        "label": "가시 피해",
+        "unit": "",
+        "base": 18,
+        "max": 27
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 25,
+        "amount_min": 25,
+        "amount_max": 25
+      }
+    ]
+  },
+  {
+    "id": "polished_iron_chunk_necklace",
+    "name_en": "Polished Iron Chunk Necklace",
+    "name_ko": "Polished Iron Chunk Necklace",
+    "desc_en": "A heavy piece of jewelry that increases defense.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 67,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 20,
+        "max": 30
+      },
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 38,
+        "max": 58
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "polished_magnetic_ring",
+    "name_en": "Polished Magnetic Ring",
+    "name_ko": "Polished Magnetic Ring",
+    "desc_en": "A strange ring that pulls in loot around you in a higher radius. Magnets, how do they work?",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 187,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedPickUpRadius",
+        "label": "획득 반경",
+        "unit": "%",
+        "base": 125,
+        "max": 176
+      },
+      {
+        "id": "IncreasedExplosivesDamage",
+        "label": "폭발물 피해",
+        "unit": "%",
+        "base": 24,
+        "max": 37
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      }
+    ]
+  },
+  {
+    "id": "polished_octarine_necklace",
+    "name_en": "Polished Octarine Necklace",
+    "name_ko": "Polished Octarine Necklace",
+    "desc_en": "A necklace made from pure octarine filled with magic energy.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 394,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AttackSpeed",
+        "label": "공격 속도",
+        "unit": "%",
+        "base": 75,
+        "max": 110
+      },
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 55,
+        "max": 74
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 30,
+        "amount_min": 30,
+        "amount_max": 30
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "polished_octarine_ring",
+    "name_en": "Polished Octarine Ring",
+    "name_ko": "Polished Octarine Ring",
+    "desc_en": "A ring made from pure octarine enhanced with magic properties.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 253,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AttackSpeed",
+        "label": "공격 속도",
+        "unit": "%",
+        "base": 63,
+        "max": 91
+      },
+      {
+        "id": "MiningSpeedIncrease",
+        "label": "채광 속도",
+        "unit": "%",
+        "base": 70,
+        "max": 98
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "polished_scarlet_chunk_necklace",
+    "name_en": "Polished Scarlet Chunk Necklace",
+    "name_ko": "Polished Scarlet Chunk Necklace",
+    "desc_en": "The scarlet variant of an iron chunk necklace. It raises your defense even more and gives additional benefits.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 396,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 26,
+        "max": 40
+      },
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 9,
+        "max": 13
+      }
+    ],
+    "materials": [
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 35,
+        "amount_min": 35,
+        "amount_max": 35
+      }
+    ]
+  },
+  {
+    "id": "polished_swift_ring",
+    "name_en": "Polished Swift Ring",
+    "name_ko": "Polished Swift Ring",
+    "desc_en": "Wearing this winged ring creates a slight wind that pushes you forward.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 110,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MovementSpeedIncrease",
+        "label": "이동 속도",
+        "unit": "%",
+        "base": 71,
+        "max": 95
+      },
+      {
+        "id": "MeleeAttackSpeedIncrease",
+        "label": "근접 공격 속도",
+        "unit": "%",
+        "base": 36,
+        "max": 50
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 12,
+        "amount_min": 12,
+        "amount_max": 12
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "sentry_shield",
+    "name_en": "Sentry Shield",
+    "name_ko": "Sentry Shield",
+    "desc_en": "The discarded breast piece of a core sentry. It has just the right size to be used as a great shield and the ancient gemstone in its center sometimes shoots out energy as it blocks enemy attacks.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 13,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "sell": 265,
+    "durability": 100,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "Shield",
+        "label": "막기",
+        "unit": "%",
+        "base": 70,
+        "max": 70
+      },
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 19,
+        "max": 29
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 22,
+        "max": 34
+      },
+      {
+        "id": "ChanceToShootShockWaveOnBlock",
+        "label": "Chance To Shoot Shock Wave On Block",
+        "unit": "%",
+        "base": 30,
+        "max": 44
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "spine_ring",
+    "name_en": "Spine Ring",
+    "name_ko": "Spine Ring",
+    "desc_en": "A ring found at the skeleton of a giant ocean creature. It's made from tiny cervical vertebrae.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 123,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedDamageAgainstBosses",
+        "label": "보스 추가 피해",
+        "unit": "%",
+        "base": 28,
+        "max": 43
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "turtle_shell",
+    "name_en": "Turtle Shell",
+    "name_ko": "Turtle Shell",
+    "desc_en": "A hard shell that once belonged to a graceful sea creature. You feel much more protected when holding it.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 13,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "sell": 59,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 32,
+        "max": 50
+      },
+      {
+        "id": "ReducedDamageFromBosses",
+        "label": "보스 피해 감소",
+        "unit": "%",
+        "base": 7,
+        "max": 9
+      }
+    ],
+    "materials": [
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "WallLimestoneBlock",
+        "name_en": "Beach Block",
+        "name_ko": "Beach Block",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ]
+  },
+  {
+    "id": "black_necklace",
+    "name_en": "Black Necklace",
+    "name_ko": "Black Necklace",
+    "desc_en": "A necklace made from pitch-black metal that leaves dark smudges on your neck.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "uncommon",
+    "level": 14,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 111,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 62,
+        "max": 118
+      },
+      {
+        "id": "MiningSpeedIncrease",
+        "label": "채광 속도",
+        "unit": "%",
+        "base": 40,
+        "max": 53
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "double_ring",
+    "name_en": "Double Ring",
+    "name_ko": "Double Ring",
+    "desc_en": "This ring is made to be put on two fingers at the same time. Revolutionary.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 66,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AllDamageIncrease",
+        "label": "전체 피해",
+        "unit": "%",
+        "base": 55,
+        "max": 76
+      },
+      {
+        "id": "AttackSpeed",
+        "label": "공격 속도",
+        "unit": "%",
+        "base": 34,
+        "max": 46
+      },
+      {
+        "id": "CritChance",
+        "label": "치명타 확률",
+        "unit": "%",
+        "base": 3,
+        "max": 4
+      },
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 9,
+        "max": 11
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "flame_ring",
+    "name_en": "Flame Ring",
+    "name_ko": "Flame Ring",
+    "desc_en": "This strange ring produces a flame that affects anything but its wearer.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "uncommon",
+    "level": 14,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 64,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "DodgeChance",
+        "label": "회피 확률",
+        "unit": "%",
+        "base": 5,
+        "max": 7
+      },
+      {
+        "id": "ApplyBurning",
+        "label": "화상 적용",
+        "unit": "",
+        "base": 27,
+        "max": 37
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "moonstone",
+    "name_en": "Moonstone",
+    "name_ko": "Moonstone",
+    "desc_en": "This pristine crystal is filled with energy. It makes you feel determined.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 108,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxMana",
+        "label": "최대 마나",
+        "unit": "",
+        "base": 22,
+        "max": 31
+      },
+      {
+        "id": "ManaBarrier",
+        "label": "마나 보호막",
+        "unit": "",
+        "base": 58,
+        "max": 83
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "nomad_necklace",
+    "name_en": "Nomad Necklace",
+    "name_ko": "Nomad Necklace",
+    "desc_en": "Made from ragged cloth and metal badges this witness of the desert gives you a keen advantage on attacks.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 121,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 40,
+        "max": 57
+      },
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 28,
+        "max": 37
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "nomad_ring",
+    "name_en": "Nomad Ring",
+    "name_ko": "Nomad Ring",
+    "desc_en": "This small finger band is made from ragged cloth to keep it from heating up in the scorching desert valleys.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 14,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 72,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 46,
+        "max": 66
+      },
+      {
+        "id": "AllDamageIncrease",
+        "label": "전체 피해",
+        "unit": "%",
+        "base": 177,
+        "max": 246
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "omoroths_beak",
+    "name_en": "Omoroth's Beak",
+    "name_ko": "Omoroth's Beak",
+    "desc_en": "The sharp mouth piece of Omoroth, the Sea Titan. It seems to be able to crush every material.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 14,
+    "area": "City",
+    "area_ko": "고대 도시",
+    "sell": 240,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "PhysicalMeleeDamageIncrease",
+        "label": "근접 피해",
+        "unit": "%",
+        "base": 291,
+        "max": 404
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20
+      }
+    ]
+  },
+  {
+    "id": "black_ring",
+    "name_en": "Black Ring",
+    "name_ko": "Black Ring",
+    "desc_en": "A ring made from pitch-black metal, darkened by the constant presence of immense heat.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 15,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 76,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 8,
+        "max": 10
+      },
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 49,
+        "max": 82
+      },
+      {
+        "id": "MiningSpeedIncrease",
+        "label": "채광 속도",
+        "unit": "%",
+        "base": 25,
+        "max": 31
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "bomb_ring",
+    "name_en": "Bomb Ring",
+    "name_ko": "Bomb Ring",
+    "desc_en": "A ring crowned with a little bomb idol. Handling explosives while wearing it results in an even stronger blast.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 15,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 71,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 45,
+        "max": 60
+      },
+      {
+        "id": "IncreasedExplosivesDamage",
+        "label": "폭발물 피해",
+        "unit": "%",
+        "base": 27,
+        "max": 36
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "crystal_meteor_chunk",
+    "name_en": "Crystal Meteor Chunk",
+    "name_ko": "Crystal Meteor Chunk",
+    "desc_en": "A very big ancient gemstone fused from smaller shards. It emits a strange energy that makes you feel nauseous and feverish.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 15,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 92,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "BlueGlow",
+        "label": "푸른 발광",
+        "unit": "",
+        "base": 3,
+        "max": 3
+      },
+      {
+        "id": "ArmorPercentageIncrease",
+        "label": "방어력",
+        "unit": "%",
+        "base": -229,
+        "max": -305
+      },
+      {
+        "id": "AuraApplyDamageIncrease",
+        "label": "오라: 피해 증가",
+        "unit": "%",
+        "base": 229,
+        "max": 300
+      }
+    ],
+    "materials": [
+      {
+        "id": "CrystalMeteorShard",
+        "name_en": "Crystal Meteor Shard",
+        "name_ko": "Crystal Meteor Shard",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "flame_necklace",
+    "name_en": "Flame Necklace",
+    "name_ko": "Flame Necklace",
+    "desc_en": "A mysterious necklace with a burning pendant. It glows intensively but doesn't scorch the skin.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 15,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 114,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ApplyBurning",
+        "label": "화상 적용",
+        "unit": "",
+        "base": 59,
+        "max": 75
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "LavaSlime",
+        "name_en": "Magma Slime",
+        "name_ko": "마그마 슬라임",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "fusioned_chunk_necklace",
+    "name_en": "Fusioned Chunk Necklace",
+    "name_ko": "Fusioned Chunk Necklace",
+    "desc_en": "A misshappen necklace that combines chunks of all kinds of materials.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 15,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 110,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 21,
+        "max": 28
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 11,
+        "max": 14
+      },
+      {
+        "id": "LifeOnHit",
+        "label": "적중 시 생명 흡수",
+        "unit": "",
+        "base": 7,
+        "max": 9
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      },
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      },
+      {
+        "id": "ScarletBar",
+        "name_en": "Scarlet Bar",
+        "name_ko": "진홍 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      },
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "oracle_deck",
+    "name_en": "Oracle Deck",
+    "name_ko": "Oracle Deck",
+    "desc_en": "The complete set of oracle cards. Bringing them together strangely restored the cards to perfect condition and now they emit a powerful, enlightening aura.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 15,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 97,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 48,
+        "max": 63
+      },
+      {
+        "id": "AuraApplyHealingOverTime",
+        "label": "오라: 지속 회복",
+        "unit": "",
+        "base": 42,
+        "max": 58
+      }
+    ],
+    "materials": [
+      {
+        "id": "OracleCardGem",
+        "name_en": "Oracle Card \"Aura\"",
+        "name_ko": "Oracle Card \"Aura\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardFlower",
+        "name_en": "Oracle Card \"Brilliance\"",
+        "name_ko": "Oracle Card \"Brilliance\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardCore",
+        "name_en": "Oracle Card \"Entity\"",
+        "name_ko": "Oracle Card \"Entity\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardLeader",
+        "name_en": "Oracle Card \"Inspiration\"",
+        "name_ko": "Oracle Card \"Inspiration\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardCity",
+        "name_en": "Oracle Card \"Metropolis\"",
+        "name_ko": "Oracle Card \"Metropolis\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardScholar",
+        "name_en": "Oracle Card \"Wisdom\"",
+        "name_ko": "Oracle Card \"Wisdom\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardAzeos",
+        "name_en": "Oracle Card \"Radiance\"",
+        "name_ko": "Oracle Card \"Radiance\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardOmoroth",
+        "name_en": "Oracle Card \"Temperance\"",
+        "name_ko": "Oracle Card \"Temperance\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      },
+      {
+        "id": "OracleCardRaAkar",
+        "name_en": "Oracle Card \"Endurance\"",
+        "name_ko": "Oracle Card \"Endurance\"",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "ra_akars_necklace",
+    "name_en": "Ra-Akar's Necklace",
+    "name_ko": "Ra-Akar's Necklace",
+    "desc_en": "A necklace of the desert with a strong resemblance of the sand titan. Wearing it grants you additional protection and extra damage.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 15,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 117,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 24,
+        "max": 32
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 11,
+        "max": 14
+      },
+      {
+        "id": "ThornsDamage",
+        "label": "가시 피해",
+        "unit": "",
+        "base": 15,
+        "max": 20
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "ring_of_sand",
+    "name_en": "Ring of Sand",
+    "name_ko": "Ring of Sand",
+    "desc_en": "A strange ring made from sand that is held together by the currents of time.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 15,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "sell": 70,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AuraApplyMovementSpeedDecrease",
+        "label": "오라: 이동 속도 감소",
+        "unit": "%",
+        "base": -134,
+        "max": -175
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "smithing_glove",
+    "name_en": "Smithing Glove",
+    "name_ko": "Smithing Glove",
+    "desc_en": "Reinforced with several rare materials, this glove can withstand great heat and is a must have for every experienced blacksmith.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 15,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 129,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 11,
+        "max": 14
+      },
+      {
+        "id": "DamageIncreaseAgainstBurning",
+        "label": "화상 대상 추가 피해",
+        "unit": "%",
+        "base": 19,
+        "max": 24
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "core_iris",
+    "name_en": "Core Iris",
+    "name_ko": "Core Iris",
+    "desc_en": "A manufactured crystal that looks like the eye of the core. This one is raw and unfinished, as if something interrupted the process.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 16,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 122,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 62,
+        "max": 92
+      },
+      {
+        "id": "VisibleOreDistanceIncrease",
+        "label": "광석 표시 거리",
+        "unit": "",
+        "base": 10,
+        "max": 12
+      },
+      {
+        "id": "ChanceForAdditionalOre",
+        "label": "추가 광석 확률",
+        "unit": "%",
+        "base": 10,
+        "max": 12
+      }
+    ],
+    "materials": [
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "crydras_ring",
+    "name_en": "Crydra's Ring",
+    "name_ko": "Crydra's Ring",
+    "desc_en": "An icy ring that imbues the holder with powers of the cold elements.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 43,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 13,
+        "max": 15
+      },
+      {
+        "id": "ReducedImpactOfSlowedBySlime",
+        "label": "슬라임 둔화 감소",
+        "unit": "%",
+        "base": 10,
+        "max": 10
+      },
+      {
+        "id": "ChanceOnHitToApplySlipperyMovement",
+        "label": "Chance On Hit To Apply Slippery Movement",
+        "unit": "%",
+        "base": 15,
+        "max": 17
+      }
+    ],
+    "materials": [
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "druidras_ring",
+    "name_en": "Druidra's Ring",
+    "name_ko": "Druidra's Ring",
+    "desc_en": "A leafy ring that imbues the holder with powers of the poisonous nature.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 44,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 12,
+        "max": 15
+      },
+      {
+        "id": "ChanceToApplyPoisoned",
+        "label": "독 적용 확률",
+        "unit": "%",
+        "base": 6,
+        "max": 8
+      },
+      {
+        "id": "DamageIncreaseAgainstPoisoned",
+        "label": "중독 대상 추가 피해",
+        "unit": "%",
+        "base": 15,
+        "max": 18
+      }
+    ],
+    "materials": [
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 4,
+        "amount_min": 4,
+        "amount_max": 4
+      }
+    ]
+  },
+  {
+    "id": "glass_bead_ring",
+    "name_en": "Glass Bead Ring",
+    "name_ko": "Glass Bead Ring",
+    "desc_en": "A captivating ring that catches your enemies off-guard so that they lower their defense. Unfortunately it has the same effect on you.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 107,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "AllDamageIncrease",
+        "label": "전체 피해",
+        "unit": "%",
+        "base": 300,
+        "max": 369
+      },
+      {
+        "id": "IncreasedDamageTakenPercentage",
+        "label": "받는 피해 증가",
+        "unit": "%",
+        "base": 300,
+        "max": 356
+      }
+    ],
+    "materials": [
+      {
+        "id": "Glass",
+        "name_en": "Glass Piece",
+        "name_ko": "Glass Piece",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "hydra_bone_shield",
+    "name_en": "Hydra Bone Shield",
+    "name_ko": "Hydra Bone Shield",
+    "desc_en": "The heavy top part of a hydra's skull. Made to withstand deep pressure within the earth, it makes for a great protection in battle.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 242,
+    "durability": 100,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "Shield",
+        "label": "막기",
+        "unit": "%",
+        "base": 70,
+        "max": 70
+      },
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 23,
+        "max": 29
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 26,
+        "max": 32
+      },
+      {
+        "id": "GainHealthRegenWhileBelowHalfHealth",
+        "label": "절반 체력 이하 회복",
+        "unit": "",
+        "base": 50,
+        "max": 62
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      },
+      {
+        "id": "GleamWood",
+        "name_en": "Gleam Wood",
+        "name_ko": "빛나무 목재",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "hydra_tooth",
+    "name_en": "Hydra Tooth",
+    "name_ko": "Hydra Tooth",
+    "desc_en": "The long fang of a hydra. It emanates a primal energy that is waiting to be harnessed.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 111,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ChanceToDealTripleDamage",
+        "label": "3배 피해 확률",
+        "unit": "%",
+        "base": 4,
+        "max": 5
+      },
+      {
+        "id": "PhysicalRangeDamageIncrease",
+        "label": "원거리 피해",
+        "unit": "%",
+        "base": 246,
+        "max": 302
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GleamWood",
+        "name_en": "Gleam Wood",
+        "name_ko": "빛나무 목재",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "pet_rock",
+    "name_en": "Pet Rock",
+    "name_ko": "Pet Rock",
+    "desc_en": "It's Bob the pet rock. Don't drop or throw him, he has feelings too.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 134,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ApplyPetBuffsIncrease",
+        "label": "펫 버프 효과",
+        "unit": "%",
+        "base": 14,
+        "max": 18
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "GalaxiteBar",
+        "name_en": "Galaxite Bar",
+        "name_ko": "갤럭사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "pyrdras_necklace",
+    "name_en": "Pyrdra's Necklace",
+    "name_ko": "Pyrdra's Necklace",
+    "desc_en": "A scorching necklace that imbues the holder with powers of the burning heat.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "rare",
+    "level": 16,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 174,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 18,
+        "max": 23
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 11,
+        "max": 14
+      },
+      {
+        "id": "ApplyBurning",
+        "label": "화상 적용",
+        "unit": "",
+        "base": 18,
+        "max": 22
+      },
+      {
+        "id": "DamageIncreaseAgainstBurning",
+        "label": "화상 대상 추가 피해",
+        "unit": "%",
+        "base": 15,
+        "max": 18
+      }
+    ],
+    "materials": [
+      {
+        "id": "GoldBar",
+        "name_en": "Gold Bar",
+        "name_ko": "금 주괴",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2
+      }
+    ]
+  },
+  {
+    "id": "scorching_aegis",
+    "name_en": "Scorching Aegis",
+    "name_ko": "Scorching Aegis",
+    "desc_en": "The crust of molten rock, formed to be wielded like a shield.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 16,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "sell": 298,
+    "durability": 100,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "Shield",
+        "label": "막기",
+        "unit": "%",
+        "base": 70,
+        "max": 70
+      },
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 23,
+        "max": 29
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 25,
+        "max": 31
+      },
+      {
+        "id": "DealAoeFireDamageOnBlock",
+        "label": "Deal Aoe Fire Damage On Block",
+        "unit": "",
+        "base": 48,
+        "max": 59
+      }
+    ],
+    "materials": [
+      {
+        "id": "OctarineBar",
+        "name_en": "Octarine Bar",
+        "name_ko": "옥타린 주괴",
+        "amount": 18,
+        "amount_min": 18,
+        "amount_max": 18
+      },
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "atlantean_worm_necklace",
+    "name_en": "Atlantean Worm Necklace",
+    "name_ko": "Atlantean Worm Necklace",
+    "desc_en": "This organic necklace looks like a miniature version of the Atlantean Worm. Maybe it is a juvenile that would grow to become as large as its origin.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 94,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "HealOverTime",
+        "label": "지속 회복",
+        "unit": "",
+        "base": 14,
+        "max": 17
+      },
+      {
+        "id": "IncreasedDamageAgainstBosses",
+        "label": "보스 추가 피해",
+        "unit": "%",
+        "base": 17,
+        "max": 20
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 8,
+        "amount_min": 8,
+        "amount_max": 8
+      }
+    ]
+  },
+  {
+    "id": "atlantean_worm_ring",
+    "name_en": "Atlantean Worm Ring",
+    "name_ko": "Atlantean Worm Ring",
+    "desc_en": "An organic ring that looks like one of the segments of the Atlantean Worm. It must have grown inside its body as an anomaly.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 77,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "LifeOnHit",
+        "label": "적중 시 생명 흡수",
+        "unit": "",
+        "base": 4,
+        "max": 5
+      },
+      {
+        "id": "PhysicalMeleeDamageIncrease",
+        "label": "근접 피해",
+        "unit": "%",
+        "base": 172,
+        "max": 200
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "glass_bead_necklace",
+    "name_en": "Glass Bead Necklace",
+    "name_ko": "Glass Bead Necklace",
+    "desc_en": "A captivating necklace that catches your enemies off-guard so that they lower their defense. Unfortunately it has the same effect on you.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 147,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "CriticalDamagePercentageIncrease",
+        "label": "치명타 피해",
+        "unit": "%",
+        "base": 75,
+        "max": 85
+      },
+      {
+        "id": "IncreasedDamageTakenPercentage",
+        "label": "받는 피해 증가",
+        "unit": "%",
+        "base": 300,
+        "max": 335
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3
+      }
+    ]
+  },
+  {
+    "id": "soul_medallion",
+    "name_en": "Soul Medallion",
+    "name_ko": "Soul Medallion",
+    "desc_en": "A depressing stone amulet. You hear whispering...",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 237,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxMinions",
+        "label": "최대 소환수",
+        "unit": "",
+        "base": 1,
+        "max": 1
+      },
+      {
+        "id": "IncreasedMinionCritChance",
+        "label": "소환수 치명타 확률",
+        "unit": "%",
+        "base": 9,
+        "max": 10
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "tower_shell_necklace",
+    "name_en": "Tower Shell Necklace",
+    "name_ko": "Tower Shell Necklace",
+    "desc_en": "A necklace featuring a coiling shell. Its ever turning spiral structure is captivating.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 216,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "MiningIncrease",
+        "label": "채광 피해",
+        "unit": "",
+        "base": 188,
+        "max": 253
+      }
+    ],
+    "materials": [
+      {
+        "id": "SolariteBar",
+        "name_en": "Solarite Bar",
+        "name_ko": "솔라라이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "AncientGemstone",
+        "name_en": "Ancient Gemstone",
+        "name_ko": "고대 보석",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  },
+  {
+    "id": "trinity_heart",
+    "name_en": "Trinity Heart",
+    "name_ko": "Trinity Heart",
+    "desc_en": "A symbiosis of an ancient gemstone with organic matter, resulting in a physically impossible material. It pulsates in energetic rhythms of three, a celestial pattern that must have been of utter importance to a spacefaring species.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 17,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "sell": 10,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealthPercentage",
+        "label": "최대 체력",
+        "unit": "%",
+        "base": 6,
+        "max": 6
+      },
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 20,
+        "max": 24
+      },
+      {
+        "id": "HealOverTimePercentage",
+        "label": "지속 회복",
+        "unit": "%",
+        "base": 20,
+        "max": 23
+      },
+      {
+        "id": "GainArmorAtLowHealth",
+        "label": "저체력 시 방어력",
+        "unit": "",
+        "base": 200,
+        "max": 236
+      }
+    ],
+    "materials": [
+      {
+        "id": "Fiber",
+        "name_en": "Fiber",
+        "name_ko": "섬유",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "aether_ring",
+    "name_en": "Aether Ring",
+    "name_ko": "Aether Ring",
+    "desc_en": "A ring with tiny sconces that come ablaze with purple flames when you wear it.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 18,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "sell": 36,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 26,
+        "max": 29
+      },
+      {
+        "id": "GainManaFromExplosion",
+        "label": "폭발 시 마나 획득",
+        "unit": "",
+        "base": 9,
+        "max": 10
+      },
+      {
+        "id": "IncreasedManaRegen",
+        "label": "마나 재생",
+        "unit": "",
+        "base": 26,
+        "max": 29
+      }
+    ],
+    "materials": [
+      {
+        "id": "CorruptedAlloy",
+        "name_en": "Corrupted Alloy",
+        "name_ko": "오염된 합금",
+        "amount": 6,
+        "amount_min": 6,
+        "amount_max": 6
+      }
+    ]
+  },
+  {
+    "id": "helical_ring",
+    "name_en": "Helical Ring",
+    "name_ko": "Helical Ring",
+    "desc_en": "A nut fastener just the right size for your finger.",
+    "subtype": "Ring",
+    "subtype_ko": "반지",
+    "rarity": "rare",
+    "level": 18,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "sell": 70,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMaxHealth",
+        "label": "최대 체력",
+        "unit": "",
+        "base": 27,
+        "max": 31
+      },
+      {
+        "id": "CriticalDamagePercentageIncreaseFromRange",
+        "label": "원거리 치명타 피해",
+        "unit": "%",
+        "base": 23,
+        "max": 25
+      },
+      {
+        "id": "DamageIncreaseAgainstBurning",
+        "label": "화상 대상 추가 피해",
+        "unit": "%",
+        "base": 12,
+        "max": 13
+      }
+    ],
+    "materials": [
+      {
+        "id": "IronBar",
+        "name_en": "Iron Bar",
+        "name_ko": "철 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "ReluciteBar",
+        "name_en": "Relucite Bar",
+        "name_ko": "렐루사이트 주괴",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1
+      }
+    ]
+  },
+  {
+    "id": "minion_detonator",
+    "name_en": "Minion Detonator",
+    "name_ko": "Minion Detonator",
+    "desc_en": "A pristine skull crest turning conjured sparks of life into ones of greater death.",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "epic",
+    "level": 18,
+    "area": "Passage",
+    "area_ko": "통로",
+    "sell": 64,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "IncreasedMinionDamagePercentage",
+        "label": "소환수 피해",
+        "unit": "%",
+        "base": 400,
+        "max": 441
+      }
+    ],
+    "materials": [
+      {
+        "id": "Bomb",
+        "name_en": "Bomb",
+        "name_ko": "Bomb",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      },
+      {
+        "id": "PandoriumBar",
+        "name_en": "Pandorium Bar",
+        "name_ko": "판도리움 주괴",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "remote_boom_clicker",
+    "name_en": "Remote Boom Clicker",
+    "name_ko": "Remote Boom Clicker",
+    "desc_en": "For when you want to make things go boom, but from a comfy distance!",
+    "subtype": "Offhand",
+    "subtype_ko": "오프핸드",
+    "rarity": "rare",
+    "level": 18,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "sell": 182,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [],
+    "materials": [
+      {
+        "id": "ReluciteBar",
+        "name_en": "Relucite Bar",
+        "name_ko": "렐루사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "MechanicalPart",
+        "name_en": "Mechanical Part",
+        "name_ko": "Mechanical Part",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5
+      }
+    ]
+  },
+  {
+    "id": "black_charm_necklace",
+    "name_en": "Black Charm Necklace",
+    "name_ko": "Black Charm Necklace",
+    "desc_en": "A perfectly black trinket that absorbs any light cast upon it.",
+    "subtype": "Necklace",
+    "subtype_ko": "목걸이",
+    "rarity": "epic",
+    "level": 19,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "sell": 161,
+    "durability": null,
+    "dmg_base": null,
+    "conditions": [
+      {
+        "id": "ArmorIncrease",
+        "label": "방어력",
+        "unit": "",
+        "base": 32,
+        "max": 34
+      },
+      {
+        "id": "ImmuneToOil",
+        "label": "기름 면역",
+        "unit": "",
+        "base": 1,
+        "max": 1
+      }
+    ],
+    "materials": [
+      {
+        "id": "CorruptedAlloy",
+        "name_en": "Corrupted Alloy",
+        "name_ko": "오염된 합금",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      },
+      {
+        "id": "ReluciteBar",
+        "name_en": "Relucite Bar",
+        "name_ko": "렐루사이트 주괴",
+        "amount": 10,
+        "amount_min": 10,
+        "amount_max": 10
+      }
+    ]
+  }
+]

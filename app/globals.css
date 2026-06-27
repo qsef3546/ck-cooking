@@ -140,8 +140,8 @@ body {
 .site-foot a { color: var(--muted); }
 .site-foot a:hover { color: var(--amber); }
 
-/* ── 상위 섹션 탭 (요리 / 무기) ── */
-.sectabs { display: flex; gap: 8px; margin-bottom: 18px; }
+/* ── 상위 섹션 탭 (요리 / 무기 / 방어구 / 장신구 / 아이템) ── */
+.sectabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .sectab {
   background: var(--panel); border: 2px solid var(--border); border-radius: 11px;
   color: var(--muted); font-size: 15px; font-weight: 700; font-family: inherit;
@@ -182,6 +182,13 @@ body {
 .wstat span { color: var(--muted); }
 .wstat b { color: var(--text); font-weight: 700; }
 .wstat em { color: var(--dim); font-style: normal; font-weight: 600; font-size: 11px; }
+/* 장착 효과(방어구·장신구·도구) */
+.weffs { display: flex; flex-wrap: wrap; gap: 5px; }
+.weff {
+  font-size: 12px; background: #5fd6c21a; border: 1.5px solid #5fd6c266;
+  color: #aee9dd; border-radius: 7px; padding: 2px 8px;
+}
+.weff em { color: var(--dim); font-style: normal; font-size: 11px; }
 .wdesc { color: var(--muted); font-size: 12px; font-style: italic; line-height: 1.5; }
 .wcraft { border-top: 1px solid var(--border); padding-top: 9px; }
 .wcraft-h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
