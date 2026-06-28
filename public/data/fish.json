@@ -1,0 +1,468 @@
+[
+  {
+    "location": "Slime",
+    "location_ko": "흙 비옴 (시작 물웅덩이)",
+    "min_fishing": 20,
+    "fish": [
+      {
+        "id": "orange_cave_guppy",
+        "name_en": "Orange Cave Guppy",
+        "name_ko": "오렌지 동굴 구피",
+        "rarity": "common",
+        "desc_en": "Small, orange fish home to the dirt cave lakes.",
+        "chance": 37,
+        "icon": "orange_cave_guppy.webp"
+      },
+      {
+        "id": "blue_cave_guppy",
+        "name_en": "Blue Cave Guppy",
+        "name_ko": "블루 동굴 구피",
+        "rarity": "common",
+        "desc_en": "Small, blue fish home to the dirt cave lakes.",
+        "chance": 29,
+        "icon": "blue_cave_guppy.webp"
+      },
+      {
+        "id": "rock_jaw",
+        "name_en": "Rock Jaw",
+        "name_ko": "록 죠",
+        "rarity": "uncommon",
+        "desc_en": "A small shark that can break almost every material with one bite.",
+        "chance": 21,
+        "icon": "rock_jaw.webp"
+      },
+      {
+        "id": "gem_crab",
+        "name_en": "Gem Crab",
+        "name_ko": "젬 크랩",
+        "rarity": "rare",
+        "desc_en": "This rare crab has ancient gemstones growing all over it.",
+        "chance": 13,
+        "icon": "gem_crab.webp"
+      }
+    ]
+  },
+  {
+    "location": "Larva",
+    "location_ko": "유충 둥지",
+    "min_fishing": 20,
+    "fish": [
+      {
+        "id": "yellow_blister_head",
+        "name_en": "Yellow Blister Head",
+        "name_ko": "옐로 블리스터 헤드",
+        "rarity": "common",
+        "desc_en": "A fish with large yellow bubbles on its head.",
+        "chance": 37,
+        "icon": "yellow_blister_head.webp"
+      },
+      {
+        "id": "green_blister_head",
+        "name_en": "Green Blister Head",
+        "name_ko": "그린 블리스터 헤드",
+        "rarity": "common",
+        "desc_en": "A fish with large green bubbles on its head.",
+        "chance": 29,
+        "icon": "green_blister_head.webp"
+      },
+      {
+        "id": "devil_worm",
+        "name_en": "Devil Worm",
+        "name_ko": "데빌 웜",
+        "rarity": "uncommon",
+        "desc_en": "A hellspawn that dwells in the sea ground. Don't step on it.",
+        "chance": 21,
+        "icon": "devil_worm.webp"
+      },
+      {
+        "id": "vampire_eel",
+        "name_en": "Vampire Eel",
+        "name_ko": "뱀파이어 일",
+        "rarity": "rare",
+        "desc_en": "A bloodsucking fish latching onto everything that has a pulse.",
+        "chance": 13,
+        "icon": "vampire_eel.webp"
+      }
+    ]
+  },
+  {
+    "location": "Stone",
+    "location_ko": "잊혀진 유적 (돌 지대)",
+    "min_fishing": 100,
+    "fish": [
+      {
+        "id": "dagger_fin",
+        "name_en": "Dagger Fin",
+        "name_ko": "대거 핀",
+        "rarity": "common",
+        "desc_en": "The scales of this fish are thin like razorblades.",
+        "chance": 37,
+        "icon": "dagger_fin.webp"
+      },
+      {
+        "id": "pink_palace_fish",
+        "name_en": "Pink Palace Fish",
+        "name_ko": "핑크 팰리스 피시",
+        "rarity": "uncommon",
+        "desc_en": "A pink, odd-looking fish with weirdly shaped fins.",
+        "chance": 29,
+        "icon": "pink_palace_fish.webp"
+      },
+      {
+        "id": "teal_palace_fish",
+        "name_en": "Teal Palace Fish",
+        "name_ko": "틸 팰리스 피시",
+        "rarity": "uncommon",
+        "desc_en": "A greenish-blue, odd-looking fish with weirdly shaped fins.",
+        "chance": 21,
+        "icon": "teal_palace_fish.webp"
+      },
+      {
+        "id": "crown_squid",
+        "name_en": "Crown Squid",
+        "name_ko": "크라운 스퀴드",
+        "rarity": "epic",
+        "desc_en": "All hail the pale king of water!",
+        "chance": 13,
+        "icon": "crown_squid.webp"
+      }
+    ]
+  },
+  {
+    "location": "Nature",
+    "location_ko": "아제오스의 황야",
+    "min_fishing": 140,
+    "fish": [
+      {
+        "id": "azure_feather_fish",
+        "name_en": "Azure Feather Fish",
+        "name_ko": "애저 페더 피시",
+        "rarity": "common",
+        "desc_en": "A beautiful blue fish with scales that look like feathers.",
+        "chance": 37,
+        "icon": "azure_feather_fish.webp"
+      },
+      {
+        "id": "emerald_feather_fish",
+        "name_en": "Emerald Feather Fish",
+        "name_ko": "에메랄드 페더 피시",
+        "rarity": "common",
+        "desc_en": "A beautiful green fish with scales that look like feathers.",
+        "chance": 29,
+        "icon": "emerald_feather_fish.webp"
+      },
+      {
+        "id": "spirit_veil",
+        "name_en": "Spirit Veil",
+        "name_ko": "스피릿 베일",
+        "rarity": "uncommon",
+        "desc_en": "A ghastly fish that floats in the air like it's still underwater.",
+        "chance": 21,
+        "icon": "spirit_veil.webp"
+      },
+      {
+        "id": "astral_jelly",
+        "name_en": "Astral Jelly",
+        "name_ko": "아스트랄 젤리",
+        "rarity": "rare",
+        "desc_en": "Extremely rare type of jellyfish. It almost feels out of this world.",
+        "chance": 13,
+        "icon": "astral_jelly.webp"
+      }
+    ]
+  },
+  {
+    "location": "Mold",
+    "location_ko": "곰팡이 던전",
+    "min_fishing": 160,
+    "fish": [
+      {
+        "id": "mold_shark",
+        "name_en": "Mold Shark",
+        "name_ko": "곰팡이 상어",
+        "rarity": "common",
+        "desc_en": "A small predator of the murky mold waters.",
+        "chance": 50,
+        "icon": "mold_shark.webp"
+      },
+      {
+        "id": "rot_fish",
+        "name_en": "Rot Fish",
+        "name_ko": "부패 물고기",
+        "rarity": "uncommon",
+        "desc_en": "Half of its body is missing but somehow it's still alive. Creepy.",
+        "chance": 37,
+        "icon": "rot_fish.webp"
+      },
+      {
+        "id": "black_steel_urchin",
+        "name_en": "Black Steel Urchin",
+        "name_ko": "흑강 성게",
+        "rarity": "rare",
+        "desc_en": "A rare sea critter with spikes as hard as steel.",
+        "chance": 13,
+        "icon": "black_steel_urchin.webp"
+      }
+    ]
+  },
+  {
+    "location": "Sea",
+    "location_ko": "가라앉은 바다",
+    "min_fishing": 180,
+    "fish": [
+      {
+        "id": "bottom_tracer",
+        "name_en": "Bottom Tracer",
+        "name_ko": "바텀 트레이서",
+        "rarity": "common",
+        "desc_en": "A bright yellow fish with long barbels that it drags along the sea floor in search for food.",
+        "chance": 32,
+        "icon": "bottom_tracer.webp"
+      },
+      {
+        "id": "silver_dart",
+        "name_en": "Silver Dart",
+        "name_ko": "실버 다트",
+        "rarity": "uncommon",
+        "desc_en": "This elusive fish appears in swarms as a spectacle of blinking silver to confuse predators.",
+        "chance": 22,
+        "icon": "silver_dart.webp"
+      },
+      {
+        "id": "golden_dart",
+        "name_en": "Golden Dart",
+        "name_ko": "골든 다트",
+        "rarity": "uncommon",
+        "desc_en": "This elusive fish appears in swarms as a spectacle of flickering gold to confuse predators.",
+        "chance": 22,
+        "icon": "golden_dart.webp"
+      },
+      {
+        "id": "pink_coralotl",
+        "name_en": "Pink Coralotl",
+        "name_ko": "핑크 코랄로틀",
+        "rarity": "rare",
+        "desc_en": "A small pink amphibian with outward-protruding gills that look like corals. It also uses them to draw nutrients out of the waters of the Sunken Sea.",
+        "chance": 12,
+        "icon": "pink_coralotl.webp"
+      },
+      {
+        "id": "white_coralotl",
+        "name_en": "White Coralotl",
+        "name_ko": "화이트 코랄로틀",
+        "rarity": "rare",
+        "desc_en": "A small white amphibian with outward-protruding gills that look like corals. It also uses them to draw nutrients out of the waters of the Sunken Sea.",
+        "chance": 12,
+        "icon": "white_coralotl.webp"
+      }
+    ]
+  },
+  {
+    "location": "Desert",
+    "location_ko": "시초의 사막",
+    "min_fishing": 220,
+    "fish": [
+      {
+        "id": "solid_spikeback",
+        "name_en": "Solid Spikeback",
+        "name_ko": "솔리드 스파이크백",
+        "rarity": "common",
+        "desc_en": "A very defensive fish with rock-hard skin and sharp spikes protruding out.",
+        "chance": 26.3,
+        "icon": "solid_spikeback.webp"
+      },
+      {
+        "id": "sandy_spikeback",
+        "name_en": "Sandy Spikeback",
+        "name_ko": "샌디 스파이크백",
+        "rarity": "common",
+        "desc_en": "A very defensive fish with sandstone skin and jagged spikes protruding out.",
+        "chance": 26.3,
+        "icon": "sandy_spikeback.webp"
+      },
+      {
+        "id": "brown_dune_tail",
+        "name_en": "Brown Dune Tail",
+        "name_ko": "브라운 듄 테일",
+        "rarity": "rare",
+        "desc_en": "This brown, agile fish is able to move between water holes in the desert to change feeding grounds.",
+        "chance": 18.8,
+        "icon": "brown_dune_tail.webp"
+      },
+      {
+        "id": "gray_dune_tail",
+        "name_en": "Gray Dune Tail",
+        "name_ko": "그레이 듄 테일",
+        "rarity": "rare",
+        "desc_en": "This gray, agile fish is able to move between water holes in the desert to change feeding grounds.",
+        "chance": 18.8,
+        "icon": "gray_dune_tail.webp"
+      },
+      {
+        "id": "tornis_kingfish",
+        "name_en": "Tornis Kingfish",
+        "name_ko": "토르니스 킹피시",
+        "rarity": "epic",
+        "desc_en": "An extremely rare enigma of sea life that seems to unify all other fish beneath it.",
+        "chance": 9.8,
+        "icon": "tornis_kingfish.webp"
+      }
+    ]
+  },
+  {
+    "location": "Lava",
+    "location_ko": "용암 지대",
+    "min_fishing": 240,
+    "fish": [
+      {
+        "id": "dark_lava_eater",
+        "name_en": "Dark Lava Eater",
+        "name_ko": "다크 라바 이터",
+        "rarity": "uncommon",
+        "desc_en": "A dark fish with fiery belly that seems to purely feed from liquid stone and the gemstones caught within.",
+        "chance": 28.2,
+        "icon": "dark_lava_eater.webp"
+      },
+      {
+        "id": "bright_lava_eater",
+        "name_en": "Bright Lava Eater",
+        "name_ko": "브라이트 라바 이터",
+        "rarity": "uncommon",
+        "desc_en": "A bright fish with fiery belly that seems to purely feed from liquid stone and the gemstones caught within.",
+        "chance": 28.2,
+        "icon": "bright_lava_eater.webp"
+      },
+      {
+        "id": "elder_dragonfish",
+        "name_en": "Elder Dragonfish",
+        "name_ko": "엘더 드래곤피시",
+        "rarity": "rare",
+        "desc_en": "A draconic fish that is several hundred years old. The verdant color of its scales has long faded.",
+        "chance": 18.8,
+        "icon": "elder_dragonfish.webp"
+      },
+      {
+        "id": "verdant_dragonfish",
+        "name_en": "Verdant Dragonfish",
+        "name_ko": "버던트 드래곤피시",
+        "rarity": "rare",
+        "desc_en": "This draconic fish has green scales that can withstand remarkably high temperatures.",
+        "chance": 18.8,
+        "icon": "verdant_dragonfish.webp"
+      },
+      {
+        "id": "starlight_nautilus",
+        "name_en": "Starlight Nautilus",
+        "name_ko": "스타라이트 노틸러스",
+        "rarity": "legendary",
+        "desc_en": "A mysterious living fossil that seems to have fused with precious metals and gemstones to ascend to a higher state of being.",
+        "chance": 6.1,
+        "icon": "starlight_nautilus.webp"
+      }
+    ]
+  },
+  {
+    "location": "Crystal",
+    "location_ko": "반짝이는 변경",
+    "min_fishing": 260,
+    "fish": [
+      {
+        "id": "beryll_angle_fish",
+        "name_en": "Beryll Angle Fish",
+        "name_ko": "베릴 앵글 피시",
+        "rarity": "uncommon",
+        "desc_en": "This moon-blue fish seemed to have had a normal body once, but the water of the Shimmering Frontier corrupted it to be crystalline through and through.",
+        "chance": 29.6,
+        "icon": "beryll_angle_fish.webp"
+      },
+      {
+        "id": "glistening_deepstalker",
+        "name_en": "Glistening Deepstalker",
+        "name_ko": "글리스닝 딥스토커",
+        "rarity": "rare",
+        "desc_en": "A crystal-plated predator that slithers through the glowing waters of the Shimmering Frontier, always on the hunt for something weaker.",
+        "chance": 25.9,
+        "icon": "glistening_deepstalker.webp"
+      },
+      {
+        "id": "jasper_angle_fish",
+        "name_en": "Jasper Angle Fish",
+        "name_ko": "재스퍼 앵글 피시",
+        "rarity": "rare",
+        "desc_en": "This sun-golden fish seemed to have had a normal body once, but the water of the Shimmering Frontier corrupted it to be crystalline through and through.",
+        "chance": 18.5,
+        "icon": "jasper_angle_fish.webp"
+      },
+      {
+        "id": "splendid_deepstalker",
+        "name_en": "Splendid Deepstalker",
+        "name_ko": "스플렌디드 딥스토커",
+        "rarity": "epic",
+        "desc_en": "A Solarite-plated predator that slithers through the glowing waters of the Shimmering Frontier, always on the hunt for something weaker.",
+        "chance": 14.8,
+        "icon": "splendid_deepstalker.webp"
+      },
+      {
+        "id": "cosmic_form",
+        "name_en": "Cosmic Form",
+        "name_ko": "코스믹 폼",
+        "rarity": "epic",
+        "desc_en": "A strange entity that is unlike any terrestrial sea life you have ever seen. Did it come from a place far away from earth?",
+        "chance": 11.1,
+        "icon": "cosmic_form.webp"
+      }
+    ]
+  },
+  {
+    "location": "Passage",
+    "location_ko": "통로",
+    "min_fishing": 280,
+    "fish": [
+      {
+        "id": "terra_trilobite",
+        "name_en": "Terra Trilobite",
+        "name_ko": "테라 삼엽충",
+        "rarity": "uncommon",
+        "desc_en": "The mutated offspring of its extinct ancestor. Its brown shell had adapted to withstand extreme pressure.",
+        "chance": 28.6,
+        "icon": "terra_trilobite.webp"
+      },
+      {
+        "id": "litho_trilobite",
+        "name_en": "Litho Trilobite",
+        "name_ko": "리토 삼엽충",
+        "rarity": "uncommon",
+        "desc_en": "The mutated offspring of its extinct ancestor. Its gray shell had adapted to withstand extreme pressure.",
+        "chance": 23.8,
+        "icon": "litho_trilobite.webp"
+      },
+      {
+        "id": "pinkhorn_pico",
+        "name_en": "Pinkhorn Pico",
+        "name_ko": "핑크혼 피코",
+        "rarity": "rare",
+        "desc_en": "This little pink creature is entirely translucent with no visible brain. It seems unbothered being held.",
+        "chance": 19.1,
+        "icon": "pinkhorn_pico.webp"
+      },
+      {
+        "id": "greenhorn_pico",
+        "name_en": "Greenhorn Pico",
+        "name_ko": "그린혼 피코",
+        "rarity": "rare",
+        "desc_en": "This little green creature is entirely translucent with no visible brain. It seems unbothered being held.",
+        "chance": 19.1,
+        "icon": "greenhorn_pico.webp"
+      },
+      {
+        "id": "riftian_lampfish",
+        "name_en": "Riftian Lampfish",
+        "name_ko": "리프티안 램프피시",
+        "rarity": "epic",
+        "desc_en": "An extraordinary creature that doesn't seem to be from this world. Its biology works entirely different from anything you know.",
+        "chance": 9.5,
+        "icon": "riftian_lampfish.webp"
+      }
+    ]
+  }
+]

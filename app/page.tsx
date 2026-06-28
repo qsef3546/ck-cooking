@@ -7,6 +7,7 @@ import type { Ingredient, Combo } from "@/lib/types";
 import ICONS from "@/public/icons/manifest.json";
 import Weapons from "./Weapons";
 import Gear from "./Gear";
+import Fish from "./Fish";
 
 const iconSrc = (id: string): string | undefined => (ICONS as Record<string, string>)[id];
 
@@ -63,7 +64,7 @@ function pageList(cur: number, total: number): (number | "…")[] {
 }
 
 export default function Page() {
-  const [section, setSection] = useState<"cook" | "weapon" | "armor" | "accessories" | "tools">("cook");
+  const [section, setSection] = useState<"cook" | "weapon" | "armor" | "accessories" | "tools" | "fish">("cook");
   const [items, setItems] = useState<Ingredient[]>([]);
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState<string | null>(null);
@@ -140,6 +141,8 @@ export default function Page() {
           <p className="sub">
             {section === "cook"
               ? `재료1 + 재료2 = 완성 요리 · 효과 · 획득처 · 총 ${combos.length.toLocaleString()} 조합`
+              : section === "fish"
+              ? "낚시터별 물고기 · 낚일 확률 · 필요 낚시 스킬"
               : "등급 · 레벨 · 스탯 · 장착 효과 · 제작 재료 · 파밍 지역"}
           </p>
         </div>
@@ -151,12 +154,14 @@ export default function Page() {
         <button className={"sectab" + (section === "armor" ? " on" : "")} onClick={() => setSection("armor")}>🛡️ 방어구</button>
         <button className={"sectab" + (section === "accessories" ? " on" : "")} onClick={() => setSection("accessories")}>💍 장신구</button>
         <button className={"sectab" + (section === "tools" ? " on" : "")} onClick={() => setSection("tools")}>⛏️ 아이템</button>
+        <button className={"sectab" + (section === "fish" ? " on" : "")} onClick={() => setSection("fish")}>🎣 낚시</button>
       </div>
 
       {section === "weapon" && <Weapons />}
       {section === "armor" && <Gear kind="armor" />}
       {section === "accessories" && <Gear kind="accessories" />}
       {section === "tools" && <Gear kind="tools" />}
+      {section === "fish" && <Fish />}
 
       {section === "cook" && loading && <p className="muted pad">불러오는 중…</p>}
       {section === "cook" && !loading && err && (

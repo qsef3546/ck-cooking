@@ -205,10 +205,34 @@ body {
   border-left: 1px solid var(--border-lit); padding-left: 5px;
 }
 
+/* ── 🎣 낚시 도감 ── */
+.fspot { margin-top: 18px; }
+.fspot-h { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; border-bottom: 1px solid var(--border); padding-bottom: 7px; }
+.fspot-name { font-size: 17px; font-weight: 800; margin: 0; letter-spacing: -.3px; }
+.fspot-skill {
+  margin-left: auto; font-size: 12px; font-weight: 700; color: #8ee0ff;
+  background: #8ee0ff1a; border: 1px solid #8ee0ff44; border-radius: 7px; padding: 2px 9px; white-space: nowrap;
+}
+.fgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.fcard {
+  background: var(--panel); border: 2px solid var(--border); border-radius: 12px;
+  padding: 11px 12px; display: flex; flex-direction: column; gap: 7px;
+}
+.fcard-head { display: flex; align-items: center; gap: 9px; }
+.fcard-title { min-width: 0; flex: 1; }
+.fcard-name { font-weight: 800; font-size: 15px; letter-spacing: -.3px; }
+.fcard-en { color: var(--dim); font-size: 11px; }
+.fchance {
+  flex: none; font-size: 13px; font-weight: 800; color: var(--amber);
+  background: #00000026; border-radius: 8px; padding: 3px 8px;
+}
+.fcard-meta { display: flex; gap: 6px; }
+
 @media (max-width: 640px) {
   .row { grid-template-columns: 1fr; }
   .eq { text-align: left; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
   .reslabel { margin-left: 0; width: 100%; }
   .wgrid { grid-template-columns: 1fr; }
+  .fgrid { grid-template-columns: 1fr; }
 }
