@@ -244,6 +244,35 @@ body {
 .bhp { font-size: 11.5px; color: #ff9a9a; background: #ff5e5e1a; border-radius: 6px; padding: 2px 7px; }
 .bdrops { border-top: 1px solid var(--border); padding-top: 9px; }
 
+/* ── 🏆 추천 빌드 ── */
+.bd-tabs { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 14px; }
+.bd-tab {
+  background: var(--panel); border: 2px solid var(--border); border-radius: 10px;
+  color: var(--muted); font-size: 14px; font-weight: 700; font-family: inherit;
+  padding: 8px 14px; cursor: pointer;
+}
+.bd-tab:hover:not(.on) { border-color: var(--border-lit); color: var(--text); }
+.bd-tab.on { background: #00000026; }
+.bd-card { background: var(--panel); border: 2px solid var(--border); border-radius: 14px; padding: 16px 16px 14px; }
+.bd-title { font-size: 20px; font-weight: 800; margin: 0 0 6px; letter-spacing: -.3px; }
+.bd-summary { color: var(--text); font-size: 13.5px; margin: 0 0 14px; line-height: 1.6; }
+.bd-stats { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 14px; }
+.bd-stat { font-size: 12px; font-weight: 700; border: 1.5px solid var(--border-lit); border-radius: 7px; padding: 2px 9px; }
+.bd-slot { margin-bottom: 13px; }
+.bd-slot-label { font-size: 12.5px; font-weight: 800; color: var(--muted); margin-bottom: 7px; }
+.bd-items { display: flex; flex-direction: column; gap: 5px; }
+.bd-item { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.bd-item .wic { image-rendering: pixelated; flex: none; }
+.bd-dot { width: 22px; height: 22px; border-radius: 5px; border: 1px dashed var(--border-lit); flex: none; }
+.bd-item-name { font-weight: 700; font-size: 13.5px; }
+.bd-item-note { color: var(--muted); font-style: normal; font-size: 12px; }
+.bd-item-note::before { content: "— "; color: var(--dim); }
+.bd-tips { margin: 0; padding-left: 18px; color: var(--text); font-size: 13px; line-height: 1.65; }
+.bd-tips li { margin-bottom: 3px; }
+.bd-sources { margin-top: 14px; padding-top: 11px; border-top: 1px solid var(--border); color: var(--dim); font-size: 11.5px; line-height: 1.7; }
+.bd-sources a { color: var(--muted); }
+.bd-sources a:hover { color: var(--amber); }
+
 @media (max-width: 640px) {
   .row { grid-template-columns: 1fr; }
   .eq { text-align: left; }
