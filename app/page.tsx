@@ -10,6 +10,7 @@ import Gear from "./Gear";
 import Fish from "./Fish";
 import Bosses from "./Boss";
 import Builds from "./Builds";
+import Pets from "./Pet";
 
 const iconSrc = (id: string): string | undefined => (ICONS as Record<string, string>)[id];
 
@@ -36,6 +37,7 @@ const SUBTITLES: Record<string, string> = {
   tools: "곡괭이·삽·낚싯대 등 도구 · 성능 · 제작 재료",
   fish: "낚시터별 물고기 · 낚일 확률 · 옵션 · 필요 낚시 스킬",
   boss: "보스별 처치 드롭 · 체력 · 등장 지역",
+  pet: "펫별 유형 · 따라다니며 주는 패시브 버프 · 특화 · 등장 지역",
   builds: "플레이스타일별 커뮤니티 추천 무기·방어구·장신구·음식",
 };
 
@@ -76,7 +78,7 @@ function pageList(cur: number, total: number): (number | "…")[] {
 }
 
 export default function Page() {
-  const [section, setSection] = useState<"cook" | "weapon" | "armor" | "accessories" | "tools" | "fish" | "boss" | "builds">("cook");
+  const [section, setSection] = useState<"cook" | "weapon" | "armor" | "accessories" | "tools" | "fish" | "boss" | "pet" | "builds">("cook");
   const [descOff, setDescOff] = useState(false); // 영문 설명(플레이버 텍스트) 숨김
   const [items, setItems] = useState<Ingredient[]>([]);
   const [loading, setLoading] = useState(true);
@@ -146,7 +148,7 @@ export default function Page() {
     setMode(m); setSel(""); setCats([]); setQ(""); setSort("default");
   }
 
-  const hasDesc = ["weapon", "armor", "accessories", "tools", "fish"].includes(section);
+  const hasDesc = ["weapon", "armor", "accessories", "tools", "fish", "pet"].includes(section);
 
   return (
     <main className={"wrap" + (descOff ? " hide-desc" : "")}>
@@ -179,6 +181,7 @@ export default function Page() {
         <button className={"sectab" + (section === "tools" ? " on" : "")} onClick={() => setSection("tools")}>⛏️ 아이템</button>
         <button className={"sectab" + (section === "fish" ? " on" : "")} onClick={() => setSection("fish")}>🎣 낚시</button>
         <button className={"sectab" + (section === "boss" ? " on" : "")} onClick={() => setSection("boss")}>👹 보스</button>
+        <button className={"sectab" + (section === "pet" ? " on" : "")} onClick={() => setSection("pet")}>🐾 펫</button>
         <button className={"sectab" + (section === "builds" ? " on" : "")} onClick={() => setSection("builds")}>🏆 추천 빌드</button>
       </div>
 
@@ -196,6 +199,7 @@ export default function Page() {
       {section === "tools" && <Gear kind="tools" />}
       {section === "fish" && <Fish />}
       {section === "boss" && <Bosses />}
+      {section === "pet" && <Pets />}
       {section === "builds" && <Builds />}
 
       {section === "cook" && loading && <p className="muted pad">불러오는 중…</p>}

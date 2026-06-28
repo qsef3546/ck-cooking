@@ -267,6 +267,13 @@ export const COND = {
   GainManaFromExplosion: ["폭발 시 마나 획득", ""], ChanceToDealTripleDamage: ["3배 피해 확률", "%"],
   AuraApplyDamageIncrease: ["오라: 피해 증가", "%"], AuraApplyHealingOverTime: ["오라: 지속 회복", ""],
   AuraApplyMovementSpeedDecrease: ["오라: 이동 속도 감소", "%"],
+  // 펫 전용
+  MovementSpeed: ["이동 속도", "%"], PiercingProjectiles: ["관통 투사체", ""],
+  ChanceOnHitToApplySlipperyMovement: ["적중 시 미끄러짐 부여 확률", "%"],
+  ChanceToGainManaOnAttack: ["공격 시 마나 획득 확률", "%"],
+  PetChanceToGainManaOnAttack: ["펫 공격 시 마나 획득", "%"],
+  ReducedManaRegenDelayPercentage: ["마나 재생 지연 감소", "%"],
+  ApplySlowedBySlime: ["슬라임 둔화 부여", ""],
 };
 export function humanizeId(id) {
   return id.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2");

@@ -1,0 +1,447 @@
+[
+  {
+    "id": "electro_pet",
+    "name_en": "Electro-Pet",
+    "name_ko": "일렉트로 펫",
+    "desc_en": "A tamed Electro-Pest. This spiky, otherworldly loaf of a predator is supplemented with electric coils. Their blue visor indicates friendliness to their owner.",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": 122,
+    "buffs": [
+      {
+        "label": "근접 적중 시 기절 확률",
+        "value": 20,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "Damage Increase Against Stunned",
+      "치명타 확률",
+      "Melee Damage",
+      "Boss Damage",
+      "3배 피해 확률",
+      "Apply Stun",
+      "Stun Duration",
+      "Apply Radiation Damage"
+    ]
+  },
+  {
+    "id": "jr_blue_slime",
+    "name_en": "Jr. Blue Slime",
+    "name_ko": "주니어 블루 슬라임",
+    "desc_en": "A slippery little friend who is ready for adventures underground.",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "적중 시 미끄러짐 부여 확률",
+        "value": 13,
+        "unit": "%"
+      },
+      {
+        "label": "보스 추가 피해",
+        "value": 15,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "치명타 확률",
+      "Crit Damage",
+      "Melee Damage",
+      "Boss Damage",
+      "Damage Based On Target Remaining Health",
+      "Apply Slippery",
+      "Melee Attack Speed",
+      "이동 속도"
+    ]
+  },
+  {
+    "id": "jr_lava_slime",
+    "name_en": "Jr. Lava Slime",
+    "name_ko": "주니어 라바 슬라임",
+    "desc_en": "A scorching little friend who is ready for adventures underground.",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "주황 발광",
+        "value": 2,
+        "unit": ""
+      },
+      {
+        "label": "보스 추가 피해",
+        "value": 15,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "치명타 확률",
+      "Crit Damage",
+      "Melee Damage",
+      "Boss Damage",
+      "Apply Burn",
+      "Melee Attack Speed",
+      "이동 속도",
+      "Damage Based On Target Remaining Health",
+      "주황 발광"
+    ]
+  },
+  {
+    "id": "jr_orange_slime",
+    "name_en": "Jr. Orange Slime",
+    "name_ko": "주니어 오렌지 슬라임",
+    "desc_en": "An oozy little friend who is ready for adventures underground.",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "슬라임 둔화 부여",
+        "value": -117,
+        "unit": ""
+      },
+      {
+        "label": "보스 추가 피해",
+        "value": 8,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "치명타 확률",
+      "Crit Damage",
+      "Melee Damage",
+      "Boss Damage",
+      "Damage Based On Target Remaining Health",
+      "Apply Slime",
+      "Melee Attack Speed",
+      "이동 속도"
+    ]
+  },
+  {
+    "id": "jr_purple_slime",
+    "name_en": "Jr. Purple Slime",
+    "name_ko": "주니어 퍼플 슬라임",
+    "desc_en": "A poisonous little friend who is ready for adventures underground.",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "독 적용 확률",
+        "value": 12,
+        "unit": "%"
+      },
+      {
+        "label": "보스 추가 피해",
+        "value": 15,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "치명타 확률",
+      "Crit Damage",
+      "Melee Damage",
+      "Boss Damage",
+      "Damage Based On Target Remaining Health",
+      "Apply Poison",
+      "Melee Attack Speed",
+      "이동 속도"
+    ]
+  },
+  {
+    "id": "prince_slime",
+    "name_en": "Prince Slime",
+    "name_ko": "프린스 슬라임",
+    "desc_en": "A royal little friend who is ready for adventures underground.",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "보스 추가 피해",
+        "value": 30,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "치명타 확률",
+      "Crit Damage",
+      "Melee Damage",
+      "Boss Damage",
+      "Damage Based On Target Remaining Health",
+      "Melee Attack Speed",
+      "이동 속도"
+    ]
+  },
+  {
+    "id": "snugglygrade",
+    "name_en": "Snugglygrade",
+    "name_ko": "스너글리그레이드",
+    "desc_en": "A cuddly, calm, and oddly brave companion. Watch it curl up and wiggle, but know that this new friend will not be afraid to join you in combat!",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Passage",
+    "area_ko": "통로",
+    "dmg": 378,
+    "buffs": [
+      {
+        "label": "펫 공격 시 마나 획득",
+        "value": 15,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "공격 시 마나 획득 확률",
+      "치명타 확률",
+      "Crit Damage",
+      "Melee Damage",
+      "Boss Damage",
+      "Melee Attack Speed",
+      "이동 속도",
+      "3배 피해 확률"
+    ]
+  },
+  {
+    "id": "subterrier",
+    "name_en": "Subterrier",
+    "name_ko": "서브테리어",
+    "desc_en": "A loyal canine companion who helps in fights and keeps you company. A very good pal.",
+    "pet_type": "Melee",
+    "pet_type_ko": "근접",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": 122,
+    "buffs": [
+      {
+        "label": "근접 적중 시 기절 확률",
+        "value": 10,
+        "unit": "%"
+      },
+      {
+        "label": "치명타 확률",
+        "value": 8,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "Damage Increase Against Stunned",
+      "치명타 확률",
+      "Crit Damage",
+      "Melee Damage",
+      "Boss Damage",
+      "3배 피해 확률",
+      "Apply Stun",
+      "Stun Duration"
+    ]
+  },
+  {
+    "id": "arcane_symbiote",
+    "name_en": "Arcane Symbiote",
+    "name_ko": "아케인 심바이오트",
+    "desc_en": "This strange creature feeds off arcane energies. While lacking physical influence, their ethereal power is felt by their host.",
+    "pet_type": "Buff",
+    "pet_type_ko": "버프형",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "마법 보호막",
+        "value": 19,
+        "unit": ""
+      },
+      {
+        "label": "마나 재생 지연 감소",
+        "value": 11,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "Melee Attack Speed",
+      "Range Attack Speed",
+      "Magic Damage",
+      "Mana Regeneration",
+      "치명타 확률",
+      "Crit Damage",
+      "이동 속도",
+      "3배 피해 확률"
+    ]
+  },
+  {
+    "id": "earie",
+    "name_en": "Earie",
+    "name_ko": "이어리",
+    "desc_en": "A big-eared companion that begs you to not confuse their ears with their wings! While too timid for aggression, their glowing eyes instill ensurance in allies and strike fear in foes.",
+    "pet_type": "Buff",
+    "pet_type_ko": "버프형",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "최대 소환수",
+        "value": 1,
+        "unit": ""
+      },
+      {
+        "label": "소환수 피해",
+        "value": 72,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "Minion Attack Speed",
+      "Minion Crit Chance",
+      "Minion Crit Damage",
+      "Minion Damage",
+      "Minion Boss Damage",
+      "Minion Life Span"
+    ]
+  },
+  {
+    "id": "owlux",
+    "name_en": "Owlux",
+    "name_ko": "아울럭스",
+    "desc_en": "A swift, beaked ally who will always love to fly around you. While too shy to partake in battle, they still have your back!",
+    "pet_type": "Buff",
+    "pet_type_ko": "버프형",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "이동 속도",
+        "value": 76,
+        "unit": "%"
+      },
+      {
+        "label": "전체 피해",
+        "value": 65,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "Melee Attack Speed",
+      "Range Attack Speed",
+      "Melee Damage",
+      "Range Damage",
+      "치명타 확률",
+      "Crit Damage",
+      "이동 속도",
+      "3배 피해 확률"
+    ]
+  },
+  {
+    "id": "pheromoth",
+    "name_en": "Pheromoth",
+    "name_ko": "페로모스",
+    "desc_en": "A friendly companion from the moldy habitat. Their silky wings are not fit for battle but they will support you from a safe distance.",
+    "pet_type": "Buff",
+    "pet_type_ko": "버프형",
+    "area": "Mold",
+    "area_ko": "곰팡이 던전",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "원거리 피해",
+        "value": 126,
+        "unit": "%"
+      },
+      {
+        "label": "회피 확률",
+        "value": 7,
+        "unit": "%"
+      }
+    ],
+    "talents": [
+      "Stun And Snare Reduction",
+      "Melee Attack Speed",
+      "Range Attack Speed",
+      "Melee Damage",
+      "Range Damage",
+      "치명타 확률",
+      "Crit Damage",
+      "3배 피해 확률"
+    ]
+  },
+  {
+    "id": "embertail",
+    "name_en": "Embertail",
+    "name_ko": "엠버테일",
+    "desc_en": "Spontaneous and impulsive in nature, this pet is as fierce in battle as they are at clawing at furniture. But also incredibly cuddly.",
+    "pet_type": "Range",
+    "pet_type_ko": "원거리",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "주황 발광",
+        "value": 1,
+        "unit": ""
+      },
+      {
+        "label": "화상 적용",
+        "value": 20,
+        "unit": ""
+      }
+    ],
+    "talents": [
+      "치명타 확률",
+      "Crit Damage",
+      "Range Damage",
+      "Boss Damage",
+      "Chance To Consume Burning",
+      "Apply Burn",
+      "Range Attack Speed",
+      "주황 발광"
+    ]
+  },
+  {
+    "id": "fanhare",
+    "name_en": "Fanhare",
+    "name_ko": "팬헤어",
+    "desc_en": "This feather-eared rodent is an able companion, making up for their size by swinging poisonous, sturdy hair into the enemy.",
+    "pet_type": "Range",
+    "pet_type_ko": "원거리",
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "dmg": null,
+    "buffs": [
+      {
+        "label": "독 적용 확률",
+        "value": 12,
+        "unit": "%"
+      },
+      {
+        "label": "관통 투사체",
+        "value": 1,
+        "unit": ""
+      }
+    ],
+    "talents": [
+      "Apply Poison",
+      "치명타 확률",
+      "Crit Damage",
+      "Range Damage",
+      "Boss Damage",
+      "3배 피해 확률",
+      "Range Attack Speed",
+      "관통 투사체"
+    ]
+  }
+]
