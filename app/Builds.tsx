@@ -61,10 +61,12 @@ export default function Builds() {
             {b.stats.map((s, i) => <span className="bd-stat" key={i} style={{ borderColor: b.color + "66" }}>{s}</span>)}
           </div>
 
-          <Slot label="🗡️ 무기" items={b.weapons} />
-          <Slot label="🛡️ 방어구" items={b.armor} />
-          <Slot label="💍 장신구" items={b.accessories} />
-          <Slot label="🍳 음식" items={b.food} />
+          <div className="bd-slots">
+            <Slot label="🗡️ 무기" items={b.weapons} />
+            <Slot label="🛡️ 방어구" items={b.armor} />
+            <Slot label="💍 장신구" items={b.accessories} />
+            <Slot label="🍳 음식" items={b.food} />
+          </div>
 
           {!!b.tips.length && (
             <div className="bd-slot">
