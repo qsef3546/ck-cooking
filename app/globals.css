@@ -204,7 +204,11 @@ body {
   color: #aee9dd; border-radius: 7px; padding: 2px 8px;
 }
 .weff em { color: var(--dim); font-style: normal; font-size: 11px; }
-.wdesc { color: var(--muted); font-size: 12px; font-style: italic; line-height: 1.5; }
+/* 영문 플레이버 텍스트: 기본 흐리게(보조 정보), 토글로 숨김 */
+.wdesc { color: var(--dim); font-size: 11px; font-style: italic; line-height: 1.45; opacity: .8; }
+.hide-desc .wdesc { display: none; }
+.desctoggle { display: flex; justify-content: flex-end; margin: -8px 0 10px; }
+.desctoggle .chip { font-size: 12px; }
 .wcraft { border-top: 1px solid var(--border); padding-top: 9px; }
 .wcraft-h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
 .wcraft-label { font-size: 12px; font-weight: 700; color: var(--muted); }

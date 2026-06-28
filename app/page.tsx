@@ -77,6 +77,7 @@ function pageList(cur: number, total: number): (number | "…")[] {
 
 export default function Page() {
   const [section, setSection] = useState<"cook" | "weapon" | "armor" | "accessories" | "tools" | "fish" | "boss" | "builds">("cook");
+  const [descOff, setDescOff] = useState(false); // 영문 설명(플레이버 텍스트) 숨김
   const [items, setItems] = useState<Ingredient[]>([]);
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState<string | null>(null);
@@ -145,8 +146,10 @@ export default function Page() {
     setMode(m); setSel(""); setCats([]); setQ(""); setSort("default");
   }
 
+  const hasDesc = ["weapon", "armor", "accessories", "tools", "fish"].includes(section);
+
   return (
-    <main className="wrap">
+    <main className={"wrap" + (descOff ? " hide-desc" : "")}>
       <header className="top">
         <div>
           <h1 className="title">코어 키퍼 도감</h1>
@@ -178,6 +181,14 @@ export default function Page() {
         <button className={"sectab" + (section === "boss" ? " on" : "")} onClick={() => setSection("boss")}>👹 보스</button>
         <button className={"sectab" + (section === "builds" ? " on" : "")} onClick={() => setSection("builds")}>🏆 추천 빌드</button>
       </div>
+
+      {hasDesc && (
+        <div className="desctoggle">
+          <button className={"chip" + (descOff ? "" : " on")} onClick={() => setDescOff((v) => !v)}>
+            📖 영문 설명 {descOff ? "보기" : "숨기기"}
+          </button>
+        </div>
+      )}
 
       {section === "weapon" && <Weapons />}
       {section === "armor" && <Gear kind="armor" />}
