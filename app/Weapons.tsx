@@ -113,7 +113,13 @@ function WCard({ w }: { w: Weapon }) {
       </div>
 
       <div className="wstats">
-        <div className="wstat"><span>공격력</span><b>{w.dmg_base != null ? w.dmg_base : "—"}{w.dmg_max != null && w.dmg_max !== w.dmg_base ? <em> → {w.dmg_max} (Lv20)</em> : null}</b></div>
+        <div className="wstat wstat-wide">
+          <span>공격력</span>
+          <b>
+            {w.dmg_base != null ? <>Lv{w.level} <b>{w.dmg_base}</b></> : "—"}
+            {w.dmg_max != null && w.dmg_max !== w.dmg_base && <em> → Lv20 {w.dmg_max}</em>}
+          </b>
+        </div>
         <div className="wstat"><span>공격속도</span><b>{w.atk_rate != null ? w.atk_rate + "/초" : "—"}</b></div>
         <div className="wstat"><span>내구도</span><b>{w.durability ?? "—"}</b></div>
         <div className="wstat"><span>판매가</span><b>{w.sell != null ? w.sell + "💰" : "—"}</b></div>

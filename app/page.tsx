@@ -29,6 +29,16 @@ const SORTS = [
 ];
 const PAGE = 30;
 
+const SUBTITLES: Record<string, string> = {
+  weapon: "근접·원거리·마법 무기 · 공격력 · 공격속도 · 제작 재료 · 파밍 지역",
+  armor: "투구·상의·하의 · 장착 효과 · 제작 재료 · 파밍 지역",
+  accessories: "반지·목걸이·오프핸드 · 장착 효과 · 제작 재료",
+  tools: "곡괭이·삽·낚싯대 등 도구 · 성능 · 제작 재료",
+  fish: "낚시터별 물고기 · 낚일 확률 · 옵션 · 필요 낚시 스킬",
+  boss: "보스별 처치 드롭 · 체력 · 등장 지역",
+  builds: "플레이스타일별 커뮤니티 추천 무기·방어구·장신구·음식",
+};
+
 function catValue(c: Combo, cat: string): number {
   let max = -Infinity;
   for (const b of c.buffs) if (b.cat === cat && b.val != null && b.val > max) max = b.val;
@@ -143,16 +153,20 @@ export default function Page() {
           <p className="sub">
             {section === "cook"
               ? `재료1 + 재료2 = 완성 요리 · 효과 · 획득처 · 총 ${combos.length.toLocaleString()} 조합`
-              : section === "fish"
-              ? "낚시터별 물고기 · 낚일 확률 · 옵션 · 필요 낚시 스킬"
-              : section === "boss"
-              ? "보스별 처치 드롭 · 체력 · 등장 지역"
-              : section === "builds"
-              ? "플레이스타일별 커뮤니티 추천 무기·방어구·장신구·음식"
-              : "등급 · 레벨 · 스탯 · 장착 효과 · 제작 재료 · 파밍 지역"}
+              : SUBTITLES[section]}
           </p>
         </div>
       </header>
+
+      <details className="intro">
+        <summary>💡 코어 키퍼 비공식 도감 — 처음이신가요?</summary>
+        <div className="intro-body">
+          위 탭에서 카테고리를 고르세요. <b>요리</b>는 재료 2개 조합, <b>무기/방어구/장신구/아이템</b>은 스탯·효과·제작 재료,
+          <b> 낚시</b>는 낚시터별 어종, <b>보스</b>는 처치 드롭, <b>추천 빌드</b>는 플레이스타일별 추천 세트입니다.
+          카드의 <b>📍</b>는 획득/파밍 지역, 재료의 <b>드롭/제작</b> 태그는 그 재료를 얻는 방법이에요.
+          데이터·아이콘 출처는 Core Keeper 위키 (게임사와 무관한 팬 도구).
+        </div>
+      </details>
 
       <div className="sectabs">
         <button className={"sectab" + (section === "cook" ? " on" : "")} onClick={() => setSection("cook")}>🍳 요리</button>
@@ -175,7 +189,10 @@ export default function Page() {
 
       {section === "cook" && loading && <p className="muted pad">불러오는 중…</p>}
       {section === "cook" && !loading && err && (
-        <p className="error">데이터를 불러오지 못했습니다: {err}</p>
+        <div className="pad" title={err}>
+          <p className="muted">🍳 요리 데이터를 불러오지 못했어요. <br />요리 탭은 Supabase 연결이 필요합니다 (환경변수 확인).</p>
+          <p className="muted" style={{ marginTop: 8 }}>나머지 탭(무기·방어구·장신구·아이템·낚시·보스·추천 빌드)은 바로 이용할 수 있어요 👆</p>
+        </div>
       )}
       {section === "cook" && !loading && !err && (
       <>

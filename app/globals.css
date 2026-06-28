@@ -140,6 +140,20 @@ body {
 .site-foot a { color: var(--muted); }
 .site-foot a:hover { color: var(--amber); }
 
+/* ── 온보딩 도움말 ── */
+.intro {
+  background: var(--panel); border: 1.5px solid var(--border); border-radius: 11px;
+  padding: 10px 14px; margin-bottom: 14px;
+}
+.intro summary {
+  cursor: pointer; font-size: 13.5px; font-weight: 700; color: var(--amber); list-style: none;
+}
+.intro summary::-webkit-details-marker { display: none; }
+.intro summary::before { content: "▸ "; color: var(--muted); }
+.intro[open] summary::before { content: "▾ "; }
+.intro-body { color: var(--muted); font-size: 13px; line-height: 1.7; margin-top: 9px; }
+.intro-body b { color: var(--text); font-weight: 700; }
+
 /* ── 상위 섹션 탭 (요리 / 무기 / 방어구 / 장신구 / 아이템) ── */
 .sectabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .sectab {
@@ -178,10 +192,11 @@ body {
   display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px;
   background: #00000026; border-radius: 9px; padding: 8px 10px;
 }
-.wstat { display: flex; justify-content: space-between; font-size: 12.5px; }
-.wstat span { color: var(--muted); }
-.wstat b { color: var(--text); font-weight: 700; }
+.wstat { display: flex; justify-content: space-between; gap: 8px; font-size: 12.5px; }
+.wstat > span { color: var(--muted); white-space: nowrap; }
+.wstat b { color: var(--text); font-weight: 700; text-align: right; }
 .wstat em { color: var(--dim); font-style: normal; font-weight: 600; font-size: 11px; }
+.wstat-wide { grid-column: 1 / -1; border-bottom: 1px solid var(--border); padding-bottom: 4px; margin-bottom: 2px; }
 /* 장착 효과(방어구·장신구·도구) */
 .weffs { display: flex; flex-wrap: wrap; gap: 5px; }
 .weff {
