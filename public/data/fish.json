@@ -11,6 +11,20 @@
         "rarity": "common",
         "desc_en": "Small, orange fish home to the dirt cave lakes.",
         "chance": 37,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 21,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "orange_cave_guppy.webp"
       },
       {
@@ -20,6 +34,20 @@
         "rarity": "common",
         "desc_en": "Small, blue fish home to the dirt cave lakes.",
         "chance": 29,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 22,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "blue_cave_guppy.webp"
       },
       {
@@ -29,6 +57,20 @@
         "rarity": "uncommon",
         "desc_en": "A small shark that can break almost every material with one bite.",
         "chance": 21,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 25,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "rock_jaw.webp"
       },
       {
@@ -38,6 +80,20 @@
         "rarity": "rare",
         "desc_en": "This rare crab has ancient gemstones growing all over it.",
         "chance": 13,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 31,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "gem_crab.webp"
       }
     ]
@@ -54,6 +110,20 @@
         "rarity": "common",
         "desc_en": "A fish with large yellow bubbles on its head.",
         "chance": 37,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 26,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "yellow_blister_head.webp"
       },
       {
@@ -63,6 +133,20 @@
         "rarity": "common",
         "desc_en": "A fish with large green bubbles on its head.",
         "chance": 29,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 25,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "green_blister_head.webp"
       },
       {
@@ -72,6 +156,20 @@
         "rarity": "uncommon",
         "desc_en": "A hellspawn that dwells in the sea ground. Don't step on it.",
         "chance": 21,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 30,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "devil_worm.webp"
       },
       {
@@ -81,6 +179,20 @@
         "rarity": "rare",
         "desc_en": "A bloodsucking fish latching onto everything that has a pulse.",
         "chance": 13,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 35,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "vampire_eel.webp"
       }
     ]
@@ -97,6 +209,20 @@
         "rarity": "common",
         "desc_en": "The scales of this fish are thin like razorblades.",
         "chance": 37,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 39,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "dagger_fin.webp"
       },
       {
@@ -106,6 +232,20 @@
         "rarity": "uncommon",
         "desc_en": "A pink, odd-looking fish with weirdly shaped fins.",
         "chance": 29,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 39,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "pink_palace_fish.webp"
       },
       {
@@ -115,6 +255,20 @@
         "rarity": "uncommon",
         "desc_en": "A greenish-blue, odd-looking fish with weirdly shaped fins.",
         "chance": 21,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 40,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "teal_palace_fish.webp"
       },
       {
@@ -124,6 +278,20 @@
         "rarity": "epic",
         "desc_en": "All hail the pale king of water!",
         "chance": 13,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 50,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "crown_squid.webp"
       }
     ]
@@ -140,6 +308,20 @@
         "rarity": "common",
         "desc_en": "A beautiful blue fish with scales that look like feathers.",
         "chance": 37,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 41,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "azure_feather_fish.webp"
       },
       {
@@ -149,6 +331,20 @@
         "rarity": "common",
         "desc_en": "A beautiful green fish with scales that look like feathers.",
         "chance": 29,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 45,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "emerald_feather_fish.webp"
       },
       {
@@ -158,6 +354,20 @@
         "rarity": "uncommon",
         "desc_en": "A ghastly fish that floats in the air like it's still underwater.",
         "chance": 21,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 9,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 47,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "spirit_veil.webp"
       },
       {
@@ -167,6 +377,20 @@
         "rarity": "rare",
         "desc_en": "Extremely rare type of jellyfish. It almost feels out of this world.",
         "chance": 13,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 52,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "astral_jelly.webp"
       }
     ]
@@ -183,6 +407,20 @@
         "rarity": "common",
         "desc_en": "A small predator of the murky mold waters.",
         "chance": 50,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 48,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "mold_shark.webp"
       },
       {
@@ -192,6 +430,20 @@
         "rarity": "uncommon",
         "desc_en": "Half of its body is missing but somehow it's still alive. Creepy.",
         "chance": 37,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "Health Reduction",
+            "value": -22,
+            "unit": "",
+            "dur": ""
+          }
+        ],
         "icon": "rot_fish.webp"
       },
       {
@@ -201,6 +453,20 @@
         "rarity": "rare",
         "desc_en": "A rare sea critter with spikes as hard as steel.",
         "chance": 13,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 53,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "black_steel_urchin.webp"
       }
     ]
@@ -217,6 +483,20 @@
         "rarity": "common",
         "desc_en": "A bright yellow fish with long barbels that it drags along the sea floor in search for food.",
         "chance": 32,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 58,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "bottom_tracer.webp"
       },
       {
@@ -226,6 +506,20 @@
         "rarity": "uncommon",
         "desc_en": "This elusive fish appears in swarms as a spectacle of blinking silver to confuse predators.",
         "chance": 22,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 55,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "silver_dart.webp"
       },
       {
@@ -235,6 +529,20 @@
         "rarity": "uncommon",
         "desc_en": "This elusive fish appears in swarms as a spectacle of flickering gold to confuse predators.",
         "chance": 22,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 57,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "golden_dart.webp"
       },
       {
@@ -244,6 +552,20 @@
         "rarity": "rare",
         "desc_en": "A small pink amphibian with outward-protruding gills that look like corals. It also uses them to draw nutrients out of the waters of the Sunken Sea.",
         "chance": 12,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 70,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "pink_coralotl.webp"
       },
       {
@@ -253,6 +575,20 @@
         "rarity": "rare",
         "desc_en": "A small white amphibian with outward-protruding gills that look like corals. It also uses them to draw nutrients out of the waters of the Sunken Sea.",
         "chance": 12,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 9,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 58,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "white_coralotl.webp"
       }
     ]
@@ -269,6 +605,20 @@
         "rarity": "common",
         "desc_en": "A very defensive fish with rock-hard skin and sharp spikes protruding out.",
         "chance": 26.3,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 64,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "solid_spikeback.webp"
       },
       {
@@ -278,6 +628,20 @@
         "rarity": "common",
         "desc_en": "A very defensive fish with sandstone skin and jagged spikes protruding out.",
         "chance": 26.3,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 70,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "sandy_spikeback.webp"
       },
       {
@@ -287,6 +651,20 @@
         "rarity": "rare",
         "desc_en": "This brown, agile fish is able to move between water holes in the desert to change feeding grounds.",
         "chance": 18.8,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 81,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "brown_dune_tail.webp"
       },
       {
@@ -296,6 +674,20 @@
         "rarity": "rare",
         "desc_en": "This gray, agile fish is able to move between water holes in the desert to change feeding grounds.",
         "chance": 18.8,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 67,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "gray_dune_tail.webp"
       },
       {
@@ -305,6 +697,20 @@
         "rarity": "epic",
         "desc_en": "An extremely rare enigma of sea life that seems to unify all other fish beneath it.",
         "chance": 9.8,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 78,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "tornis_kingfish.webp"
       }
     ]
@@ -321,6 +727,20 @@
         "rarity": "uncommon",
         "desc_en": "A dark fish with fiery belly that seems to purely feed from liquid stone and the gemstones caught within.",
         "chance": 28.2,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 78,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "dark_lava_eater.webp"
       },
       {
@@ -330,6 +750,20 @@
         "rarity": "uncommon",
         "desc_en": "A bright fish with fiery belly that seems to purely feed from liquid stone and the gemstones caught within.",
         "chance": 28.2,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 71,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "bright_lava_eater.webp"
       },
       {
@@ -339,6 +773,14 @@
         "rarity": "rare",
         "desc_en": "A draconic fish that is several hundred years old. The verdant color of its scales has long faded.",
         "chance": 18.8,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 9,
+            "unit": "",
+            "dur": ""
+          }
+        ],
         "icon": "elder_dragonfish.webp"
       },
       {
@@ -348,6 +790,14 @@
         "rarity": "rare",
         "desc_en": "This draconic fish has green scales that can withstand remarkably high temperatures.",
         "chance": 18.8,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          }
+        ],
         "icon": "verdant_dragonfish.webp"
       },
       {
@@ -357,6 +807,26 @@
         "rarity": "legendary",
         "desc_en": "A mysterious living fossil that seems to have fused with precious metals and gemstones to ascend to a higher state of being.",
         "chance": 6.1,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 177,
+            "unit": "",
+            "dur": "20초"
+          },
+          {
+            "label": "Starlight Nautilus Buff",
+            "value": 100,
+            "unit": "",
+            "dur": "Infinity분"
+          }
+        ],
         "icon": "starlight_nautilus.webp"
       }
     ]
@@ -373,6 +843,20 @@
         "rarity": "uncommon",
         "desc_en": "This moon-blue fish seemed to have had a normal body once, but the water of the Shimmering Frontier corrupted it to be crystalline through and through.",
         "chance": 29.6,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 75,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "beryll_angle_fish.webp"
       },
       {
@@ -382,6 +866,14 @@
         "rarity": "rare",
         "desc_en": "A crystal-plated predator that slithers through the glowing waters of the Shimmering Frontier, always on the hunt for something weaker.",
         "chance": 25.9,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          }
+        ],
         "icon": "glistening_deepstalker.webp"
       },
       {
@@ -391,6 +883,20 @@
         "rarity": "rare",
         "desc_en": "This sun-golden fish seemed to have had a normal body once, but the water of the Shimmering Frontier corrupted it to be crystalline through and through.",
         "chance": 18.5,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 9,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 85,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "jasper_angle_fish.webp"
       },
       {
@@ -400,6 +906,14 @@
         "rarity": "epic",
         "desc_en": "A Solarite-plated predator that slithers through the glowing waters of the Shimmering Frontier, always on the hunt for something weaker.",
         "chance": 14.8,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          }
+        ],
         "icon": "splendid_deepstalker.webp"
       },
       {
@@ -409,6 +923,20 @@
         "rarity": "epic",
         "desc_en": "A strange entity that is unlike any terrestrial sea life you have ever seen. Did it come from a place far away from earth?",
         "chance": 11.1,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 9,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 82,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "cosmic_form.webp"
       }
     ]
@@ -425,6 +953,14 @@
         "rarity": "uncommon",
         "desc_en": "The mutated offspring of its extinct ancestor. Its brown shell had adapted to withstand extreme pressure.",
         "chance": 28.6,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 9,
+            "unit": "",
+            "dur": ""
+          }
+        ],
         "icon": "terra_trilobite.webp"
       },
       {
@@ -434,6 +970,20 @@
         "rarity": "uncommon",
         "desc_en": "The mutated offspring of its extinct ancestor. Its gray shell had adapted to withstand extreme pressure.",
         "chance": 23.8,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 83,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "litho_trilobite.webp"
       },
       {
@@ -443,6 +993,20 @@
         "rarity": "rare",
         "desc_en": "This little pink creature is entirely translucent with no visible brain. It seems unbothered being held.",
         "chance": 19.1,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 95,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "pinkhorn_pico.webp"
       },
       {
@@ -452,6 +1016,20 @@
         "rarity": "rare",
         "desc_en": "This little green creature is entirely translucent with no visible brain. It seems unbothered being held.",
         "chance": 19.1,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 11,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 99,
+            "unit": "",
+            "dur": "20초"
+          }
+        ],
         "icon": "greenhorn_pico.webp"
       },
       {
@@ -461,6 +1039,26 @@
         "rarity": "epic",
         "desc_en": "An extraordinary creature that doesn't seem to be from this world. Its biology works entirely different from anything you know.",
         "chance": 9.5,
+        "effects": [
+          {
+            "label": "포만감",
+            "value": 10,
+            "unit": "",
+            "dur": ""
+          },
+          {
+            "label": "지속 회복",
+            "value": 51,
+            "unit": "",
+            "dur": "20초"
+          },
+          {
+            "label": "푸른 발광",
+            "value": 5,
+            "unit": "",
+            "dur": "5분"
+          }
+        ],
         "icon": "riftian_lampfish.webp"
       }
     ]

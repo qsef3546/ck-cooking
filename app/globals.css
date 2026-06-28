@@ -228,6 +228,22 @@ body {
 }
 .fcard-meta { display: flex; gap: 6px; }
 
+/* ── 👹 보스 도감 ── */
+.bgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.bcard {
+  background: var(--panel); border: 2px solid var(--border); border-radius: 13px;
+  padding: 13px 14px; display: flex; flex-direction: column; gap: 10px;
+}
+.bcard-head { display: flex; align-items: center; gap: 11px; }
+.bic { image-rendering: pixelated; flex: none; }
+.bcard-title { min-width: 0; flex: 1; }
+.bcard-name { font-weight: 800; font-size: 17px; letter-spacing: -.3px; }
+.bcard-en { color: var(--dim); font-size: 11.5px; }
+.bcard-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.barea { font-size: 11.5px; color: #8ee0ff; background: #8ee0ff1a; border-radius: 6px; padding: 2px 7px; }
+.bhp { font-size: 11.5px; color: #ff9a9a; background: #ff5e5e1a; border-radius: 6px; padding: 2px 7px; }
+.bdrops { border-top: 1px solid var(--border); padding-top: 9px; }
+
 @media (max-width: 640px) {
   .row { grid-template-columns: 1fr; }
   .eq { text-align: left; }
@@ -235,4 +251,5 @@ body {
   .reslabel { margin-left: 0; width: 100%; }
   .wgrid { grid-template-columns: 1fr; }
   .fgrid { grid-template-columns: 1fr; }
+  .bgrid { grid-template-columns: 1fr; }
 }

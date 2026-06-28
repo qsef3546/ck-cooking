@@ -10,7 +10,20 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getObjectInfo, fetchJson, parseLuaModule, arr, slug, downloadIcons, RARITY_KEY, API } from "./scrape-lib.mjs";
+import { getObjectInfo, fetchJson, parseLuaModule, arr, slug, downloadIcons, RARITY_KEY, API, condLabel } from "./scrape-lib.mjs";
+
+// 지속시간(초) → "20초" / "10분"
+function durText(sec) {
+  if (!sec) return "";
+  return sec >= 60 ? Math.round(sec / 60) + "분" : sec + "초";
+}
+// consumed.conditions → [{label, value, unit, dur}]
+function effects(consumed) {
+  return arr(consumed && consumed.conditions).map((c) => {
+    const [label, unit] = condLabel(c.id);
+    return { label, value: c.value ?? null, unit, dur: durText(c.duration) };
+  });
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -63,6 +76,7 @@ for (const [biome, info] of Object.entries(fi.fishingInfos || {})) {
       rarity: RARITY_KEY[b && b.rarity] || "common",
       desc_en: (b && b.description) || "",
       chance: Math.round(f.chance * 1000) / 10, // %
+      effects: b ? effects(b.consumed) : [],      // 생으로 먹었을 때 옵션(포만감·효과)
       icon: slug(name_en) + ".webp",
     };
   }).sort((a, b) => b.chance - a.chance);

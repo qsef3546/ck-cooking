@@ -1,0 +1,561 @@
+[
+  {
+    "id": "glurch_the_abominous_mass",
+    "name_en": "Glurch the Abominous Mass",
+    "name_ko": "글러치",
+    "hp": 2459,
+    "area": "Slime",
+    "area_ko": "흙 비옴(슬라임 지대)",
+    "drops": [
+      {
+        "id": "SlimeBossCrystal",
+        "name_en": "Glurch Eye",
+        "name_ko": "글러치의 눈",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "SlimeOil",
+        "name_en": "Slime Oil Idol",
+        "name_ko": "슬라임 오일 우상",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "ghorm_the_devourer",
+    "name_en": "Ghorm the Devourer",
+    "name_ko": "포식자 그놈",
+    "hp": 8061,
+    "area": "Clay",
+    "area_ko": "점토 동굴",
+    "drops": [
+      {
+        "id": "LarvaBossCrystal",
+        "name_en": "Ghorm's Horn",
+        "name_ko": "그놈의 뿔",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 20,
+        "amount_min": 20,
+        "amount_max": 20,
+        "chance": 100
+      },
+      {
+        "id": "GhormsStomachBag",
+        "name_en": "Ghorm's Stomach Backpack",
+        "name_ko": "그놈의 위장 배낭",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "MysteriousIdol",
+        "name_en": "Mysterious Idol",
+        "name_ko": "신비한 우상",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "king_slime",
+    "name_en": "King Slime",
+    "name_ko": "킹 슬라임",
+    "hp": 24188,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "drops": [
+      {
+        "id": "KingSlimeCrown",
+        "name_en": "King Slime Crown",
+        "name_ko": "킹 슬라임 왕관",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "RoyalGel",
+        "name_en": "Royal Gel",
+        "name_ko": "로열 젤",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "PetPrinceSlimeBlobEgg",
+        "name_en": "Oozy Royal Egg",
+        "name_ko": "끈적한 왕실 알",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "KingSlimeTrophy",
+        "name_en": "King Slime Figurine",
+        "name_ko": "킹 슬라임 피규어",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "MusicSheetTerrariaJourneysBeginning",
+        "name_en": "Terraria - Journey's Beginning",
+        "name_ko": "Terraria - Journey's Beginning",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "HealingPotion",
+        "name_en": "Healing Potion",
+        "name_ko": "회복 물약",
+        "amount": 5,
+        "amount_min": 5,
+        "amount_max": 5,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "the_hive_mother",
+    "name_en": "The Hive Mother",
+    "name_ko": "하이브 마더",
+    "hp": 24671,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "drops": [
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "haunted_hive_mother",
+    "name_en": "Haunted Hive Mother",
+    "name_ko": "유령 하이브 마더",
+    "hp": 24671,
+    "area": "LarvaHive",
+    "area_ko": "유충 둥지",
+    "drops": [
+      {
+        "id": "HiveHalloweenBossTrophy",
+        "name_en": "Haunted Hive Mother Figurine",
+        "name_ko": "유령 하이브 마더 피규어",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "SamhainCurseRing",
+        "name_en": "Samhain Curse Ring",
+        "name_ko": "삼하인 저주 반지",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "SamhainOfferingNecklace",
+        "name_en": "Samhain Offering Necklace",
+        "name_ko": "삼하인 공물 목걸이",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "LarvaMeat",
+        "name_en": "Larva Meat",
+        "name_ko": "유충 고기",
+        "amount": 15,
+        "amount_min": 15,
+        "amount_max": 15,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "malugaz_the_corrupted",
+    "name_en": "Malugaz the Corrupted",
+    "name_ko": "타락한 말루가즈",
+    "hp": 14513,
+    "area": "Stone",
+    "area_ko": "잊혀진 유적(돌 지대)",
+    "drops": [
+      {
+        "id": "HiveBossCrystal",
+        "name_en": "Stolen Crystal Heart",
+        "name_ko": "도난당한 크리스탈 심장",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "azeos_the_sky_titan",
+    "name_en": "Azeos the Sky Titan",
+    "name_ko": "하늘의 거신 아제오스",
+    "hp": 31813,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "drops": [
+      {
+        "id": "PileOfChum",
+        "name_en": "Pile of Chum Idol",
+        "name_ko": "떡밥 더미 우상",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "EchoMapFishingMerchant",
+        "name_en": "Stillwater Echo-Map",
+        "name_ko": "Stillwater Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "ivy_the_poisonous_mass",
+    "name_en": "Ivy the Poisonous Mass",
+    "name_ko": "아이비",
+    "hp": 39155,
+    "area": "Nature",
+    "area_ko": "아제오스의 황야",
+    "drops": [
+      {
+        "id": "EchoMapWorshipMural",
+        "name_en": "Runic Echo-Map",
+        "name_ko": "Runic Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "omoroth_the_sea_titan",
+    "name_en": "Omoroth the Sea Titan",
+    "name_ko": "바다의 거신 오모로스",
+    "hp": 90772,
+    "area": "Sea",
+    "area_ko": "가라앉은 바다",
+    "drops": [
+      {
+        "id": "EchoMapShrineRoom",
+        "name_en": "Phantasmal Echo-Map",
+        "name_ko": "Phantasmal Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "ra_akar_the_sand_titan",
+    "name_en": "Ra-Akar the Sand Titan",
+    "name_ko": "모래의 거신 라-아카르",
+    "hp": 160799,
+    "area": "Desert",
+    "area_ko": "시초의 사막",
+    "drops": [
+      {
+        "id": "EchoMapBindingString",
+        "name_en": "Fateful Echo-Map",
+        "name_ko": "Fateful Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "igneous_the_molten_mass",
+    "name_en": "Igneous the Molten Mass",
+    "name_ko": "이그니어스",
+    "hp": 160799,
+    "area": "Lava",
+    "area_ko": "용암 지대",
+    "drops": [
+      {
+        "id": "EchoMapTitanTemple",
+        "name_en": "Sacred Echo-Map",
+        "name_ko": "Sacred Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "atlantean_worm",
+    "name_en": "Atlantean Worm",
+    "name_ko": "아틀란티스 웜",
+    "hp": 9641,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "drops": [
+      {
+        "id": "AtlantianWormHeart",
+        "name_en": "Atlantean Worm Heart",
+        "name_ko": "아틀란티스 웜 심장",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "druidra_the_wild_titan",
+    "name_en": "Druidra the Wild Titan",
+    "name_ko": "야생의 거신 드루이드라",
+    "hp": 136992,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "drops": [
+      {
+        "id": "HydraBossNatureCraftingItem",
+        "name_en": "Pink Hydra Eye",
+        "name_ko": "핑크 히드라 눈",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3,
+        "chance": 100
+      },
+      {
+        "id": "NatureGemstone",
+        "name_en": "Jungle Emerald",
+        "name_ko": "정글 에메랄드",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2,
+        "chance": 100
+      },
+      {
+        "id": "EchoMapAlienTerminal1",
+        "name_en": "Verdant Echo-Map",
+        "name_ko": "Verdant Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "crydra_the_ice_titan",
+    "name_en": "Crydra the Ice Titan",
+    "name_ko": "얼음의 거신 크라이드라",
+    "hp": 136992,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "drops": [
+      {
+        "id": "HydraBossSeaCraftingItem",
+        "name_en": "White Hydra Eye",
+        "name_ko": "화이트 히드라 눈",
+        "amount": 3,
+        "amount_min": 3,
+        "amount_max": 3,
+        "chance": 100
+      },
+      {
+        "id": "SeaGemstone",
+        "name_en": "Ocean Sapphire",
+        "name_ko": "오션 사파이어",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2,
+        "chance": 100
+      },
+      {
+        "id": "EchoMapAlienTerminal2",
+        "name_en": "Gelid Echo-Map",
+        "name_ko": "Gelid Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "pyrdra_the_fire_titan",
+    "name_en": "Pyrdra the Fire Titan",
+    "name_ko": "불의 거신 파이드라",
+    "hp": 136992,
+    "area": "Crystal",
+    "area_ko": "반짝이는 변경",
+    "drops": [
+      {
+        "id": "DesertGemstone",
+        "name_en": "Desert Ruby",
+        "name_ko": "사막 루비",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2,
+        "chance": 100
+      },
+      {
+        "id": "EchoMapAlienTerminal3",
+        "name_en": "Pyric Echo-Map",
+        "name_ko": "Pyric Echo-Map",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "sahabar",
+    "name_en": "S.A.H.A.B.A.R.",
+    "name_ko": "S.A.H.A.B.A.R.",
+    "hp": 144414,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "drops": [
+      {
+        "id": "VoidNeuronRobotBoss",
+        "name_en": "Herald Void Neuron",
+        "name_ko": "Herald Void Neuron",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      },
+      {
+        "id": "VoidMerchantIdol",
+        "name_en": "Void Idol",
+        "name_ko": "공허 우상",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "oblidra_the_void_lord",
+    "name_en": "Oblidra the Void Lord",
+    "name_ko": "공허의 군주 오블리드라",
+    "hp": 160092,
+    "area": "Excavation",
+    "area_ko": "발굴 현장",
+    "drops": [
+      {
+        "id": "DesertGemstone",
+        "name_en": "Desert Ruby",
+        "name_ko": "사막 루비",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2,
+        "chance": 100
+      },
+      {
+        "id": "SeaGemstone",
+        "name_en": "Ocean Sapphire",
+        "name_ko": "오션 사파이어",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2,
+        "chance": 100
+      },
+      {
+        "id": "NatureGemstone",
+        "name_en": "Jungle Emerald",
+        "name_ko": "정글 에메랄드",
+        "amount": 2,
+        "amount_min": 2,
+        "amount_max": 2,
+        "chance": 100
+      },
+      {
+        "id": "VoidHydraHeart",
+        "name_en": "Oblidra's Heart",
+        "name_ko": "오블리드라의 심장",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "nimruza_queen_of_the_burrowed_sands",
+    "name_en": "Nimruza, Queen of the Burrowed Sands",
+    "name_ko": "니므루자, 모래굴의 여왕",
+    "hp": 228320,
+    "area": "Passage",
+    "area_ko": "통로",
+    "drops": [
+      {
+        "id": "VoidNeuronCicada",
+        "name_en": "Brood Void Neuron",
+        "name_ko": "Brood Void Neuron",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  {
+    "id": "urschleim",
+    "name_en": "Urschleim",
+    "name_ko": "우르슐라임",
+    "hp": 249826,
+    "area": "Passage",
+    "area_ko": "통로",
+    "drops": [
+      {
+        "id": "GiantMitochondrion",
+        "name_en": "Giant Mitochondrion",
+        "name_ko": "거대 미토콘드리아",
+        "amount": 1,
+        "amount_min": 1,
+        "amount_max": 1,
+        "chance": 100
+      }
+    ]
+  }
+]

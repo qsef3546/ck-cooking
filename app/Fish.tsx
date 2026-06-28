@@ -84,6 +84,16 @@ function FCard({ f }: { f: Fish }) {
       <div className="fcard-meta">
         <span className="wbadge" style={{ color: rc, borderColor: rc + "88" }}>{rn}</span>
       </div>
+      {!!f.effects.length && (
+        <div className="weffs">
+          {f.effects.map((e, i) => (
+            <span className="weff" key={i}>
+              {e.label}{e.value != null && <> {e.value >= 0 ? "+" : ""}{e.value}{e.unit}</>}
+              {e.dur && <em> {e.dur}</em>}
+            </span>
+          ))}
+        </div>
+      )}
       {!!f.desc_en && <div className="wdesc">“{f.desc_en}”</div>}
     </article>
   );

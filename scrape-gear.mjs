@@ -7,7 +7,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getObjectInfo, getObtaining, arr, slug, downloadIcons, RARITY_KEY, koMaterial, materialSource, itemDrops } from "./scrape-lib.mjs";
+import { getObjectInfo, getObtaining, arr, slug, downloadIcons, RARITY_KEY, koMaterial, materialSource, itemDrops, condLabel } from "./scrape-lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -39,62 +39,7 @@ const KO_AREA = {
   LarvaHive: "유충 둥지", Larva: "유충 둥지", Excavation: "발굴 현장", Passage: "통로", City: "고대 도시",
 };
 
-// ── 장착 효과(condition id) → [한글 라벨, 단위] ──
-const COND = {
-  ArmorIncrease: ["방어력", ""], ArmorPercentageIncrease: ["방어력", "%"],
-  IncreasedMaxHealth: ["최대 체력", ""], IncreasedMaxHealthPercentage: ["최대 체력", "%"],
-  IncreasedMaxMana: ["최대 마나", ""], IncreasedManaRegen: ["마나 재생", ""],
-  HealOverTime: ["지속 회복", ""], HealOverTimePercentage: ["지속 회복", "%"],
-  IncreasedHealthRegenEffectiveness: ["회복 효과", "%"], LifeOnHit: ["적중 시 생명 흡수", ""],
-  MovementSpeedIncrease: ["이동 속도", "%"], MovementSpeedDecrease: ["이동 속도 감소", "%"],
-  MovementSpeedBoostAfterDodge: ["회피 후 이동 속도", "%"],
-  CritChance: ["치명타 확률", "%"], CriticalDamagePercentageIncrease: ["치명타 피해", "%"],
-  CriticalDamagePercentageIncreaseFromRange: ["원거리 치명타 피해", "%"], CriticalHitChanceFromShot: ["사격 치명타 확률", "%"],
-  DodgeChance: ["회피 확률", "%"],
-  PhysicalMeleeDamageIncrease: ["근접 피해", "%"], PhysicalRangeDamageIncrease: ["원거리 피해", "%"],
-  RangeDamageIncrease: ["원거리 피해", "%"], IncreasedMagicDamagePercentage: ["마법 피해", "%"],
-  AllDamageIncrease: ["전체 피해", "%"], AllDamageDecrease: ["전체 피해 감소", "%"],
-  MeleeAttackSpeedIncrease: ["근접 공격 속도", "%"], RangeAttackSpeedIncrease: ["원거리 공격 속도", "%"],
-  AttackSpeed: ["공격 속도", "%"], ThornsDamage: ["가시 피해", ""],
-  MagicBarrier: ["마법 보호막", ""], ManaBarrier: ["마나 보호막", ""],
-  IncreasedDamageAgainstBosses: ["보스 추가 피해", "%"], ReducedDamageFromBosses: ["보스 피해 감소", "%"],
-  ReducedDamageFromExplosions: ["폭발 피해 감소", "%"], IncreasedDamageTakenPercentage: ["받는 피해 증가", "%"],
-  MiningIncrease: ["채광 피해", ""], MiningPercentageIncrease: ["채광 피해", "%"], MiningSpeedIncrease: ["채광 속도", "%"],
-  DiggingIncrease: ["굴착", ""], IncreasedFishing: ["낚시", ""], FishBitesFaster: ["입질 속도", "%"],
-  ChanceToGetDoubleFish: ["물고기 2배 확률", "%"], IncreasedChanceForHigherRarityFish: ["고급 물고기 확률", "%"],
-  IncreasedChanceToGetFish: ["물고기 획득 확률", "%"], IncreasedChanceToGetFishLoot: ["낚시 전리품 확률", "%"],
-  ChanceToPreserveBait: ["미끼 보존 확률", "%"],
-  BlueGlow: ["푸른 발광", ""], GreenGlow: ["초록 발광", ""], OrangeGlow: ["주황 발광", ""],
-  DrainLessHunger: ["허기 소모 감소", "%"], GainMoreFoodFromPlants: ["식물 식량 증가", "%"],
-  ExtraHarvestChance: ["추가 수확 확률", "%"], ExtraHealFromSleepPercentage: ["수면 회복 증가", "%"],
-  IncreasedPickUpRadius: ["획득 반경", "%"], VisibleOreDistanceIncrease: ["광석 표시 거리", ""],
-  ChanceForAdditionalOre: ["추가 광석 확률", "%"], ChanceForOreOnMiningWall: ["벽 채광 광석 확률", "%"],
-  ImmuneToPoison: ["독 면역", ""], ImmuneToOil: ["기름 면역", ""], ChanceToApplyPoisoned: ["독 적용 확률", "%"],
-  ApplyBurning: ["화상 적용", ""], ChanceOnHitToKnockback: ["적중 시 넉백 확률", "%"],
-  ChanceOnMeleeHitToStun: ["근접 적중 시 기절 확률", "%"], CheatDeath: ["죽음 회피", ""],
-  GainArmorAtLowHealth: ["저체력 시 방어력", ""], GainHealthRegenWhileBelowHalfHealth: ["절반 체력 이하 회복", ""],
-  DamageIncreaseAgainstBurning: ["화상 대상 추가 피해", "%"], DamageIncreaseAgainstPoisoned: ["중독 대상 추가 피해", "%"],
-  CritDamageIncreaseAgainstBurning: ["화상 대상 치명타 피해", "%"],
-  IncreasedMaxMinions: ["최대 소환수", ""], IncreasedMinionDamagePercentage: ["소환수 피해", "%"],
-  IncreasedMinionAttackSpeed: ["소환수 공격 속도", "%"], IncreasedMinionCritChance: ["소환수 치명타 확률", "%"],
-  IncreasedMinionLifespanPercentage: ["소환수 지속시간", "%"],
-  ApplyPetDamageIncrease: ["펫 피해", "%"], ApplyPetAttackSpeedIncrease: ["펫 공격 속도", "%"],
-  ApplyPetCritChanceIncrease: ["펫 치명타 확률", "%"], ApplyPetCritDamageIncrease: ["펫 치명타 피해", "%"],
-  ApplyPetBuffsIncrease: ["펫 버프 효과", "%"],
-  EquipmentDurabilityLastsLonger: ["장비 내구도 지속", "%"], IncreasedExplosivesDamage: ["폭발물 피해", "%"],
-  IncreasedExplosivesRadiusPercentage: ["폭발 반경", "%"], ReducedImpactOfSlowedBySlime: ["슬라임 둔화 감소", "%"],
-  IncreasedBoatSpeed: ["보트 속도", "%"], PercentageOfMagicBarrierAsMagicDamage: ["마법보호막→마법피해 전환", "%"],
-  GainManaFromExplosion: ["폭발 시 마나 획득", ""], ChanceToDealTripleDamage: ["3배 피해 확률", "%"],
-  AuraApplyDamageIncrease: ["오라: 피해 증가", "%"], AuraApplyHealingOverTime: ["오라: 지속 회복", ""],
-  AuraApplyMovementSpeedDecrease: ["오라: 이동 속도 감소", "%"],
-};
-function humanize(id) {
-  return id.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2");
-}
-function condLabel(id) {
-  if (COND[id]) return COND[id];
-  return [humanize(id), /Percentage|Chance/.test(id) ? "%" : ""];
-}
+// 효과(condition) 한글 라벨 매핑은 scrape-lib.mjs 의 공용 condLabel 사용.
 
 // ── 아이템명 토큰 번역 (전부 매핑되면 한글, 아니면 영문 폴백) ──
 const TOKEN = {
