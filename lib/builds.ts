@@ -5,6 +5,7 @@ export type BuildItem = {
   name_ko: string;
   name_en?: string;
   note: string;
+  effect?: string;
   icon: string | null;
 };
 

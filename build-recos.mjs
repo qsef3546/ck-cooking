@@ -19,13 +19,30 @@ const POOL = {
   accessory: { list: accessories, dir: "gear-icons" },
   fish: { list: fish, dir: "fish-icons" },
 };
+// 아이템 고유 효과(스탯) 문자열. 방어구·장신구는 conditions, 무기는 피해/공속.
+function fmtRange(base, max, unit) {
+  const u = unit || "";
+  return base === max ? `${base}${u}` : `${base}~${max}${u}`;
+}
+function effectOf(it) {
+  if (Array.isArray(it.conditions) && it.conditions.length) {
+    return it.conditions.map((c) => `${c.label} ${fmtRange(c.base, c.max, c.unit)}`).join(" · ");
+  }
+  if (it.dmg_base != null) {
+    let s = `피해 ${fmtRange(it.dmg_base, it.dmg_max, "")}`;
+    if (it.atk_rate != null) s += ` · 공속 ${it.atk_rate}`;
+    return s;
+  }
+  return "";
+}
+
 function resolve(e) {
   if (!e.id || !e.kind) return { ...e, name_ko: e.label || e.name_ko || "", icon: null };
   const p = POOL[e.kind];
   const it = p && p.list.find((x) => x.id === e.id);
   if (!it) { console.warn("  ! 미해결:", e.kind, e.id); return { ...e, name_ko: e.label || e.id, icon: null }; }
   return {
-    id: e.id, kind: e.kind, note: e.note || "",
+    id: e.id, kind: e.kind, note: e.note || "", effect: effectOf(it),
     name_ko: e.label || it.name_ko, name_en: it.name_en,
     icon: fs.existsSync(path.join(__dirname, "public", p.dir, e.id + ".webp")) ? `/${p.dir}/${e.id}.webp` : null,
   };

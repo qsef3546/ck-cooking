@@ -16,6 +16,7 @@
         "id": "stormbringer",
         "kind": "weapon",
         "note": "최종 드릴 · 마지막 지역 '통로' 제작대에서 하위 드릴(소멸광선 등)을 재료로 제작",
+        "effect": "피해 93~97 · 공속 5",
         "name_ko": "스톰브링어",
         "name_en": "Stormbringer",
         "icon": "/weapon-icons/stormbringer.webp"
@@ -24,6 +25,7 @@
         "id": "obliteration_ray",
         "kind": "weapon",
         "note": "스톰브링어 재료가 되는 하위 드릴 · 외계인 방어 아레나 클리어 또는 후반 보스에서 획득",
+        "effect": "피해 76~89 · 공속 5",
         "name_ko": "소멸광선",
         "name_en": "Obliteration Ray",
         "icon": "/weapon-icons/obliteration_ray.webp"
@@ -34,6 +36,7 @@
         "id": "atlantean_worm_helmet",
         "kind": "armor",
         "note": "거대한 벌레(침몰한 바다 보스) 드롭 · 이동형이라 처치마다 탐지기 재사용",
+        "effect": "최대 체력 39~46 · 방어력 20~24 · 지속 회복 11~13 · 공격 속도 162~187% · 치명타 확률 6~7% · 치명타 피해 18~21%",
         "name_ko": "초거대 벌레 투구",
         "name_en": "Atlantean Worm Helmet",
         "icon": "/gear-icons/atlantean_worm_helmet.webp"
@@ -42,6 +45,7 @@
         "id": "core_commander_brigandine",
         "kind": "armor",
         "note": "코어 지휘관(시작의 사막 권역) 드롭 · 소환 우상으로 재전투 반복 파밍",
+        "effect": "최대 체력 56~66 · 방어력 30~35 · 공격 속도 91~105% · 전체 피해 66~76% · 치명타 피해 10~11%",
         "name_ko": "코어 지휘관 상의",
         "name_en": "Core Commander Brigandine",
         "icon": "/gear-icons/core_commander_brigandine.webp"
@@ -50,6 +54,7 @@
         "id": "core_commander_greaves",
         "kind": "armor",
         "note": "코어 지휘관 드롭 · 상의와 세트",
+        "effect": "최대 체력 49~58 · 방어력 24~29 · 공격 속도 78~90% · 치명타 피해 10~12% · 치명타 확률 4%",
         "name_ko": "코어 지휘관 하의",
         "name_en": "Core Commander Greaves",
         "icon": "/gear-icons/core_commander_greaves.webp"
@@ -58,6 +63,7 @@
         "id": "ninja_garments",
         "kind": "armor",
         "note": "(+α) 잠긴 태양석 상자 · 치확·치피·회피 + 방어력",
+        "effect": "최대 체력 58~68 · 방어력 19~23 · 회피 확률 8~9% · 치명타 확률 8~9% · 치명타 피해 20~22%",
         "name_ko": "닌자 상의",
         "name_en": "Ninja Garments",
         "icon": "/gear-icons/ninja_garments.webp"
@@ -66,6 +72,7 @@
         "id": "ninja_leggings",
         "kind": "armor",
         "note": "(+α) 닌자 세트 · 잠긴 태양석 상자",
+        "effect": "최대 체력 49~57 · 방어력 17~20 · 회피 확률 7~8% · 치명타 확률 7~8% · 치명타 피해 22~25%",
         "name_ko": "닌자 하의",
         "name_en": "Ninja Leggings",
         "icon": "/gear-icons/ninja_leggings.webp"
@@ -76,6 +83,7 @@
         "id": "ancient_gem_necklace",
         "kind": "accessory",
         "note": "블록 채굴 귀중품 드롭(반지와 세트) · 드롭률 극악",
+        "effect": "근접 공격 속도 33~51% · 채광 속도 33~51%",
         "name_ko": "고대 보석 목걸이",
         "name_en": "Ancient Gem Necklace",
         "icon": "/gear-icons/ancient_gem_necklace.webp"
@@ -84,6 +92,7 @@
         "id": "ancient_gem_ring",
         "kind": "accessory",
         "note": "목걸이와 세트 · 채굴 마지막 특성 + 바주카로 집 주변 블록 대량 채굴 추천",
+        "effect": "치명타 피해 17~24% · 채광 피해 62~133",
         "name_ko": "고대 보석 반지",
         "name_en": "Ancient Gem Ring",
         "icon": "/gear-icons/ancient_gem_ring.webp"
@@ -92,6 +101,7 @@
         "id": "topaz_ring",
         "kind": "accessory",
         "note": "잠긴 팔색석 상자 · 채굴 피해 +39%(스톰 전용)",
+        "effect": "채광 피해 23~41%",
         "name_ko": "황옥 반지",
         "name_en": "Topaz Ring",
         "icon": "/gear-icons/topaz_ring.webp"
@@ -100,6 +110,7 @@
         "id": "glass_bead_necklace",
         "kind": "accessory",
         "note": "(+α) 아레나 상자 보상 · 치확 60%+ 확보 시 최고점 딜이 가장 높음",
+        "effect": "치명타 피해 75~85% · 받는 피해 증가 300~335%",
         "name_ko": "유리구슬 목걸이",
         "name_en": "Glass Bead Necklace",
         "icon": "/gear-icons/glass_bead_necklace.webp"
@@ -108,6 +119,7 @@
         "id": "mold_ring",
         "kind": "accessory",
         "note": "(+α) 곰팡이 지역 상자·구조물·몹 · 치확 +15%",
+        "effect": "치명타 확률 10~16%",
         "name_ko": "곰팡이 반지",
         "name_en": "Mold Ring",
         "icon": "/gear-icons/mold_ring.webp"
@@ -116,6 +128,7 @@
         "id": "rusted_necklace",
         "kind": "accessory",
         "note": "(+α) 잠긴 팔색석 상자·필드 몹 · 채굴 피해 +35%",
+        "effect": "채광 피해 19~37%",
         "name_ko": "녹슨 목걸이",
         "name_en": "Rusted Necklace",
         "icon": "/gear-icons/rusted_necklace.webp"
@@ -124,6 +137,7 @@
         "id": "copper_cross_necklace",
         "kind": "accessory",
         "note": "(+α) 장신구 제작대 제작 · 치확 +17%",
+        "effect": "치명타 확률 4~18%",
         "name_ko": "구리 십자가 목걸이",
         "name_en": "Copper Cross Necklace",
         "icon": "/gear-icons/copper_cross_necklace.webp"
@@ -134,6 +148,7 @@
         "id": "mold_shark",
         "kind": "fish",
         "note": "근접 피해 +38.6%(최고) — 곰팡이 던전 낚시",
+        "effect": "",
         "name_ko": "곰팡이 상어 요리",
         "name_en": "Mold Shark",
         "icon": "/fish-icons/mold_shark.webp"
@@ -142,6 +157,7 @@
         "id": "gray_dune_tail",
         "kind": "fish",
         "note": "근접 공격 속도 +13.9%",
+        "effect": "",
         "name_ko": "그레이 듄 테일 요리",
         "name_en": "Gray Dune Tail",
         "icon": null
@@ -150,6 +166,7 @@
         "id": "elder_dragonfish",
         "kind": "fish",
         "note": "치명타 확률 +14%",
+        "effect": "",
         "name_ko": "엘더 드래곤피시 요리",
         "name_en": "Elder Dragonfish",
         "icon": "/fish-icons/elder_dragonfish.webp"
@@ -194,6 +211,7 @@
         "id": "void_gun",
         "kind": "weapon",
         "note": "최고 티어(Lv17)",
+        "effect": "피해 283~330 · 공속 1",
         "name_ko": "공허 총",
         "name_en": "Void Gun",
         "icon": "/weapon-icons/void_gun.webp"
@@ -202,6 +220,7 @@
         "id": "solarite_crossbow",
         "kind": "weapon",
         "note": "고티어 석궁",
+        "effect": "피해 232~286 · 공속 1.4",
         "name_ko": "솔라라이트 석궁",
         "name_en": "Solarite Crossbow",
         "icon": "/weapon-icons/solarite_crossbow.webp"
@@ -210,6 +229,7 @@
         "id": "burnzooka",
         "kind": "weapon",
         "note": "광역/화염",
+        "effect": "피해 200~247 · 공속 0.7",
         "name_ko": "화염 바주카",
         "name_en": "Burnzooka",
         "icon": "/weapon-icons/burnzooka.webp"
@@ -218,6 +238,7 @@
         "id": "phantom_spark",
         "kind": "weapon",
         "note": "고티어",
+        "effect": "피해 220~289 · 공속 1.4",
         "name_ko": "팬텀 스파크",
         "name_en": "Phantom Spark",
         "icon": "/weapon-icons/phantom_spark.webp"
@@ -226,6 +247,7 @@
         "id": "octarine_bow",
         "kind": "weapon",
         "note": "중반 활",
+        "effect": "피해 174~280 · 공속 1.4",
         "name_ko": "옥타린 활",
         "name_en": "Octarine Bow",
         "icon": "/weapon-icons/octarine_bow.webp"
@@ -236,6 +258,7 @@
         "id": "hunter_hood",
         "kind": "armor",
         "note": "최고 · 정지 시 치명타 +15%, 원거리 피해↑",
+        "effect": "최대 체력 23~46 · 회피 확률 4~7% · 원거리 피해 90~169%",
         "name_ko": "헌터 세트",
         "name_en": "Hunter Hood",
         "icon": "/gear-icons/hunter_hood.webp"
@@ -244,6 +267,7 @@
         "id": "caveling_hood",
         "kind": "armor",
         "note": "회피 + 원거리 피해",
+        "effect": "최대 체력 15~43 · 회피 확률 3~6% · 근접 피해 72~183%",
         "name_ko": "케이블링 세트",
         "name_en": "Caveling Hood",
         "icon": "/gear-icons/caveling_hood.webp"
@@ -252,6 +276,7 @@
         "id": "ranger_hood",
         "kind": "armor",
         "note": "초반 입문용",
+        "effect": "최대 체력 8~53 · 방어력 5~26 · 원거리 피해 37~178%",
         "name_ko": "레인저 세트",
         "name_en": "Ranger Hood",
         "icon": "/gear-icons/ranger_hood.webp"
@@ -262,6 +287,7 @@
         "id": "hydra_tooth",
         "kind": "accessory",
         "note": "원거리 피해 + 3배 피해 확률",
+        "effect": "3배 피해 확률 4~5% · 원거리 피해 246~302%",
         "name_ko": "Hydra Tooth",
         "name_en": "Hydra Tooth",
         "icon": "/gear-icons/hydra_tooth.webp"
@@ -270,6 +296,7 @@
         "id": "polished_gold_crystal_ring",
         "kind": "accessory",
         "note": "원거리 피해 + 공속(연마)",
+        "effect": "원거리 피해 199~295% · 원거리 공격 속도 39~54%",
         "name_ko": "광택 금 크리스탈 반지",
         "name_en": "Polished Gold Crystal Ring",
         "icon": "/gear-icons/polished_gold_crystal_ring.webp"
@@ -278,6 +305,7 @@
         "id": "mold_vein_necklace",
         "kind": "accessory",
         "note": "원거리 피해(+몰드링과 함께 곰팡이 면역)",
+        "effect": "원거리 피해 237~408%",
         "name_ko": "Mold Vein Necklace",
         "name_en": "Mold Vein Necklace",
         "icon": "/gear-icons/mold_vein_necklace.webp"
@@ -286,6 +314,7 @@
         "id": "gold_crystal_ring",
         "kind": "accessory",
         "note": "초중반 원거리 피해",
+        "effect": "원거리 피해 173~436%",
         "name_ko": "금 크리스탈 반지",
         "name_en": "Gold Crystal Ring",
         "icon": "/gear-icons/gold_crystal_ring.webp"
@@ -296,6 +325,7 @@
         "id": "devil_worm",
         "kind": "fish",
         "note": "원거리 피해 +22.8% — 산성 물 낚시",
+        "effect": "",
         "name_ko": "데빌 웜 요리",
         "name_en": "Devil Worm",
         "icon": "/fish-icons/devil_worm.webp"
@@ -316,6 +346,7 @@
         "id": "elder_dragonfish",
         "kind": "fish",
         "note": "치명타 확률 +14%",
+        "effect": "",
         "name_ko": "엘더 드래곤피시 요리",
         "name_en": "Elder Dragonfish",
         "icon": "/fish-icons/elder_dragonfish.webp"
@@ -358,6 +389,7 @@
         "id": "arcane_staff",
         "kind": "weapon",
         "note": "최고(말루가즈) · 마나 5로 난사",
+        "effect": "피해 67~157 · 공속 3.3",
         "name_ko": "비전 지팡이",
         "name_en": "Arcane Staff",
         "icon": "/weapon-icons/arcane_staff.webp"
@@ -366,6 +398,7 @@
         "id": "scholars_staff",
         "kind": "weapon",
         "note": "2순위 지팡이",
+        "effect": "피해 319~478 · 공속 1",
         "name_ko": "학자의 지팡이",
         "name_en": "Scholar's Staff",
         "icon": "/weapon-icons/scholars_staff.webp"
@@ -376,6 +409,7 @@
         "id": "apprentice_hat",
         "kind": "armor",
         "note": "초반 마나 재생",
+        "effect": "최대 체력 8~53 · 마법 보호막 12~47 · 마법 피해 31~153%",
         "name_ko": "견습 세트",
         "name_en": "Apprentice Hat",
         "icon": "/gear-icons/apprentice_hat.webp"
@@ -384,6 +418,7 @@
         "id": "ninja_cowl",
         "kind": "armor",
         "note": "치명타↑ → 치명타 시 마나 재생(중반)",
+        "effect": "최대 체력 42~50 · 방어력 17~20 · 회피 확률 7~8% · 치명타 확률 6~7% · 치명타 피해 19~22%",
         "name_ko": "닌자 세트",
         "name_en": "Ninja Cowl",
         "icon": "/gear-icons/ninja_cowl.webp"
@@ -392,6 +427,7 @@
         "id": "corrupt_warden_mask",
         "kind": "armor",
         "note": "후반 마법/마나",
+        "effect": "최대 체력 38~76 · 마나 재생 32~64 · 최대 소환수 1 · 소환수 지속시간 17~30%",
         "name_ko": "부패 감시자 세트",
         "name_en": "Corrupt Warden Mask",
         "icon": "/gear-icons/corrupt_warden_mask.webp"
@@ -402,6 +438,7 @@
         "id": "gold_crystal_necklace",
         "kind": "accessory",
         "note": "마법 피해",
+        "effect": "마법 피해 80~182% · 소환수 피해 83~190%",
         "name_ko": "금 크리스탈 목걸이",
         "name_en": "Gold Crystal Necklace",
         "icon": "/gear-icons/gold_crystal_necklace.webp"
@@ -410,6 +447,7 @@
         "id": "soul_medallion",
         "kind": "accessory",
         "note": "치명타 확률 + 최대 미니언",
+        "effect": "최대 소환수 1 · 소환수 치명타 확률 9~10%",
         "name_ko": "Soul Medallion",
         "name_en": "Soul Medallion",
         "icon": "/gear-icons/soul_medallion.webp"
@@ -418,6 +456,7 @@
         "id": "sky_ring",
         "kind": "accessory",
         "note": "치명타 확률(마나 재생용)",
+        "effect": "치명타 확률 5~8% · 근접 피해 135~233%",
         "name_ko": "Sky Ring",
         "name_en": "Sky Ring",
         "icon": "/gear-icons/sky_ring.webp"
@@ -440,6 +479,7 @@
         "id": "elder_dragonfish",
         "kind": "fish",
         "note": "치명타 확률 +14% (마나 재생 연계)",
+        "effect": "",
         "name_ko": "엘더 드래곤피시 요리",
         "name_en": "Elder Dragonfish",
         "icon": "/fish-icons/elder_dragonfish.webp"
@@ -482,6 +522,7 @@
         "id": "tome_of_the_dead",
         "kind": "weapon",
         "note": "스켈레톤(근접 딜러)",
+        "effect": "",
         "name_ko": "망자의 마도서",
         "name_en": "Tome of the Dead",
         "icon": "/weapon-icons/tome_of_the_dead.webp"
@@ -490,6 +531,7 @@
         "id": "tome_of_the_dark",
         "kind": "weapon",
         "note": "박쥐(주변 공전 딜)",
+        "effect": "",
         "name_ko": "어둠의 마도서",
         "name_en": "Tome of the Dark",
         "icon": "/weapon-icons/tome_of_the_dark.webp"
@@ -498,6 +540,7 @@
         "id": "tome_of_the_deep",
         "kind": "weapon",
         "note": "해파리(방어형)",
+        "effect": "",
         "name_ko": "심연의 마도서",
         "name_en": "Tome of the Deep",
         "icon": "/weapon-icons/tome_of_the_deep.webp"
@@ -508,6 +551,7 @@
         "id": "witch_doctor_hat",
         "kind": "armor",
         "note": "Lv3 · 최대 미니언 +2(초반)",
+        "effect": "최대 체력 7~50 · 방어력 2~11 · 최대 소환수 1",
         "name_ko": "위치 닥터 세트",
         "name_en": "Witch Doctor Hat",
         "icon": "/gear-icons/witch_doctor_hat.webp"
@@ -516,6 +560,7 @@
         "id": "chieftain_headdress",
         "kind": "armor",
         "note": "최대 미니언 +1, 미니언 피해(중반)",
+        "effect": "최대 체력 13~50 · 마법 보호막 15~44 · 소환수 피해 61~204%",
         "name_ko": "족장 세트",
         "name_en": "Chieftain Headdress",
         "icon": "/gear-icons/chieftain_headdress.webp"
@@ -524,6 +569,7 @@
         "id": "grim_hood",
         "kind": "armor",
         "note": "최대 4미니언 + 피해/마나(후반)",
+        "effect": "최대 체력 42~53 · 마법 보호막 15~19 · 마법 피해 68~84% · 최대 소환수 2 · 소환수 피해 60~73%",
         "name_ko": "그림 세트",
         "name_en": "Grim Hood",
         "icon": "/gear-icons/grim_hood.webp"
@@ -534,6 +580,7 @@
         "id": "puppet_ring",
         "kind": "accessory",
         "note": "최대 미니언 +1, 공속",
+        "effect": "최대 소환수 1 · 소환수 공격 속도 240~480%",
         "name_ko": "Puppet Ring",
         "name_en": "Puppet Ring",
         "icon": "/gear-icons/puppet_ring.webp"
@@ -542,6 +589,7 @@
         "id": "vicious_ring",
         "kind": "accessory",
         "note": "미니언 피해 대폭",
+        "effect": "소환수 피해 223~385%",
         "name_ko": "Vicious Ring",
         "name_en": "Vicious Ring",
         "icon": "/gear-icons/vicious_ring.webp"
@@ -550,6 +598,7 @@
         "id": "soul_medallion",
         "kind": "accessory",
         "note": "최대 미니언 + 치명타",
+        "effect": "최대 소환수 1 · 소환수 치명타 확률 9~10%",
         "name_ko": "Soul Medallion",
         "name_en": "Soul Medallion",
         "icon": "/gear-icons/soul_medallion.webp"

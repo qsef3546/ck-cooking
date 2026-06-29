@@ -11,6 +11,7 @@ function Item({ it }: { it: BuildItem }) {
     <span className="bd-item" title={it.name_en || it.name_ko}>
       {it.icon ? <img className="wic" src={it.icon} width={22} height={22} alt="" loading="lazy" /> : <span className="bd-dot" />}
       <span className="bd-item-name">{it.name_ko}</span>
+      {it.effect && <em className="bd-item-eff">{it.effect}</em>}
       {it.note && <em className="bd-item-note">{it.note}</em>}
     </span>
   );
