@@ -4,137 +4,129 @@
     "emoji": "⚔️",
     "title": "근접 (물리)",
     "color": "#ff9a4d",
-    "summary": "한 방 한 방이 묵직한 근접 물리 딜러. 치명타와 회피를 함께 챙겨 생존하며 싸운다.",
+    "summary": "최종 드릴 스톰브링어로 굴착하듯 몰아치는 종결 근접 빌드. 채굴 피해와 치명타를 끌어올려 단일 보스를 빠르게 녹인다.",
     "stats": [
-      "근접 피해",
+      "채굴 피해",
       "치명타 확률 / 피해",
-      "근접 공격 속도",
-      "회피(생존)"
+      "회피(생존)",
+      "근접 피해"
     ],
     "weapons": [
       {
-        "id": "pandorium_axe",
+        "id": "stormbringer",
         "kind": "weapon",
-        "note": "최종 최고 데미지(도끼)",
-        "name_ko": "판도리움 도끼",
-        "name_en": "Pandorium Axe",
-        "icon": "/weapon-icons/pandorium_axe.webp"
+        "note": "최종 드릴 · 마지막 지역 '통로' 제작대에서 하위 드릴(소멸광선 등)을 재료로 제작",
+        "name_ko": "스톰브링어",
+        "name_en": "Stormbringer",
+        "icon": "/weapon-icons/stormbringer.webp"
       },
       {
-        "id": "atlantean_worm_sword",
+        "id": "obliteration_ray",
         "kind": "weapon",
-        "note": "고티어 검",
-        "name_ko": "아틀란티스 웜 검",
-        "name_en": "Atlantean Worm Sword",
-        "icon": "/weapon-icons/atlantean_worm_sword.webp"
-      },
-      {
-        "id": "solarite_sword",
-        "kind": "weapon",
-        "note": "안정적 검",
-        "name_ko": "솔라라이트 검",
-        "name_en": "Solarite Sword",
-        "icon": "/weapon-icons/solarite_sword.webp"
-      },
-      {
-        "id": "galaxite_dagger",
-        "kind": "weapon",
-        "note": "치명타 특화",
-        "name_ko": "갤럭사이트 단검",
-        "name_en": "Galaxite Dagger",
-        "icon": "/weapon-icons/galaxite_dagger.webp"
-      },
-      {
-        "id": "prehistoric_crystal_spear",
-        "kind": "weapon",
-        "note": "리치 긴 창",
-        "name_ko": "선사시대 크리스탈 창",
-        "name_en": "Prehistoric Crystal Spear",
-        "icon": "/weapon-icons/prehistoric_crystal_spear.webp"
+        "note": "스톰브링어 재료가 되는 하위 드릴 · 외계인 방어 아레나 클리어 또는 후반 보스에서 획득",
+        "name_ko": "소멸광선",
+        "name_en": "Obliteration Ray",
+        "icon": "/weapon-icons/obliteration_ray.webp"
       }
     ],
     "armor": [
       {
-        "id": "pandorium_helm",
+        "id": "atlantean_worm_helmet",
         "kind": "armor",
-        "note": "최종 · 근접 피해 +80(세트)",
-        "name_ko": "판도리움 세트",
-        "name_en": "Pandorium Helm",
-        "icon": "/gear-icons/pandorium_helm.webp"
+        "note": "거대한 벌레(침몰한 바다 보스) 드롭 · 이동형이라 처치마다 탐지기 재사용",
+        "name_ko": "초거대 벌레 투구",
+        "name_en": "Atlantean Worm Helmet",
+        "icon": "/gear-icons/atlantean_worm_helmet.webp"
       },
       {
-        "id": "hydra_bone_helm",
+        "id": "core_commander_brigandine",
         "kind": "armor",
-        "note": "근접 적중 시 원거리 피해 +20%(전환형)",
-        "name_ko": "히드라 본 세트",
-        "name_en": "Hydra Bone Helm",
-        "icon": "/gear-icons/hydra_bone_helm.webp"
+        "note": "코어 지휘관(시작의 사막 권역) 드롭 · 소환 우상으로 재전투 반복 파밍",
+        "name_ko": "코어 지휘관 상의",
+        "name_en": "Core Commander Brigandine",
+        "icon": "/gear-icons/core_commander_brigandine.webp"
       },
       {
-        "id": "moldweb_helm",
+        "id": "core_commander_greaves",
         "kind": "armor",
-        "note": "곰팡이 감염 면역(중간)",
-        "name_ko": "몰드웹 세트",
-        "name_en": "Moldweb Helm",
-        "icon": "/gear-icons/moldweb_helm.webp"
+        "note": "코어 지휘관 드롭 · 상의와 세트",
+        "name_ko": "코어 지휘관 하의",
+        "name_en": "Core Commander Greaves",
+        "icon": "/gear-icons/core_commander_greaves.webp"
       },
       {
-        "id": "bronze_helm",
+        "id": "ninja_garments",
         "kind": "armor",
-        "note": "초반 균형형",
-        "name_ko": "청동 세트",
-        "name_en": "Bronze Helm",
-        "icon": "/gear-icons/bronze_helm.webp"
+        "note": "(+α) 잠긴 태양석 상자 · 치확·치피·회피 + 방어력",
+        "name_ko": "닌자 상의",
+        "name_en": "Ninja Garments",
+        "icon": "/gear-icons/ninja_garments.webp"
+      },
+      {
+        "id": "ninja_leggings",
+        "kind": "armor",
+        "note": "(+α) 닌자 세트 · 잠긴 태양석 상자",
+        "name_ko": "닌자 하의",
+        "name_en": "Ninja Leggings",
+        "icon": "/gear-icons/ninja_leggings.webp"
       }
     ],
     "accessories": [
       {
-        "id": "bone_necklace",
+        "id": "ancient_gem_necklace",
         "kind": "accessory",
-        "note": "근접 피해",
-        "name_ko": "뼈 목걸이",
-        "name_en": "Bone Necklace",
-        "icon": "/gear-icons/bone_necklace.webp"
+        "note": "블록 채굴 귀중품 드롭(반지와 세트) · 드롭률 극악",
+        "name_ko": "고대 보석 목걸이",
+        "name_en": "Ancient Gem Necklace",
+        "icon": "/gear-icons/ancient_gem_necklace.webp"
       },
       {
-        "id": "polished_golden_spike_ring",
+        "id": "ancient_gem_ring",
         "kind": "accessory",
-        "note": "근접 피해(연마)",
-        "name_ko": "Polished Golden Spike Ring",
-        "name_en": "Polished Golden Spike Ring",
-        "icon": "/gear-icons/polished_golden_spike_ring.webp"
+        "note": "목걸이와 세트 · 채굴 마지막 특성 + 바주카로 집 주변 블록 대량 채굴 추천",
+        "name_ko": "고대 보석 반지",
+        "name_en": "Ancient Gem Ring",
+        "icon": "/gear-icons/ancient_gem_ring.webp"
       },
       {
-        "id": "bone_ring",
+        "id": "topaz_ring",
         "kind": "accessory",
-        "note": "근접 피해",
-        "name_ko": "뼈 반지",
-        "name_en": "Bone Ring",
-        "icon": "/gear-icons/bone_ring.webp"
+        "note": "잠긴 팔색석 상자 · 채굴 피해 +39%(스톰 전용)",
+        "name_ko": "황옥 반지",
+        "name_en": "Topaz Ring",
+        "icon": "/gear-icons/topaz_ring.webp"
       },
       {
-        "id": "atlantean_worm_ring",
+        "id": "glass_bead_necklace",
         "kind": "accessory",
-        "note": "적중 시 생명 흡수(생존)",
-        "name_ko": "Atlantean Worm Ring",
-        "name_en": "Atlantean Worm Ring",
-        "icon": "/gear-icons/atlantean_worm_ring.webp"
+        "note": "(+α) 아레나 상자 보상 · 치확 60%+ 확보 시 최고점 딜이 가장 높음",
+        "name_ko": "유리구슬 목걸이",
+        "name_en": "Glass Bead Necklace",
+        "icon": "/gear-icons/glass_bead_necklace.webp"
       },
       {
-        "id": "sky_ring",
+        "id": "mold_ring",
         "kind": "accessory",
-        "note": "치명타 확률",
-        "name_ko": "Sky Ring",
-        "name_en": "Sky Ring",
-        "icon": "/gear-icons/sky_ring.webp"
+        "note": "(+α) 곰팡이 지역 상자·구조물·몹 · 치확 +15%",
+        "name_ko": "곰팡이 반지",
+        "name_en": "Mold Ring",
+        "icon": "/gear-icons/mold_ring.webp"
       },
       {
-        "id": "grub_egg_necklace",
+        "id": "rusted_necklace",
         "kind": "accessory",
-        "note": "초반 물리 피해",
-        "name_ko": "Grub Egg Necklace",
-        "name_en": "Grub Egg Necklace",
-        "icon": "/gear-icons/grub_egg_necklace.webp"
+        "note": "(+α) 잠긴 팔색석 상자·필드 몹 · 채굴 피해 +35%",
+        "name_ko": "녹슨 목걸이",
+        "name_en": "Rusted Necklace",
+        "icon": "/gear-icons/rusted_necklace.webp"
+      },
+      {
+        "id": "copper_cross_necklace",
+        "kind": "accessory",
+        "note": "(+α) 장신구 제작대 제작 · 치확 +17%",
+        "name_ko": "구리 십자가 목걸이",
+        "name_en": "Copper Cross Necklace",
+        "icon": "/gear-icons/copper_cross_necklace.webp"
       }
     ],
     "food": [
@@ -161,31 +153,27 @@
         "name_ko": "엘더 드래곤피시 요리",
         "name_en": "Elder Dragonfish",
         "icon": "/fish-icons/elder_dragonfish.webp"
-      },
-      {
-        "label": "레어 매운 오트밀",
-        "note": "황금 블로트 오트 + 황금 폭탄 고추 → 초당 17.4 회복 + 이속/근접(보스전)",
-        "name_ko": "레어 매운 오트밀",
-        "icon": null
       }
     ],
     "tips": [
-      "황금 작물 1개 이상 넣어 요리하면 +25% 보장, 추가 황금 작물 시 +15% (엔드게임 필수)",
-      "회피(dodge) 위주로 세팅하면 고난도 보스에서 생존력이 크게 오른다",
-      "상황에 따라 히드라 본 세트로 근접↔원거리 전환 활용"
+      "스톰브링어는 통로 제작대에서 하위 드릴(소멸광선 등)을 올려 제작 — 고유 재료는 따로 없다",
+      "거대한 벌레는 이동형 보스라 잡을 때마다 탐지기를 다시 써야 한다",
+      "코어 지휘관은 소환 우상으로 재전투가 가능해 상의·하의를 반복 파밍할 수 있다",
+      "고대 보석 목/반지는 드롭률이 악랄(저레벨 귀중품 0.4% × 그중 5.26%) — 채굴 마지막 특성을 찍고 바주카로 집 주변 블록을 대량으로 밀면 귀중품이 쏟아진다",
+      "치확 60% 이상이 확보되면 유리구슬 목걸이의 최고점 딜이 가장 높다"
     ],
     "sources": [
       {
-        "title": "BisectHosting — Melee Build",
-        "url": "https://www.bisecthosting.com/blog/core-keeper-melee-build-best-weapons-armor-accessory-tips-tricks"
+        "title": "나무위키 — 코어 키퍼",
+        "url": "https://namu.wiki/w/%EC%BD%94%EC%96%B4%20%ED%82%A4%ED%8D%BC"
       },
       {
-        "title": "Prima Games — Best Builds",
-        "url": "https://primagames.com/gaming/best-core-keeper-builds-ranged-melee-mining-and-more"
+        "title": "Steam Community — Core Keeper 가이드/토론",
+        "url": "https://steamcommunity.com/app/1621690/guides/"
       },
       {
-        "title": "Cozy Checklist — Melee Damage Food",
-        "url": "https://cozychecklist.com/core-keeper/cooking/melee-damage-food/"
+        "title": "DC Inside — 코어키퍼 갤러리",
+        "url": "https://gall.dcinside.com/mgallery/board/lists/?id=corekeeper"
       }
     ]
   },
